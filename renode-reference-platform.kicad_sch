@@ -128,6 +128,39 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "CAN"
+		(members "DIN" "DOUT")
+	)
+	(bus_alias "GPIO"
+		(members "USER_LED0" "USER_LED1" "USER_BTN0" "USER_BTN1" "04" "05" "08"
+			"09" "10" "11" "12" "13" "14" "15" "16" "17" "18" "19" "20" "21" "24"
+			"MCLK02" "MCLK03" "MCLK04" "MCLK05" "MCLK01" "27" "32" "34" "36" "64"
+			"65" "67"
+		)
+	)
+	(bus_alias "I2C"
+		(members "SDA" "SCL" "~{INT}")
+	)
+	(bus_alias "I2S"
+		(members "CLK" "FS" "SDOUT" "SDIN")
+	)
+	(bus_alias "JTAG"
+		(members "~{RST}" "TDI" "TDO" "TMS" "TCK")
+	)
+	(bus_alias "RMII"
+		(members "TXD0" "TXD1" "TX_EN" "RXD0" "RXD1" "CRS_DV" "MDC" "MDIO" "~{RESET}"
+			"~{INT}" "REF_CLK" "RX_ER"
+		)
+	)
+	(bus_alias "SPI"
+		(members "MISO" "MOSI" "SCK" "~{CS0}" "~{CS1}")
+	)
+	(bus_alias "UART"
+		(members "TX" "RX" "CTS" "RTS")
+	)
+	(bus_alias "USB"
+		(members "D+" "D-")
+	)
 	(image
 		(at -38.1 110.49)
 		(uuid "123f0a37-6cbe-476b-919c-4268f79f56b8")
@@ -2246,7 +2279,7 @@
 		)
 	)
 	(sheet
-		(at 214.63 134.62)
+		(at 251.46 118.11)
 		(size 34.29 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2262,7 +2295,7 @@
 		)
 		(uuid "143ac980-6d59-4a8b-9ea3-64cd140d4a49")
 		(property "Sheetname" "IMU"
-			(at 214.63 133.9084 0)
+			(at 251.46 117.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,12 +2304,22 @@
 			)
 		)
 		(property "Sheetfile" "imu.kicad_sch"
-			(at 214.63 159.3346 0)
+			(at 251.46 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "I2C_SYS{I2C}" bidirectional
+			(at 251.46 123.19 180)
+			(uuid "e2b80a87-90a7-4418-ac3d-ce6acc65e2e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -2288,7 +2331,7 @@
 		)
 	)
 	(sheet
-		(at 214.63 193.04)
+		(at 251.46 184.15)
 		(size 34.29 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2304,7 +2347,7 @@
 		)
 		(uuid "18d1e8dd-bf81-48e9-b8a4-678823f0e747")
 		(property "Sheetname" "IOs"
-			(at 214.63 192.3284 0)
+			(at 251.46 183.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2313,12 +2356,22 @@
 			)
 		)
 		(property "Sheetfile" "ios.kicad_sch"
-			(at 214.63 217.7546 0)
+			(at 251.46 208.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "IOs{USER_IOs}" bidirectional
+			(at 251.46 190.5 180)
+			(uuid "d42ab8ca-b392-4278-a3ab-791e5e0d2e90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -2330,7 +2383,7 @@
 		)
 	)
 	(sheet
-		(at 252.73 193.04)
+		(at 251.46 85.09)
 		(size 34.29 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2346,7 +2399,7 @@
 		)
 		(uuid "3bbe31bb-f2b9-4019-b1b8-20b6749deb1b")
 		(property "Sheetname" "Power"
-			(at 252.73 192.3284 0)
+			(at 251.46 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2355,7 +2408,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 252.73 217.7546 0)
+			(at 251.46 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2372,7 +2425,7 @@
 		)
 	)
 	(sheet
-		(at 175.26 193.04)
+		(at 64.77 184.15)
 		(size 34.29 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2388,7 +2441,7 @@
 		)
 		(uuid "3deaa797-f1d6-4980-9fc1-21264c177bf0")
 		(property "Sheetname" "RPI Connector"
-			(at 175.26 192.3284 0)
+			(at 64.77 183.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,7 +2450,7 @@
 			)
 		)
 		(property "Sheetfile" "rpi-expansion.kicad_sch"
-			(at 175.26 217.7546 0)
+			(at 64.77 208.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +2467,7 @@
 		)
 	)
 	(sheet
-		(at 214.63 163.83)
+		(at 64.77 217.17)
 		(size 34.29 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2430,7 +2483,7 @@
 		)
 		(uuid "8150c4f5-86f0-4781-bc9c-6f93770faa9d")
 		(property "Sheetname" "PMOD"
-			(at 214.63 163.1184 0)
+			(at 64.77 216.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,7 +2492,7 @@
 			)
 		)
 		(property "Sheetfile" "pmod.kicad_sch"
-			(at 214.63 188.5446 0)
+			(at 64.77 241.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2456,8 +2509,8 @@
 		)
 	)
 	(sheet
-		(at 175.26 134.62)
-		(size 34.29 24.13)
+		(at 154.94 85.09)
+		(size 43.18 123.19)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2472,7 +2525,7 @@
 		)
 		(uuid "a09bd19e-75b4-4cc2-9c76-c57ffa8ef2d8")
 		(property "Sheetname" "MCU"
-			(at 175.26 133.9084 0)
+			(at 154.94 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2481,12 +2534,82 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 175.26 159.3346 0)
+			(at 154.94 208.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "RMII{RMII}" bidirectional
+			(at 154.94 157.48 180)
+			(uuid "c98c887c-da52-49f1-afeb-8590052e9909")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SYS{I2C}" bidirectional
+			(at 198.12 130.81 0)
+			(uuid "d963cb98-0c7e-4c4f-9156-628e85014901")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_Flash{SPI}" bidirectional
+			(at 198.12 156.21 0)
+			(uuid "f9b1357c-21fd-49f6-aef2-c44136237e14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IOs{USER_IOs}" bidirectional
+			(at 198.12 191.77 0)
+			(uuid "37397077-c440-45c0-9180-9d379811f3d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB{USB}" bidirectional
+			(at 154.94 132.08 180)
+			(uuid "e883b192-4e3f-4916-92eb-5578a03a0ebc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JTAG{JTAG}" bidirectional
+			(at 154.94 93.98 180)
+			(uuid "6719c347-1113-413f-bebd-7150a0c4a8b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART{UART}" bidirectional
+			(at 154.94 96.52 180)
+			(uuid "3fb10fe3-6079-48f8-a291-4288963fcd1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -2498,7 +2621,7 @@
 		)
 	)
 	(sheet
-		(at 133.35 134.62)
+		(at 64.77 85.09)
 		(size 34.29 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2514,7 +2637,7 @@
 		)
 		(uuid "a1332836-0180-4f13-846c-9390e3408f14")
 		(property "Sheetname" "USB-C Debug"
-			(at 133.35 133.9084 0)
+			(at 64.77 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2523,12 +2646,32 @@
 			)
 		)
 		(property "Sheetfile" "debug-usb-c.kicad_sch"
-			(at 133.35 159.3346 0)
+			(at 64.77 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "JTAG{JTAG}" bidirectional
+			(at 99.06 93.98 0)
+			(uuid "f35d7c2f-3842-4fd7-83c1-5aa4572ac916")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART{UART}" bidirectional
+			(at 99.06 96.52 0)
+			(uuid "39aacd38-fa5d-46c4-b77a-3253a30ce823")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -2540,7 +2683,7 @@
 		)
 	)
 	(sheet
-		(at 175.26 163.83)
+		(at 251.46 151.13)
 		(size 34.29 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2556,7 +2699,7 @@
 		)
 		(uuid "cad4409d-b8be-4409-9157-2f128039cd0f")
 		(property "Sheetname" "SPI Flash"
-			(at 175.26 163.1184 0)
+			(at 251.46 150.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,12 +2708,22 @@
 			)
 		)
 		(property "Sheetfile" "spi-flash.kicad_sch"
-			(at 175.26 188.5446 0)
+			(at 251.46 175.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SPI_Flash{SPI}" bidirectional
+			(at 251.46 157.48 180)
+			(uuid "4c25d710-3022-493f-a486-60f17c22fe52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -2582,7 +2735,7 @@
 		)
 	)
 	(sheet
-		(at 133.35 193.04)
+		(at 64.77 118.11)
 		(size 34.29 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2598,7 +2751,7 @@
 		)
 		(uuid "ec770658-59a1-4a3f-81ed-5fcccc21c2e8")
 		(property "Sheetname" "USB-C"
-			(at 133.35 192.3284 0)
+			(at 64.77 117.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,12 +2760,22 @@
 			)
 		)
 		(property "Sheetfile" "usb-c.kicad_sch"
-			(at 133.35 217.7546 0)
+			(at 64.77 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB{USB}" bidirectional
+			(at 99.06 132.08 0)
+			(uuid "13731e18-50de-45b3-81a1-0654397528bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -2624,7 +2787,7 @@
 		)
 	)
 	(sheet
-		(at 133.35 163.83)
+		(at 64.77 151.13)
 		(size 34.29 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2640,7 +2803,7 @@
 		)
 		(uuid "f0f01ea9-8179-4d1d-a204-7bfa46e66030")
 		(property "Sheetname" "Ethernet"
-			(at 133.35 163.1184 0)
+			(at 64.77 150.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,12 +2812,22 @@
 			)
 		)
 		(property "Sheetfile" "eth.kicad_sch"
-			(at 133.35 188.5446 0)
+			(at 64.77 175.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "RMII{RMII}" bidirectional
+			(at 99.06 157.48 0)
+			(uuid "136ad9ff-3965-4a1e-ba61-e57935bf60a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

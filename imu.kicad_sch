@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "871860b0-d1c8-49cd-b29d-225b4d945886")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "renode-reference-platform")
 		(date "07.04.2026")
@@ -1256,6 +1256,134 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(bus_entry
+		(at 60.96 76.2)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92c387c7-b482-495e-9cb3-9ed010ee5e43")
+	)
+	(bus_entry
+		(at 60.96 78.74)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c83be418-fa74-4835-a6bc-282edb5b722a")
+	)
+	(bus_entry
+		(at 60.96 81.28)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e81037ca-2b3b-4882-a77f-548341f97883")
+	)
+	(wire
+		(pts
+			(xy 63.5 78.74) (xy 76.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101f6c86-3183-4351-8eef-98da721892dd")
+	)
+	(wire
+		(pts
+			(xy 63.5 81.28) (xy 76.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d4bbc8e-97a2-4c4c-a708-187d953945d0")
+	)
+	(wire
+		(pts
+			(xy 63.5 83.82) (xy 76.2 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61536175-666b-4d98-8050-33d48ae550eb")
+	)
+	(bus
+		(pts
+			(xy 60.96 78.74) (xy 60.96 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6707d8bf-bf20-4041-a07c-8096ce516144")
+	)
+	(bus
+		(pts
+			(xy 60.96 76.2) (xy 60.96 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "972c1938-7990-462b-85f3-227fc60a1eb7")
+	)
+	(bus
+		(pts
+			(xy 58.42 76.2) (xy 60.96 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d79c9f69-b094-4722-bf20-ba367f1f7b4a")
+	)
+	(label "I2C_SYS.SDA"
+		(at 76.2 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e52aba8-2788-47a8-b691-5c96f4e6c235")
+	)
+	(label "I2C_SYS.SCL"
+		(at 76.2 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "85e37f18-8f22-4a62-8643-153fb905007e")
+	)
+	(label "I2C_SYS.INT"
+		(at 76.2 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce1e89f1-b7ce-4572-9685-f2a6542d2af9")
+	)
+	(hierarchical_label "I2C_SYS{I2C}"
+		(shape bidirectional)
+		(at 58.42 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d28bcbb1-d60c-4685-83e5-c0d86bf43285")
 	)
 	(symbol
 		(lib_id "antmicroMotionSensorsIMUsInertialMeasurementUnits:IIS2MDCTR")

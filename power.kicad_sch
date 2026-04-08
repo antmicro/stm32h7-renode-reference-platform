@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "88bdec1c-67c0-44de-ab9b-15116142bb8d")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "renode-reference-platform")
 		(date "07.04.2026")

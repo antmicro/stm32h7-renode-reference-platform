@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "99fce564-1f69-4731-9520-b0df5acd8c8b")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "renode-reference-platform")
 		(date "07.04.2026")
@@ -635,6 +635,95 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(bus_entry
+		(at 215.9 80.01)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a357c1d8-cd24-4cbb-9873-3323931378d0")
+	)
+	(bus_entry
+		(at 215.9 77.47)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbca337e-a39b-4380-8493-ebe6004fd465")
+	)
+	(wire
+		(pts
+			(xy 205.74 80.01) (xy 213.36 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f310c1f-ffe2-4328-a3cb-c141bd63bfb3")
+	)
+	(bus
+		(pts
+			(xy 217.17 77.47) (xy 215.9 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a788a89-1f09-4659-98e1-00839f3b0d2c")
+	)
+	(wire
+		(pts
+			(xy 205.74 82.55) (xy 213.36 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92579476-305d-41a4-85d3-66323c6a635b")
+	)
+	(bus
+		(pts
+			(xy 215.9 77.47) (xy 215.9 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58ef70b-44f6-4f3a-a345-2174da8b7a0d")
+	)
+	(label "USB.D+"
+		(at 205.74 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03d56913-e8c5-4dc4-bf1f-f8179a260bf4")
+	)
+	(label "USB.D-"
+		(at 205.74 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6408d1d-c3e7-4f16-b6ec-4c9aae3f31c0")
+	)
+	(hierarchical_label "USB{USB}"
+		(shape bidirectional)
+		(at 217.17 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f13ef48e-94ce-4bae-a68c-24db0b5bb0b0")
 	)
 	(symbol
 		(lib_id "antmicroUSBConnectors:USB-C_GCT_USB4105-GF-A")

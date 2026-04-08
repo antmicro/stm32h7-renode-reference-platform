@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "f291c692-b9a4-493c-8cb3-44fc0dac46cc")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "renode-reference-platform")
 		(date "07.04.2026")
@@ -635,7 +635,7 @@
 	)
 	(symbol
 		(lib_id "antmicroGenericPinSockets:PinSocket_2x6_P2.54mm_Drill1.04mm_Horizontal")
-		(at 146.05 86.36 0)
+		(at 181.61 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -644,7 +644,7 @@
 		(fields_autoplaced yes)
 		(uuid "4383073e-5e2d-4da6-b731-ae602bb611c6")
 		(property "Reference" "J6"
-			(at 151.13 78.74 0)
+			(at 186.69 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -653,7 +653,7 @@
 			)
 		)
 		(property "Value" "PinSocket_2x6_P2.54mm_Drill1.04mm_Horizontal"
-			(at 165.1 88.9 0)
+			(at 200.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -664,7 +664,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:PinSocket_2x6_P2.54mm_Drill1.04mm_Horizontal"
-			(at 165.1 91.44 0)
+			(at 200.66 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -675,7 +675,7 @@
 			)
 		)
 		(property "Datasheet" "https://suddendocs.samtec.com/prints/ssw-1xx-xx-xxx-x-xx-xxx-xx-mkt.pdf"
-			(at 165.1 93.98 0)
+			(at 200.66 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -686,7 +686,7 @@
 			)
 		)
 		(property "Description" "PCB Receptacle, Board-to-Board, 2.54 mm, 2 Rows, 12 Contacts, Through Hole Mount Right Angle, SSW"
-			(at 165.1 106.68 0)
+			(at 200.66 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -696,7 +696,7 @@
 			)
 		)
 		(property "MPN" "SSW-106-02-G-D-RA"
-			(at 151.13 81.28 0)
+			(at 186.69 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -705,7 +705,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 165.1 96.52 0)
+			(at 200.66 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -716,7 +716,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 165.1 101.6 0)
+			(at 200.66 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -727,7 +727,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 165.1 104.14 0)
+			(at 200.66 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)

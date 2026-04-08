@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "4ecc12ed-a375-4b74-a620-6219d3f692d3")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "renode-reference-platform")
 		(date "07.04.2026")
@@ -805,6 +805,222 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(bus_entry
+		(at 77.47 114.3)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9989ae-ad47-4c6d-90fe-a6b2eb24be3c")
+	)
+	(bus_entry
+		(at 77.47 111.76)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b212b6-dd09-4088-86cb-8c7f106deae9")
+	)
+	(bus_entry
+		(at 77.47 119.38)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8bcaf9-c1d6-47aa-a9c0-85b12cb6a33d")
+	)
+	(bus_entry
+		(at 77.47 116.84)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41ea663-7aa2-4e3b-bcf4-56c0e877c0f7")
+	)
+	(bus_entry
+		(at 77.47 109.22)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8da563-254f-4c62-892f-2c547b3102b9")
+	)
+	(bus
+		(pts
+			(xy 74.93 109.22) (xy 77.47 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd74478-8305-4962-bd08-68b8d0810c6e")
+	)
+	(bus
+		(pts
+			(xy 77.47 119.38) (xy 77.47 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15462807-b48b-4f54-a576-f06d594a0800")
+	)
+	(wire
+		(pts
+			(xy 95.25 121.92) (xy 80.01 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e3cb29-c559-4b7d-aad5-c0fb770edce2")
+	)
+	(wire
+		(pts
+			(xy 95.25 111.76) (xy 80.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e5521a-a54f-4c00-aa21-334dfe469558")
+	)
+	(wire
+		(pts
+			(xy 95.25 116.84) (xy 80.01 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ecc4226-d3eb-4b45-b83c-8b5e3db76e39")
+	)
+	(wire
+		(pts
+			(xy 95.25 119.38) (xy 80.01 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8669de28-c534-48a6-9f8d-54cabcba6c03")
+	)
+	(wire
+		(pts
+			(xy 95.25 114.3) (xy 80.01 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc3f44d9-a58e-49e1-ba52-48f7ee10acaf")
+	)
+	(bus
+		(pts
+			(xy 77.47 111.76) (xy 77.47 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8bac822-c266-4a0b-bc37-74989382a099")
+	)
+	(bus
+		(pts
+			(xy 77.47 109.22) (xy 77.47 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebeb763d-1c5c-46ae-b41e-b9cfe3a13c17")
+	)
+	(bus
+		(pts
+			(xy 77.47 116.84) (xy 77.47 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f43abf73-5ad6-4d90-b9fd-eb367dea0988")
+	)
+	(bus
+		(pts
+			(xy 77.47 114.3) (xy 77.47 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff31e0c0-d35a-4bb5-b2e4-a417fab678be")
+	)
+	(label "SPI_Flash.MISO"
+		(at 95.25 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00f797a2-8c6a-49ba-bae8-6152846d1c2d")
+	)
+	(label "SPI_Flash.CS1"
+		(at 95.25 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e374fa3-5819-489c-acec-778b74424386")
+	)
+	(label "SPI_Flash.SCK"
+		(at 95.25 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "678caaeb-072a-4680-876f-8da9710dec67")
+	)
+	(label "SPI_Flash.CS0"
+		(at 95.25 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a13efd50-e8df-42c6-9458-d9b0b5e99d8d")
+	)
+	(label "SPI_Flash.MOSI"
+		(at 95.25 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0b37307-3021-4c00-96c7-fd2059dadb9e")
+	)
+	(hierarchical_label "SPI_Flash{SPI}"
+		(shape bidirectional)
+		(at 74.93 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb586bb3-0e29-430b-a642-176e2696be3f")
 	)
 	(symbol
 		(lib_id "antmicroMemory:AT25FF161A-MAHN-T")

@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "fc069117-f99c-4ebb-9182-741b8274031e")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "renode-reference-platform")
 		(date "07.04.2026")
@@ -11,6 +11,611 @@
 		(company "Antmicro")
 	)
 	(lib_symbols
+		(symbol "antmicroInterfaceControllers:LAN8720A-CP-TR-ABC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 53.34 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LAN8720A-CP-TR-ABC"
+				(at 53.34 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+				(at 53.34 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf"
+				(at 53.34 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ethernet Controller, 100 Mbps, IEEE 802.3, IEEE 802.3u, 3 V, 3.6 V, SQFN, 24 Pins"
+				(at 53.34 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "LAN8720A-CP-TR-ABC"
+				(at 53.34 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Microchip Technology"
+				(at 53.34 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 53.34 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 53.34 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SMT, TRANSCEIVER, IC, ETHERNET, PHY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "QFN*1EP*4x4mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LAN8720A-CP-TR-ABC_1_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end 35.56 -50.8)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -40.64) (xy 19.05 -40.64) (xy 19.05 -10.16) (xy 2.54 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "RMII"
+					(at 14.605 -12.7 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(thickness 0.15)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "~{RST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "~{INT}/REFCLKO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -12.7 0)
+					(length 2.54)
+					(name "MDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -15.24 0)
+					(length 2.54)
+					(name "MDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -20.32 0)
+					(length 2.54)
+					(name "TXEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -22.86 0)
+					(length 2.54)
+					(name "TXD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -25.4 0)
+					(length 2.54)
+					(name "TXD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -30.48 0)
+					(length 2.54)
+					(name "CRS_DV/MODE2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -33.02 0)
+					(length 2.54)
+					(name "RXD0/MODE0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -35.56 0)
+					(length 2.54)
+					(name "RXD1/MODE1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -38.1 0)
+					(length 2.54)
+					(name "RXER/PHYAD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -45.72 0)
+					(length 2.54)
+					(name "XTAL1/CLKIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 0)
+					(length 2.54)
+					(name "XTAL2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 0 180)
+					(length 2.54)
+					(name "VDD1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -2.54 180)
+					(length 2.54)
+					(name "VDD2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -5.08 180)
+					(length 2.54)
+					(name "VDDCR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 -22.86 180)
+					(length 2.54)
+					(name "TXP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 -25.4 180)
+					(length 2.54)
+					(name "TXN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 -27.94 180)
+					(length 2.54)
+					(name "RXP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 -30.48 180)
+					(length 2.54)
+					(name "RXN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 -38.1 180)
+					(length 2.54)
+					(name "LED1/REGOFF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 -40.64 180)
+					(length 2.54)
+					(name "LED2/NINTSEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 -45.72 180)
+					(length 2.54)
+					(name "RBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -48.26 180)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroModularConnectorsJacks:RJ45_Abracon_ARJM11B1-502-AB-EW2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -561,18 +1166,458 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_entry
+		(at 259.08 137.16)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24fcf1ae-7d5f-4410-9143-10eabb6f2541")
+	)
+	(bus_entry
+		(at 259.08 139.7)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ba4738-d1ce-4d6f-81af-d0839173a83e")
+	)
+	(bus_entry
+		(at 259.08 142.24)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f07b02-5193-4c17-a97e-7f0616c7414f")
+	)
+	(bus_entry
+		(at 259.08 121.92)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec74b53-912d-4917-898a-4d4fcc1f17ac")
+	)
+	(bus_entry
+		(at 259.08 119.38)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ed6c26-b6e2-4b2d-8b12-19ed95454349")
+	)
+	(bus_entry
+		(at 259.08 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28de90d-7887-4603-8d2a-9b22e558b608")
+	)
+	(bus_entry
+		(at 259.08 132.08)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac81d9a7-a1f7-42b0-acee-78807ccbce63")
+	)
+	(bus_entry
+		(at 259.08 144.78)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c95d3d3b-42d5-4db6-a7d5-5ef04bfe3515")
+	)
+	(bus_entry
+		(at 259.08 129.54)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d91b4e21-a579-4369-afc6-24fb7fd13950")
+	)
+	(bus_entry
+		(at 259.08 111.76)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5bea29e-fe14-4031-897d-a557e054762d")
+	)
+	(bus_entry
+		(at 259.08 127)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f76540-332e-435a-9ac6-e10c94d71b45")
+	)
+	(bus
+		(pts
+			(xy 259.08 142.24) (xy 259.08 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b771f1-916e-4aac-9a44-70af12a0d568")
+	)
+	(bus
+		(pts
+			(xy 259.08 132.08) (xy 259.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ba7fc7-b9f5-4f68-8195-2413b53af949")
+	)
+	(bus
+		(pts
+			(xy 259.08 129.54) (xy 259.08 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ceaedb-7cbb-4851-ab5f-c185d1bb0b96")
+	)
+	(wire
+		(pts
+			(xy 228.6 134.62) (xy 256.54 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d28dcb7-90b1-4ea9-8b96-992be215ceae")
+	)
+	(bus
+		(pts
+			(xy 259.08 139.7) (xy 259.08 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d550dd-046a-4ccc-a225-31e54c012900")
+	)
+	(bus
+		(pts
+			(xy 259.08 127) (xy 259.08 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3921b56f-c510-47c6-bea5-7c8b02649c67")
+	)
+	(wire
+		(pts
+			(xy 228.6 139.7) (xy 256.54 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c868acb-8328-4f33-a58e-466a2cbcf675")
+	)
+	(wire
+		(pts
+			(xy 228.6 132.08) (xy 256.54 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5785b78d-780c-462d-8838-6a1bd7bba0e3")
+	)
+	(wire
+		(pts
+			(xy 228.6 114.3) (xy 256.54 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1b0e7c-faf1-4aa8-b9fe-559bb03707bb")
+	)
+	(bus
+		(pts
+			(xy 259.08 111.76) (xy 262.89 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667a6fb8-4dc1-48d5-8216-2ad6bc85da69")
+	)
+	(bus
+		(pts
+			(xy 259.08 119.38) (xy 259.08 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e572747-1896-4e73-af78-cb5f9d43d8d3")
+	)
+	(wire
+		(pts
+			(xy 228.6 121.92) (xy 256.54 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff1cf80-fb8d-4a2f-b227-b0fbbebd32dd")
+	)
+	(bus
+		(pts
+			(xy 259.08 114.3) (xy 259.08 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ff334d-502f-4112-b9fa-599a699e1a1b")
+	)
+	(bus
+		(pts
+			(xy 259.08 119.38) (xy 259.08 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb343d6-fb77-48fe-b2e8-9c02fbe8169b")
+	)
+	(wire
+		(pts
+			(xy 228.6 129.54) (xy 256.54 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92945b88-6ee0-48b0-af70-e0c06c45591b")
+	)
+	(wire
+		(pts
+			(xy 228.6 147.32) (xy 256.54 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aca156a-d282-4d1b-9a8a-81116943aeec")
+	)
+	(wire
+		(pts
+			(xy 228.6 142.24) (xy 256.54 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe23f20-f96e-4910-a242-e433512e4be9")
+	)
+	(bus
+		(pts
+			(xy 259.08 121.92) (xy 259.08 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd2a2582-807f-4c4b-941b-7f9c41e13a7c")
+	)
+	(wire
+		(pts
+			(xy 228.6 124.46) (xy 256.54 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd29ff61-d4d5-43da-b06a-f8ffa7c12067")
+	)
+	(bus
+		(pts
+			(xy 259.08 137.16) (xy 259.08 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6547792-bbf4-422e-a5e9-9cb14af0b8d2")
+	)
+	(wire
+		(pts
+			(xy 228.6 116.84) (xy 256.54 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7667405-6093-446d-bccd-d03b88f0bcd1")
+	)
+	(wire
+		(pts
+			(xy 228.6 144.78) (xy 256.54 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90c89dd-d48d-44b1-b6c5-e4d48e13da23")
+	)
+	(label "RMII.MDC"
+		(at 243.84 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b6cee2e-a853-43d1-9caf-21eed3c42960")
+	)
+	(label "RMII.RX_ER"
+		(at 243.84 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4344b1e3-5726-4178-a8a1-b1961b57fb82")
+	)
+	(label "RMII.CRS_DV"
+		(at 243.84 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f8fc793-542b-4e9c-973c-0e56a68d90d5")
+	)
+	(label "RMII.RXD1"
+		(at 243.84 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d510488-4ff6-4100-9ae8-018263261d27")
+	)
+	(label "RMII.RXD0"
+		(at 243.84 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "854cea2e-98ac-4d54-aeb3-68c4ac688846")
+	)
+	(label "RMII.RESET"
+		(at 243.84 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cf17291-813c-4d3d-b153-740bda72ad50")
+	)
+	(label "RMII.INT"
+		(at 243.84 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab817b3b-ac56-4cf3-a5a3-73605b510806")
+	)
+	(label "RMII.TXD1"
+		(at 243.84 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf1823ee-797e-4ba9-8d10-72f5d6e051a0")
+	)
+	(label "RMII.MDIO"
+		(at 243.84 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2b44d35-0016-4876-8955-cb482f77d356")
+	)
+	(label "RMII.TX_EN"
+		(at 243.84 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6b250ba-cae2-429e-82ef-27fa1b6b1c81")
+	)
+	(label "RMII.TXD0"
+		(at 243.84 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea83143a-5757-4f65-9448-d117cf5aa523")
+	)
+	(hierarchical_label "RMII{RMII}"
+		(shape bidirectional)
+		(at 262.89 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9bffd64-edce-403e-974e-6b6a4d31eb1d")
+	)
 	(symbol
 		(lib_id "antmicroModularConnectorsJacks:RJ45_Abracon_ARJM11B1-502-AB-EW2")
-		(at 143.51 76.2 0)
+		(at 125.73 115.57 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5aabdbb8-d787-4bf7-bda8-e8a8e18bdc3c")
 		(property "Reference" "J3"
-			(at 154.94 68.58 0)
+			(at 114.3 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -581,7 +1626,7 @@
 			)
 		)
 		(property "Value" "RJ45_Abracon_ARJM11B1-502-AB-EW2"
-			(at 179.07 83.82 0)
+			(at 90.17 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -592,7 +1637,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:RJ45_ARJM11B1-502-AB-EW2_Horizontal"
-			(at 179.07 86.36 0)
+			(at 90.17 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -603,7 +1648,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/3/184/1/ARJM11.pdf"
-			(at 179.07 88.9 0)
+			(at 90.17 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -614,7 +1659,7 @@
 			)
 		)
 		(property "Description" "Modular Connectors / Ethernet Connectors RJ45 JACK W/MAG 1X1 1000BASE-T"
-			(at 179.07 98.806 0)
+			(at 90.17 138.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -624,7 +1669,7 @@
 			)
 		)
 		(property "MPN" "ARJM11B1-502-AB-EW2"
-			(at 154.94 71.12 0)
+			(at 114.3 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -633,7 +1678,7 @@
 			)
 		)
 		(property "Manufacturer" "Abracon"
-			(at 179.07 91.44 0)
+			(at 90.17 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -644,7 +1689,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 179.07 93.726 0)
+			(at 90.17 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -655,7 +1700,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 179.07 96.266 0)
+			(at 90.17 135.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -714,6 +1759,194 @@
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/f0f01ea9-8179-4d1d-a204-7bfa46e66030"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroInterfaceControllers:LAN8720A-CP-TR-ABC")
+		(at 228.6 109.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0dd8b11-defb-4991-8ba9-9778263012da")
+		(property "Reference" "U9"
+			(at 209.55 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LAN8720A-CP-TR-ABC"
+			(at 175.26 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+			(at 175.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf"
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ethernet Controller, 100 Mbps, IEEE 802.3, IEEE 802.3u, 3 V, 3.6 V, SQFN, 24 Pins"
+			(at 175.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LAN8720A-CP-TR-ABC"
+			(at 209.55 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 175.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 175.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "20"
+			(uuid "824b8184-e290-4c14-b3c6-1f27a0fd222e")
+		)
+		(pin "6"
+			(uuid "dd56712f-d88c-48d9-9225-3ab14004e467")
+		)
+		(pin "3"
+			(uuid "20b0479d-2568-4a6d-b651-b4a5f46e98d0")
+		)
+		(pin "21"
+			(uuid "e5dde6d8-4941-471b-b576-3dd3aff58e62")
+		)
+		(pin "22"
+			(uuid "17183449-2869-40ee-b573-4cf40e1b9526")
+		)
+		(pin "23"
+			(uuid "bcc175d1-b18b-4c3d-ad46-f5df13f3bab0")
+		)
+		(pin "1"
+			(uuid "8554c9ab-b379-4732-9cdf-b73e113efc56")
+		)
+		(pin "19"
+			(uuid "c1158491-df1e-446f-9949-197851cdb361")
+		)
+		(pin "17"
+			(uuid "e54df7ee-11b2-4b58-8884-ff8330d6620e")
+		)
+		(pin "2"
+			(uuid "8b0be62e-8126-4eab-aea1-51a32fa39a57")
+		)
+		(pin "11"
+			(uuid "db0587ef-c63b-4fec-80a4-1a6395325f5e")
+		)
+		(pin "5"
+			(uuid "24e353fb-e8f4-482b-8d6c-a328cbf3c7f9")
+		)
+		(pin "16"
+			(uuid "4d6dda04-6765-4909-9aad-fe26a891e798")
+		)
+		(pin "4"
+			(uuid "a38a44cb-b3f5-4436-b2a4-59a8b3b6ecab")
+		)
+		(pin "13"
+			(uuid "b3adda0b-5d5e-4684-b3b8-169d3d82c053")
+		)
+		(pin "12"
+			(uuid "a251a0ac-ed91-4b99-b6da-fd4c39fa9ccd")
+		)
+		(pin "14"
+			(uuid "7a28bf2a-4798-497a-8731-7149ba928141")
+		)
+		(pin "15"
+			(uuid "2672cfb9-5782-4663-a924-b2d729ce1e71")
+		)
+		(pin "9"
+			(uuid "1f2c59b1-5a57-4775-8468-82fa158aac8e")
+		)
+		(pin "24"
+			(uuid "31f6ed05-a550-45fe-8c88-4208954f8f61")
+		)
+		(pin "7"
+			(uuid "89ee9c39-e3ed-4187-ac53-716aa7386aff")
+		)
+		(pin "8"
+			(uuid "cd798377-8ed7-4866-bff0-966d390146af")
+		)
+		(pin "25"
+			(uuid "87fc299b-bf41-4542-9217-05becdbe522c")
+		)
+		(pin "18"
+			(uuid "7e617f6d-5561-4f48-8e5e-3427cfb1b75d")
+		)
+		(pin "10"
+			(uuid "e8ac9e68-71c4-4c6e-96b7-72f6fd60e1e0")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/f0f01ea9-8179-4d1d-a204-7bfa46e66030"
+					(reference "U9")
 					(unit 1)
 				)
 			)
