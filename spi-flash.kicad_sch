@@ -1,0 +1,1092 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4ecc12ed-a375-4b74-a620-6219d3f692d3")
+	(paper "A4")
+	(title_block
+		(title "renode-reference-platform")
+		(date "07.04.2026")
+		(rev "1.0.0")
+		(company "Antmicro")
+	)
+	(lib_symbols
+		(symbol "antmicroMemory:AT25FF161A-MAHN-T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 35.56 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "AT25FF161A-MAHN-T"
+				(at 35.56 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:USON-8_2x3mm_P0.5mm"
+				(at 35.56 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.renesas.com/us/en/document/dst/at25ff161a-datasheet?r=1608541"
+				(at 35.56 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "16-Mbit, 1.65 V – 3.75 V SPI Serial Flash Memory, USON-8"
+				(at 35.56 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "AT25FF161A-MAHN-T"
+				(at 35.56 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Renesas Electronics"
+				(at 35.56 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 35.56 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 35.56 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SMT, MEMORY, IC, FLASH, SPI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AT25FF161A-MAHN-T_1_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end 17.78 -14.605)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~{WP}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "~{HOLD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "SO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "O1)" passive line)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "SI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "O0)" passive line)
+				)
+				(pin passive clock
+					(at 0 -12.7 0)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 0 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -10.16 180)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "antmicroTestPoints:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 39.37 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
+				(at 39.37 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
+				(at 39.37 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf"
+				(at 39.37 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tag Connect 2x5 1.27mm terminal"
+				(at 39.37 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TC2050-IDC-NL"
+				(at 39.37 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Tag Connect"
+				(at 39.37 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 39.37 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 39.37 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "POGO-PIN, CONNECTOR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm_1_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end 29.21 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 15.113 -7.5184)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -8.636) (xy 17.145 -8.636) (xy 17.78 -8.001) (xy 17.78 -2.921) (xy 16.51 -1.016) (xy 15.24 -1.016)
+						(xy 13.97 -2.921) (xy 13.97 -8.001) (xy 14.605 -8.636) (xy 15.24 -8.636)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 15.367 -3.4544)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 15.367 -4.1656)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 15.367 -4.9276)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 15.367 -5.6388)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 15.367 -6.4008)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 15.875 -2.1336)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 16.383 -3.4544)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 16.383 -4.1656)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 16.383 -4.9276)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 16.383 -5.6388)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 16.383 -6.4008)
+					(radius 0.2032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 16.7386 -7.5184)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Tag-Connect"
+					(at 15.875 1.651 0)
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(text "ALT: 3.3V I2C/JTAG/SPI/SWD/FTDI"
+					(at 16.002 -11.938 0)
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "3V3" passive line)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADBUS3" passive line)
+					(alternate "I2C_NC" passive line)
+					(alternate "JTAG_TMS" passive line)
+					(alternate "SPI_CS" passive line)
+					(alternate "SWD_NC" passive line)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GND" passive line)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADBUS0" passive line)
+					(alternate "I2C_SCL" passive line)
+					(alternate "JTAG_TCK" passive line)
+					(alternate "SPI_SCK" passive line)
+					(alternate "SWD_CLK" passive line)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GND" passive line)
+				)
+				(pin passive line
+					(at 31.75 0 180)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADBUS5" passive line)
+					(alternate "I2C_NC" passive line)
+					(alternate "JTAG_~{RESET}" passive line)
+					(alternate "SPI_NC" passive line)
+					(alternate "SWD_NC" passive line)
+				)
+				(pin passive line
+					(at 31.75 -2.54 180)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GND" passive line)
+				)
+				(pin passive line
+					(at 31.75 -5.08 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADBUS1" passive line)
+					(alternate "I2C_SDA" passive line)
+					(alternate "JTAG_TDI" passive line)
+					(alternate "SPI_MOSI" passive line)
+					(alternate "SWD_IO" passive line)
+				)
+				(pin passive line
+					(at 31.75 -7.62 180)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "NC" no_connect line)
+				)
+				(pin passive line
+					(at 31.75 -10.16 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "ADBUS2" passive line)
+					(alternate "I2C_SDA" passive line)
+					(alternate "JTAG_TDO" passive line)
+					(alternate "SPI_MISO" passive line)
+					(alternate "SWD_IO" passive line)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "antmicroMemory:AT25FF161A-MAHN-T")
+		(at 154.94 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d5cd233-c37b-4045-8fa1-7668810a7aae")
+		(property "Reference" "U7"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "AT25FF161A-MAHN-T"
+			(at 190.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:USON-8_2x3mm_P0.5mm"
+			(at 190.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.renesas.com/us/en/document/dst/at25ff161a-datasheet?r=1608541"
+			(at 190.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-Mbit, 1.65 V – 3.75 V SPI Serial Flash Memory, USON-8"
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AT25FF161A-MAHN-T"
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Renesas Electronics"
+			(at 190.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 190.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "a15eaf82-ca4e-4c24-8b9f-8eecb0f278dd")
+		)
+		(pin "2"
+			(uuid "1eda74f7-3920-46b5-89d7-5a8816fbbb2d")
+		)
+		(pin "3"
+			(uuid "a5704897-6731-44be-9e0f-19f145c02e86")
+		)
+		(pin "4"
+			(uuid "c99b4b31-c5bd-4304-a9c8-3906a02a5fba")
+		)
+		(pin "8"
+			(uuid "abe3beeb-8f91-4072-85b8-df2cc7e1ec5a")
+		)
+		(pin "EP"
+			(uuid "0410c0cf-d73a-4b00-a775-4534d76fa1c2")
+		)
+		(pin "7"
+			(uuid "a075042b-7c3a-43e8-ac48-54d56e49c38c")
+		)
+		(pin "5"
+			(uuid "a9136ab8-89b3-4013-8d40-90062f6ea385")
+		)
+		(pin "1"
+			(uuid "45839ea1-a2dd-4b66-9c8c-bf8f4f8212f6")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/cad4409d-b8be-4409-9157-2f128039cd0f"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm")
+		(at 111.76 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf63ca04-f3ba-4a77-a256-28fdd3c5314d")
+		(property "Reference" "J4"
+			(at 127.635 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
+			(at 151.13 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Tag-Connect_TC2050-IDC-NL_2x5_P1.27mm"
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf"
+			(at 151.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tag Connect 2x5 1.27mm terminal"
+			(at 151.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TC2050-IDC-NL"
+			(at 127.635 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Tag Connect"
+			(at 151.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 151.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 151.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7d3a7af-ab36-405a-889a-c7fc7082ed88")
+		)
+		(pin "7"
+			(uuid "76fa385f-e847-42f7-b663-fff6ad4283ae")
+		)
+		(pin "3"
+			(uuid "ebe99337-8412-4ad9-b2a3-82833e0f950f")
+		)
+		(pin "2"
+			(uuid "b0e6a702-7198-4abd-9155-9e78e122913e")
+		)
+		(pin "10"
+			(uuid "b57ac0f9-6cdc-444e-b8be-4e80e5de5d18")
+		)
+		(pin "9"
+			(uuid "80f1d5fb-affc-492d-bcd7-ce89d352612a")
+		)
+		(pin "8"
+			(uuid "3d0f8d8e-a520-4d40-9ed4-d375e9e54844")
+		)
+		(pin "6"
+			(uuid "809efd2c-1fad-4068-88cb-da04bc30bb44")
+		)
+		(pin "4"
+			(uuid "53bb89b0-cf25-4645-9545-001897166411")
+		)
+		(pin "5"
+			(uuid "c3b108bb-e053-484b-87dc-bfa5684bad48")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/cad4409d-b8be-4409-9157-2f128039cd0f"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

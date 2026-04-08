@@ -1,0 +1,803 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "99fce564-1f69-4731-9520-b0df5acd8c8b")
+	(paper "A4")
+	(title_block
+		(title "renode-reference-platform")
+		(date "07.04.2026")
+		(rev "1.0.0")
+		(company "Antmicro")
+	)
+	(lib_symbols
+		(symbol "antmicroUSBConnectors:USB-C_GCT_USB4105-GF-A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 38.1 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "USB-C_GCT_USB4105-GF-A"
+				(at 38.1 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:USB-C_Receptacle_GCT_USB4105-GF-A"
+				(at 38.1 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://gct.co/files/drawings/usb4105.pdf"
+				(at 38.1 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle"
+				(at 38.1 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "GCT"
+				(at 38.1 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "USB4105-GF-A"
+				(at 38.1 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 38.1 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 38.1 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "USB, CONNECTOR, SMT, HORIZONTAL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB-C_GCT_USB4105-GF-A_1_1"
+				(rectangle
+					(start -22.86 2.54)
+					(end -3.81 -38.1)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -20.066 -18.034)
+					(radius 0.284)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -19.812 -16.383) (xy -19.177 -15.24) (xy -18.542 -16.383) (xy -19.812 -16.383)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -19.177 -19.558) (xy -18.288 -18.669) (xy -18.288 -18.034)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -19.177 -19.939) (xy -20.066 -19.05) (xy -20.066 -18.415)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -19.177 -20.701) (xy -19.177 -16.383)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -19.177 -20.828)
+					(radius 0.5236)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -18.669 -18.034)
+					(end -17.907 -17.272)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -16.51 -21.59) (xy -16.51 -13.97)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -15.24 -21.59)
+					(end -13.97 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -15.24 -13.97)
+					(mid -14.605 -13.3377)
+					(end -13.97 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -15.24 -13.97)
+					(mid -14.605 -13.3377)
+					(end -13.97 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -16.51 -13.97)
+					(mid -14.605 -12.0733)
+					(end -12.7 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -12.7 -21.59)
+					(mid -14.605 -23.4867)
+					(end -16.51 -21.59)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -13.97 -21.59)
+					(mid -14.605 -22.2223)
+					(end -15.24 -21.59)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -13.97 -21.59)
+					(mid -14.605 -22.2223)
+					(end -15.24 -21.59)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -13.97) (xy -12.7 -21.59)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 0 180)
+					(length 3.81)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 180)
+					(length 3.81)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 180)
+					(length 3.81)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 180)
+					(length 3.81)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 180)
+					(length 3.81)
+					(name "CC_{1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 180)
+					(length 3.81)
+					(name "CC_{2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -12.7 180)
+					(length 3.81)
+					(name "D_{A}+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -15.24 180)
+					(length 3.81)
+					(name "D_{A}-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -17.78 180)
+					(length 3.81)
+					(name "D_{B}+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -20.32 180)
+					(length 3.81)
+					(name "D_{B}-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -25.4 180)
+					(length 3.81)
+					(name "SBU_{1}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -27.94 180)
+					(length 3.81)
+					(name "SBU_{2}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -33.02 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 180)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -35.56 180)
+					(length 3.81)
+					(name "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "antmicroUSBConnectors:USB-C_GCT_USB4105-GF-A")
+		(at 167.64 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a839e634-48aa-4037-93f1-d1282b2910aa")
+		(property "Reference" "J2"
+			(at 154.305 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "USB-C_GCT_USB4105-GF-A"
+			(at 205.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:USB-C_Receptacle_GCT_USB4105-GF-A"
+			(at 205.74 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gct.co/files/drawings/usb4105.pdf"
+			(at 205.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle"
+			(at 205.74 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USB4105-GF-A"
+			(at 154.305 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 205.74 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 205.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "B1"
+			(uuid "db3c1eea-ee8b-4603-8544-f98c75af0779")
+		)
+		(pin "B7"
+			(uuid "4945b61a-3f56-4333-a77c-372bf7f67718")
+		)
+		(pin "A1"
+			(uuid "c8b69532-6a56-454e-abc6-5ac1e5cab873")
+		)
+		(pin "A4"
+			(uuid "b8e40ed9-49e8-47dc-ac63-4c7a6b540ae9")
+		)
+		(pin "B6"
+			(uuid "b4bbf3e5-d30c-40c7-8893-7cdc6472a03d")
+		)
+		(pin "SH"
+			(uuid "997e2236-6e67-4282-af5d-ca6ac76a4d58")
+		)
+		(pin "B12"
+			(uuid "f5010318-8dd8-49c7-a9a6-475169ad030e")
+		)
+		(pin "A9"
+			(uuid "98561aba-59c2-4504-af6b-cfd35aabef16")
+		)
+		(pin "B4"
+			(uuid "ad1c5aa3-2568-4186-a41a-88c09cec38ce")
+		)
+		(pin "B9"
+			(uuid "008ff037-1e4e-4700-98c5-59a67de89001")
+		)
+		(pin "A5"
+			(uuid "56739c8f-9765-4a3e-b5eb-f20116c6f9c8")
+		)
+		(pin "B5"
+			(uuid "133b8934-f947-4ef3-bc94-b8b4c693b008")
+		)
+		(pin "A6"
+			(uuid "3cc86b21-eb36-49eb-a4cf-858142d364d5")
+		)
+		(pin "A7"
+			(uuid "8a853751-4a8b-4519-bc75-99eb4fdfd397")
+		)
+		(pin "B8"
+			(uuid "33f57987-5f79-40cd-bb88-7dcfc0c6cfb8")
+		)
+		(pin "A8"
+			(uuid "f62a9cf5-7048-4d2e-9acf-017854371abb")
+		)
+		(pin "A12"
+			(uuid "990afe15-e714-49b5-810d-793d6cb778db")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/ec770658-59a1-4a3f-81ed-5fcccc21c2e8"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

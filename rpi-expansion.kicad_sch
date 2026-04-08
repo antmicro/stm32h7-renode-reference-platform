@@ -1,0 +1,1617 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bc448277-e101-414b-b82b-106b1bcac598")
+	(paper "A4")
+	(title_block
+		(title "renode-reference-platform")
+		(date "07.04.2026")
+		(rev "1.0.0")
+		(company "Antmicro")
+	)
+	(lib_symbols
+		(symbol "antmicroGenericPinSockets:PinSocket_2x20_P2.54mm_Drill1.02mm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 25.4 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PinSocket_2x20_P2.54mm_Drill1.02mm"
+				(at 25.4 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:PinSocket_2x20_P2.54mm_Drill1.02mm"
+				(at 25.4 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.farnell.com/datasheets/2585490.pdf?_ga=2.43255777.554339948.1570014617-156563690.1566371002&_gac=1.3485316.1567754175.EAIaIQobChMI-6rQsNO75AIVzpAYCh2nygb2EAQYASABEgIdyvD_BwE"
+				(at 25.4 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "PCB Receptacle, Board-to-Board, 2.54 mm, 2 Rows, 40 Contacts, Through Hole Mount"
+				(at 25.4 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "2214S-40SG-85"
+				(at 25.4 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Multicomp Pro"
+				(at 25.4 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 25.4 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 25.4 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "CONNECTOR, HEADER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PinSocket_2x20_P2.54mm_Drill1.02mm_1_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end 8.89 -50.8)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -35.56 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -40.64 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -43.18 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -45.72 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -10.16 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -12.7 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -15.24 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -17.78 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -20.32 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -22.86 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -25.4 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -27.94 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -30.48 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -33.02 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -35.56 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -38.1 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -40.64 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -43.18 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -45.72 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -48.26 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "antmicroWire2BoardConnectors:JST_SH_1x4_SM04B-SRSS-TB-LF-SN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 26.67 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "JST_SH_1x4_SM04B-SRSS-TB-LF-SN"
+				(at 26.67 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:Conn_JST_SH_1x4_SM04B-SRSS-TB-LF-SN"
+				(at 26.67 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+				(at 26.67 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pin Header, Right Angle, Wire-to-Board, 1 mm, 1 Rows, 4 Contacts, Surface Mount Right Angle, SH"
+				(at 26.67 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SM04B-SRSS-TB(LF)(SN)"
+				(at 26.67 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "JST Automotive Connectors"
+				(at 26.67 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 26.67 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 26.67 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "VERTICAL, SMT, WIRE-BOARD, CONNECTOR, MALE, HEADER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JST_SH_1x4_SM04B-SRSS-TB-LF-SN_1_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end 5.08 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 0.127)
+					(end 3.81 -0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -2.413)
+					(end 3.81 -2.667)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -4.953)
+					(end 3.81 -5.207)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -7.493)
+					(end 3.81 -7.747)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -10.033)
+					(end 3.81 -10.287)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "antmicroWire2BoardConnectors:JST_SH_1x4_SM04B-SRSS-TB-LF-SN")
+		(at 156.21 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cef82aa5-4d8f-4b63-a785-971cc090b741")
+		(property "Reference" "J9"
+			(at 152.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "JST_SH_1x4_SM04B-SRSS-TB-LF-SN"
+			(at 129.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Conn_JST_SH_1x4_SM04B-SRSS-TB-LF-SN"
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header, Right Angle, Wire-to-Board, 1 mm, 1 Rows, 4 Contacts, Surface Mount Right Angle, SH"
+			(at 129.54 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SM04B-SRSS-TB(LF)(SN)"
+			(at 152.4 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "JST Automotive Connectors"
+			(at 129.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1a069218-67b0-46dc-9d88-a1da3ed75078")
+		)
+		(pin "3"
+			(uuid "13636506-85d3-44b0-b654-b56b6288e6f8")
+		)
+		(pin "2"
+			(uuid "fc8ded25-624d-409d-849a-af84c1787b6d")
+		)
+		(pin "1"
+			(uuid "248da21b-d840-4c34-8a56-1cf38364daaa")
+		)
+		(pin "MP"
+			(uuid "e557637d-51b1-46ed-82f3-40db96b7c2b0")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/3deaa797-f1d6-4980-9fc1-21264c177bf0"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroGenericPinSockets:PinSocket_2x20_P2.54mm_Drill1.02mm")
+		(at 137.16 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5026c69-c1be-4818-9037-21b997320a9a")
+		(property "Reference" "J7"
+			(at 142.875 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PinSocket_2x20_P2.54mm_Drill1.02mm"
+			(at 162.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:PinSocket_2x20_P2.54mm_Drill1.02mm"
+			(at 162.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.farnell.com/datasheets/2585490.pdf?_ga=2.43255777.554339948.1570014617-156563690.1566371002&_gac=1.3485316.1567754175.EAIaIQobChMI-6rQsNO75AIVzpAYCh2nygb2EAQYASABEgIdyvD_BwE"
+			(at 162.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Receptacle, Board-to-Board, 2.54 mm, 2 Rows, 40 Contacts, Through Hole Mount"
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2214S-40SG-85"
+			(at 142.875 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Multicomp Pro"
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 162.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 162.56 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "40"
+			(uuid "4a772823-3ff6-48f3-80b7-02622c707506")
+		)
+		(pin "32"
+			(uuid "1324ed87-0967-4e70-ad98-6723221e9671")
+		)
+		(pin "35"
+			(uuid "2f439e9c-b219-40a8-8e34-c95ea5a91834")
+		)
+		(pin "37"
+			(uuid "8d7f88a9-2100-41bb-b6fc-646108b11523")
+		)
+		(pin "14"
+			(uuid "7034f0fd-3c5f-4a12-81df-926e113cca57")
+		)
+		(pin "5"
+			(uuid "3ec48d5d-af0c-4020-bca8-0eea35c0844d")
+		)
+		(pin "7"
+			(uuid "f641c5f7-5944-4e6d-875a-54c3041687e3")
+		)
+		(pin "6"
+			(uuid "701940d7-25d0-43b7-9e15-412bd18966b3")
+		)
+		(pin "33"
+			(uuid "f0206fd8-5104-44d1-ad35-a2d3bdc20ab4")
+		)
+		(pin "31"
+			(uuid "09aa28c7-bdd6-4012-86c1-aa2c5ef859a9")
+		)
+		(pin "2"
+			(uuid "b5c10d26-0c33-483c-97f5-cf55dceadc7d")
+		)
+		(pin "21"
+			(uuid "4ab57e1b-4e1d-4151-b214-73e8e25da5b3")
+		)
+		(pin "15"
+			(uuid "055d7816-7a36-40ba-bc24-12a82d8824d6")
+		)
+		(pin "24"
+			(uuid "e364ce5d-146f-42cb-8ccc-42c7f452f3a0")
+		)
+		(pin "8"
+			(uuid "7e742a03-c81d-4381-b582-1fe0ff452df5")
+		)
+		(pin "17"
+			(uuid "fed9aa4e-7848-4642-8659-36e0d690d875")
+		)
+		(pin "28"
+			(uuid "04743a90-8705-453c-8ddd-93e2ed43dbc4")
+		)
+		(pin "20"
+			(uuid "f04e07d6-6d6c-4e07-8124-dfc5c365916f")
+		)
+		(pin "3"
+			(uuid "d619ee80-1023-4838-b5c5-91264ca187aa")
+		)
+		(pin "16"
+			(uuid "72644368-f90f-4687-8c2f-efa3e62029db")
+		)
+		(pin "11"
+			(uuid "04cf032a-bcc5-45db-8d5d-5d405efe0a41")
+		)
+		(pin "9"
+			(uuid "2554c299-5aeb-420e-98e4-783222d433b8")
+		)
+		(pin "18"
+			(uuid "f965ec0a-8804-4e48-99b2-062e26cc44a8")
+		)
+		(pin "13"
+			(uuid "bfce0835-7ef1-4da8-b605-83374d31e863")
+		)
+		(pin "30"
+			(uuid "ca16b8b0-717d-4b30-93af-de3d08979817")
+		)
+		(pin "10"
+			(uuid "d27a19ac-6391-4d7c-af39-078a0b63723b")
+		)
+		(pin "12"
+			(uuid "a3b1efb2-6093-4474-9984-e480f732a5e5")
+		)
+		(pin "38"
+			(uuid "62c5cfc2-599d-4b0d-8348-b5bd72dc646f")
+		)
+		(pin "22"
+			(uuid "82b67e40-eb71-421f-91b5-9cdf1bd24e95")
+		)
+		(pin "34"
+			(uuid "f363d3a2-4b68-400e-82cd-d51e5d4e016d")
+		)
+		(pin "4"
+			(uuid "98d0941e-12a8-4e98-8726-8119d9453e1d")
+		)
+		(pin "1"
+			(uuid "9b960bb8-9449-4fce-af11-6115a8a8811e")
+		)
+		(pin "19"
+			(uuid "cb4f955d-e3d8-4418-986a-3f5905d44339")
+		)
+		(pin "23"
+			(uuid "371f1b1d-7ed3-4539-8809-7f7811ff48c0")
+		)
+		(pin "26"
+			(uuid "740fa49b-61a9-41bd-8dd0-6c95fed834fd")
+		)
+		(pin "25"
+			(uuid "5168d64e-92d4-4c55-87e4-7e18d70c5b6e")
+		)
+		(pin "27"
+			(uuid "79684736-17a1-43b3-9184-cee389a48b25")
+		)
+		(pin "29"
+			(uuid "6ee39e36-1144-4eb6-b007-09fc0839c811")
+		)
+		(pin "36"
+			(uuid "8a5da11b-4694-4926-b6c1-b4f427614bf5")
+		)
+		(pin "39"
+			(uuid "c2976573-757c-4b2a-9996-3946f84f3e85")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/3deaa797-f1d6-4980-9fc1-21264c177bf0"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroWire2BoardConnectors:JST_SH_1x4_SM04B-SRSS-TB-LF-SN")
+		(at 129.54 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd408808-8780-4265-aecd-d06e676916e5")
+		(property "Reference" "J8"
+			(at 125.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "JST_SH_1x4_SM04B-SRSS-TB-LF-SN"
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Conn_JST_SH_1x4_SM04B-SRSS-TB-LF-SN"
+			(at 102.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 102.87 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header, Right Angle, Wire-to-Board, 1 mm, 1 Rows, 4 Contacts, Surface Mount Right Angle, SH"
+			(at 102.87 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SM04B-SRSS-TB(LF)(SN)"
+			(at 125.73 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "JST Automotive Connectors"
+			(at 102.87 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 102.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ae48c1fd-82cc-413e-8479-f1960d10450f")
+		)
+		(pin "3"
+			(uuid "da31cd1c-5a59-40a7-a137-0650f5ce99ee")
+		)
+		(pin "2"
+			(uuid "d53a94e8-06d8-4730-952e-a828840c9b93")
+		)
+		(pin "1"
+			(uuid "b6f18d06-089a-4759-834d-f6928ca56b1d")
+		)
+		(pin "MP"
+			(uuid "cb9143d5-c79a-4d9b-ad84-e9cd2019f509")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/3deaa797-f1d6-4980-9fc1-21264c177bf0"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,785 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f291c692-b9a4-493c-8cb3-44fc0dac46cc")
+	(paper "A4")
+	(title_block
+		(title "renode-reference-platform")
+		(date "07.04.2026")
+		(rev "1.0.0")
+		(company "Antmicro")
+	)
+	(lib_symbols
+		(symbol "antmicroGenericPinSockets:PinSocket_2x6_P2.54mm_Drill1.04mm_Horizontal"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PinSocket_2x6_P2.54mm_Drill1.04mm_Horizontal"
+				(at 19.05 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:PinSocket_2x6_P2.54mm_Drill1.04mm_Horizontal"
+				(at 19.05 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://suddendocs.samtec.com/prints/ssw-1xx-xx-xxx-x-xx-xxx-xx-mkt.pdf"
+				(at 19.05 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "PCB Receptacle, Board-to-Board, 2.54 mm, 2 Rows, 12 Contacts, Through Hole Mount Right Angle, SSW"
+				(at 19.05 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SSW-106-02-G-D-RA"
+				(at 19.05 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Samtec"
+				(at 19.05 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 19.05 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 19.05 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "CONNECTOR, SOCKET, THT, HORIZONTAL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PinSocket_2x6_P2.54mm_Drill1.04mm_Horizontal_1_1"
+				(rectangle
+					(start 2.54 2.54)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.556 0.254)
+					(end 4.064 -0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.556 -2.286)
+					(end 4.064 -2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.556 -4.826)
+					(end 4.064 -5.334)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.556 -7.366)
+					(end 4.064 -7.874)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.556 -9.906)
+					(end 4.064 -10.414)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.556 -12.446)
+					(end 4.064 -12.954)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 6.096 0.254)
+					(end 6.604 -0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 6.096 -2.286)
+					(end 6.604 -2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 6.096 -4.826)
+					(end 6.604 -5.334)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 6.096 -7.366)
+					(end 6.604 -7.874)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 6.096 -9.906)
+					(end 6.604 -10.414)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 6.096 -12.446)
+					(end 6.604 -12.954)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -12.7 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "antmicroGenericPinSockets:PinSocket_2x6_P2.54mm_Drill1.04mm_Horizontal")
+		(at 120.65 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e884740-568a-4382-a155-30c381c65d50")
+		(property "Reference" "J5"
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PinSocket_2x6_P2.54mm_Drill1.04mm_Horizontal"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:PinSocket_2x6_P2.54mm_Drill1.04mm_Horizontal"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/prints/ssw-1xx-xx-xxx-x-xx-xxx-xx-mkt.pdf"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Receptacle, Board-to-Board, 2.54 mm, 2 Rows, 12 Contacts, Through Hole Mount Right Angle, SSW"
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SSW-106-02-G-D-RA"
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "b61e285d-4479-40b5-8a86-3dbc6600b67c")
+		)
+		(pin "7"
+			(uuid "da674971-51f6-4793-81a0-8bc9e3206e97")
+		)
+		(pin "9"
+			(uuid "e0a58ed9-cee5-45ff-984e-c9c2ba20720e")
+		)
+		(pin "11"
+			(uuid "560dcb8a-79ee-4f3b-9984-8840f369cbcc")
+		)
+		(pin "2"
+			(uuid "e36e3669-8690-4b95-9835-75dcb5cc2518")
+		)
+		(pin "4"
+			(uuid "4faec901-2ae7-48ec-9bf7-63660603e428")
+		)
+		(pin "5"
+			(uuid "2bc41cbd-47d1-4ae1-a93d-668d7a380d8f")
+		)
+		(pin "12"
+			(uuid "d50a794e-74af-42d5-99cf-a0d9c07537c7")
+		)
+		(pin "8"
+			(uuid "a78f3980-92e1-4803-b433-958daa6d8564")
+		)
+		(pin "3"
+			(uuid "4b6486e8-3f6c-4dbd-8d3a-535155cbd0dc")
+		)
+		(pin "1"
+			(uuid "d65bc43b-964d-4128-ba4a-ef3e93b24c5a")
+		)
+		(pin "6"
+			(uuid "70b63ec2-f1c9-4abd-9c7a-41660238c508")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroGenericPinSockets:PinSocket_2x6_P2.54mm_Drill1.04mm_Horizontal")
+		(at 146.05 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4383073e-5e2d-4da6-b731-ae602bb611c6")
+		(property "Reference" "J6"
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PinSocket_2x6_P2.54mm_Drill1.04mm_Horizontal"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:PinSocket_2x6_P2.54mm_Drill1.04mm_Horizontal"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/prints/ssw-1xx-xx-xxx-x-xx-xxx-xx-mkt.pdf"
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Receptacle, Board-to-Board, 2.54 mm, 2 Rows, 12 Contacts, Through Hole Mount Right Angle, SSW"
+			(at 165.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SSW-106-02-G-D-RA"
+			(at 151.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 165.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 165.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 165.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "e375be7a-2122-4f15-bd7f-9794c4a33b86")
+		)
+		(pin "7"
+			(uuid "e644b293-06be-4359-aa42-a969331ea188")
+		)
+		(pin "9"
+			(uuid "25a532b3-9d6a-4a0d-afcb-e0715d1b2dec")
+		)
+		(pin "11"
+			(uuid "54f13f2a-f4bd-4e26-84a9-51435f0f022f")
+		)
+		(pin "2"
+			(uuid "1ef33a15-2ee3-40c4-9ad2-f3f37b7f09b5")
+		)
+		(pin "4"
+			(uuid "f3662524-e269-4f9d-ac5e-6429350cefa2")
+		)
+		(pin "5"
+			(uuid "a4ed3137-31f1-4552-8c28-19db2c2a0333")
+		)
+		(pin "12"
+			(uuid "8eb3a9e7-b74f-4864-91eb-8927544bd3ff")
+		)
+		(pin "8"
+			(uuid "42962214-7bbc-4719-89be-2f0d0be7a960")
+		)
+		(pin "3"
+			(uuid "1bc0e52a-5b5e-43a4-9774-40c844bbb4d1")
+		)
+		(pin "1"
+			(uuid "fb3df70b-792a-4ac8-8d3b-a3e6624912f9")
+		)
+		(pin "6"
+			(uuid "5f02c438-ebac-4afd-9a33-e1ecf7124dca")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

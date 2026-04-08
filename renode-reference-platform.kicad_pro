@@ -613,6 +613,46 @@
     [
       "126ae87b-f292-4372-94ff-ae46971d67ab",
       "Root"
+    ],
+    [
+      "a09bd19e-75b4-4cc2-9c76-c57ffa8ef2d8",
+      "MCU"
+    ],
+    [
+      "143ac980-6d59-4a8b-9ea3-64cd140d4a49",
+      "IMU"
+    ],
+    [
+      "f0f01ea9-8179-4d1d-a204-7bfa46e66030",
+      "Ethernet"
+    ],
+    [
+      "cad4409d-b8be-4409-9157-2f128039cd0f",
+      "SPI Flash"
+    ],
+    [
+      "a1332836-0180-4f13-846c-9390e3408f14",
+      "USB-C Debug"
+    ],
+    [
+      "ec770658-59a1-4a3f-81ed-5fcccc21c2e8",
+      "USB-C"
+    ],
+    [
+      "8150c4f5-86f0-4781-bc9c-6f93770faa9d",
+      "PMOD"
+    ],
+    [
+      "3deaa797-f1d6-4980-9fc1-21264c177bf0",
+      "RPI Connector"
+    ],
+    [
+      "18d1e8dd-bf81-48e9-b8a4-678823f0e747",
+      "IOs"
+    ],
+    [
+      "3bbe31bb-f2b9-4019-b1b8-20b6749deb1b",
+      "Power"
     ]
   ],
   "text_variables": {}
