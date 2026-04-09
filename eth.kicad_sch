@@ -1185,6 +1185,15 @@
 		(uuid "29ba4738-d1ce-4d6f-81af-d0839173a83e")
 	)
 	(bus_entry
+		(at 259.08 114.3)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694e8373-fe64-4498-aa89-5387226355b9")
+	)
+	(bus_entry
 		(at 259.08 142.24)
 		(size -2.54 2.54)
 		(stroke
@@ -1210,15 +1219,6 @@
 			(type default)
 		)
 		(uuid "a0ed6c26-b6e2-4b2d-8b12-19ed95454349")
-	)
-	(bus_entry
-		(at 259.08 114.3)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a28de90d-7887-4603-8d2a-9b22e558b608")
 	)
 	(bus_entry
 		(at 259.08 132.08)
@@ -1387,23 +1387,23 @@
 	)
 	(bus
 		(pts
-			(xy 259.08 114.3) (xy 259.08 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89ff334d-502f-4112-b9fa-599a699e1a1b")
-	)
-	(bus
-		(pts
-			(xy 259.08 119.38) (xy 259.08 114.3)
+			(xy 259.08 111.76) (xy 259.08 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8cb343d6-fb77-48fe-b2e8-9c02fbe8169b")
+	)
+	(wire
+		(pts
+			(xy 228.6 116.84) (xy 256.54 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9130c92d-a43b-43d3-bd3b-6c9cfa875b3b")
 	)
 	(wire
 		(pts
@@ -1414,6 +1414,16 @@
 			(type default)
 		)
 		(uuid "92945b88-6ee0-48b0-af70-e0c06c45591b")
+	)
+	(bus
+		(pts
+			(xy 259.08 114.3) (xy 259.08 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e824d3-6afd-4504-ab04-13fbda791391")
 	)
 	(wire
 		(pts
@@ -1464,16 +1474,6 @@
 			(type default)
 		)
 		(uuid "d6547792-bbf4-422e-a5e9-9cb14af0b8d2")
-	)
-	(wire
-		(pts
-			(xy 228.6 116.84) (xy 256.54 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7667405-6093-446d-bccd-d03b88f0bcd1")
 	)
 	(wire
 		(pts
@@ -1535,6 +1535,16 @@
 		)
 		(uuid "854cea2e-98ac-4d54-aeb3-68c4ac688846")
 	)
+	(label "RMII.REF_CLK"
+		(at 243.84 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a08d9b9-1866-4308-9aa1-5cee5808b9f7")
+	)
 	(label "RMII.RESET"
 		(at 243.84 114.3 0)
 		(effects
@@ -1544,16 +1554,6 @@
 			(justify left bottom)
 		)
 		(uuid "8cf17291-813c-4d3d-b153-740bda72ad50")
-	)
-	(label "RMII.INT"
-		(at 243.84 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab817b3b-ac56-4cf3-a5a3-73605b510806")
 	)
 	(label "RMII.TXD1"
 		(at 243.84 134.62 0)

@@ -295,7 +295,7 @@
 		)
 	)
 	(bus_alias "SPI"
-		(members "MISO" "MOSI" "SCK" "~{CS0}" "~{CS1}")
+		(members "MISO_IO0" "MOSI_IO1" "SCK" "~{CS0}" "~{CS1}" "IO2" "IO3")
 	)
 	(bus_alias "UART"
 		(members "TX" "RX" "CTS" "RTS")
@@ -5360,6 +5360,36 @@
 				(justify left top)
 			)
 		)
+		(pin "I2C_QWIIC{I2C}" bidirectional
+			(at 99.06 189.23 0)
+			(uuid "703c65c5-79d2-4af5-acc6-ce70eb5470ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_RPI{I2C}" bidirectional
+			(at 99.06 193.04 0)
+			(uuid "aeb7d8f6-d682-4557-8081-44d40aa5ee3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_RPI{SPI}" bidirectional
+			(at 99.06 196.85 0)
+			(uuid "79a3dd08-181f-4e9a-b90e-bb9b1057ede1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab"
@@ -5507,6 +5537,16 @@
 		(pin "UART{UART}" bidirectional
 			(at 154.94 96.52 180)
 			(uuid "3fb10fe3-6079-48f8-a291-4288963fcd1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_RPI{I2C}" bidirectional
+			(at 154.94 189.23 180)
+			(uuid "074740ce-0929-439d-ba37-78ceddc352e8")
 			(effects
 				(font
 					(size 1.27 1.27)
