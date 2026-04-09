@@ -301,7 +301,7 @@
 		(members "TX" "RX" "CTS" "RTS")
 	)
 	(bus_alias "USB"
-		(members "D+" "D-")
+		(members "D+" "D-" "ID" "VBUS")
 	)
 	(image
 		(at -38.1 110.49)
@@ -5390,6 +5390,16 @@
 				(justify right)
 			)
 		)
+		(pin "UART_RPI.UART_RPI." bidirectional
+			(at 99.06 200.66 0)
+			(uuid "90e74f9b-8150-4d7e-96bb-4c19e5e4b7e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab"
@@ -5474,9 +5484,19 @@
 				(justify left top)
 			)
 		)
-		(pin "RMII{RMII}" bidirectional
-			(at 154.94 157.48 180)
-			(uuid "c98c887c-da52-49f1-afeb-8590052e9909")
+		(pin "I2C1{I2C}" bidirectional
+			(at 198.12 123.19 0)
+			(uuid "ff5d0a6f-428d-4d7e-a700-0c4e096a9db6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2{I2C}" bidirectional
+			(at 154.94 193.04 180)
+			(uuid "118138dc-8e68-431e-91e4-f3b438aa63d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5484,49 +5504,29 @@
 				(justify left)
 			)
 		)
-		(pin "I2C_SYS{I2C}" bidirectional
-			(at 198.12 130.81 0)
-			(uuid "d963cb98-0c7e-4c4f-9156-628e85014901")
+		(pin "I2C4{I2C}" bidirectional
+			(at 154.94 189.23 180)
+			(uuid "1cf54092-3025-44a6-a0d3-8ae49e38ecf4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(pin "SPI_Flash{SPI}" bidirectional
-			(at 198.12 156.21 0)
-			(uuid "f9b1357c-21fd-49f6-aef2-c44136237e14")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "IOs{USER_IOs}" bidirectional
-			(at 198.12 191.77 0)
-			(uuid "37397077-c440-45c0-9180-9d379811f3d4")
+			(at 198.12 190.5 0)
+			(uuid "5f7a2ecd-9d65-4774-92a3-dd255e78af01")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "USB{USB}" bidirectional
-			(at 154.94 132.08 180)
-			(uuid "e883b192-4e3f-4916-92eb-5578a03a0ebc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "JTAG{JTAG}" bidirectional
 			(at 154.94 93.98 180)
-			(uuid "6719c347-1113-413f-bebd-7150a0c4a8b9")
+			(uuid "1ed5e0da-8a4e-44c5-87b7-108c63d0b4bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,9 +5534,39 @@
 				(justify left)
 			)
 		)
-		(pin "UART{UART}" bidirectional
+		(pin "QSPI{SPI}" bidirectional
+			(at 198.12 157.48 0)
+			(uuid "373f7879-7c79-452e-9f89-b1162534d5b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RMII{RMII}" bidirectional
+			(at 154.94 157.48 180)
+			(uuid "a1cb6ef6-c028-4e31-b751-e898ebc2a9b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_1{SPI}" bidirectional
+			(at 154.94 196.85 180)
+			(uuid "ed54111c-764c-4b17-ac08-4f0dfa090b2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_2{UART}" bidirectional
 			(at 154.94 96.52 180)
-			(uuid "3fb10fe3-6079-48f8-a291-4288963fcd1a")
+			(uuid "070eee95-ecc7-43f7-abf0-e1bfcae152a6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,9 +5574,9 @@
 				(justify left)
 			)
 		)
-		(pin "I2C_RPI{I2C}" bidirectional
-			(at 154.94 189.23 180)
-			(uuid "074740ce-0929-439d-ba37-78ceddc352e8")
+		(pin "UART_3{UART}" bidirectional
+			(at 154.94 200.66 180)
+			(uuid "45d3ab5f-d06d-464f-9a89-7c3003337ab2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5554,9 +5584,9 @@
 				(justify left)
 			)
 		)
-		(pin "I2C_QWIIC{I2C}" bidirectional
-			(at 154.94 193.04 180)
-			(uuid "31e392e3-cc36-4fdd-bac2-6a39e5634ed5")
+		(pin "USB{USB}" bidirectional
+			(at 154.94 132.08 180)
+			(uuid "def6ece5-d6bf-478d-8597-379dc539da17")
 			(effects
 				(font
 					(size 1.27 1.27)
