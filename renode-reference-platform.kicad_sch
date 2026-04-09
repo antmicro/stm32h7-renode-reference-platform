@@ -5554,6 +5554,16 @@
 				(justify left)
 			)
 		)
+		(pin "I2C_QWIIC{I2C}" bidirectional
+			(at 154.94 193.04 180)
+			(uuid "31e392e3-cc36-4fdd-bac2-6a39e5634ed5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab"

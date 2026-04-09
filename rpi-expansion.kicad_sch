@@ -2310,6 +2310,15 @@
 		(uuid "20c34ef9-78c2-4b40-886e-cd6aca648b5b")
 	)
 	(bus_entry
+		(at 306.07 149.86)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "487c215d-e165-4cd8-b724-ae1a66f7f6fd")
+	)
+	(bus_entry
 		(at 308.61 120.65)
 		(size -2.54 2.54)
 		(stroke
@@ -2355,6 +2364,24 @@
 		(uuid "ade81b63-f62d-4095-8b87-78281668b7f0")
 	)
 	(bus_entry
+		(at 306.07 142.24)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b2ee40-778a-4677-b212-d625741a9c27")
+	)
+	(bus_entry
+		(at 306.07 144.78)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b79be480-3870-4991-abfb-e2c34d6d292e")
+	)
+	(bus_entry
 		(at 308.61 123.19)
 		(size -2.54 2.54)
 		(stroke
@@ -2371,6 +2398,15 @@
 			(type default)
 		)
 		(uuid "f7f152b0-5894-4715-9034-5882f16b1cfc")
+	)
+	(bus_entry
+		(at 306.07 147.32)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc5eed90-1d9f-4fc3-be77-275f079bffba")
 	)
 	(wire
 		(pts
@@ -2484,6 +2520,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 147.32) (xy 303.53 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "289a9513-f154-4960-9e04-4994e9a795f2")
+	)
+	(wire
+		(pts
 			(xy 298.45 36.83) (xy 294.64 36.83)
 		)
 		(stroke
@@ -2541,6 +2587,16 @@
 			(type default)
 		)
 		(uuid "3ccae23a-8249-4f8b-8947-8a3ca5d5f477")
+	)
+	(bus
+		(pts
+			(xy 306.07 147.32) (xy 306.07 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e96d6f0-4f04-4f69-8017-6102cf877f79")
 	)
 	(wire
 		(pts
@@ -2654,6 +2710,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 149.86) (xy 303.53 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e96465d-d515-4956-8651-cc524d45b8b7")
+	)
+	(wire
+		(pts
 			(xy 144.78 101.6) (xy 148.59 101.6)
 		)
 		(stroke
@@ -2691,6 +2757,16 @@
 			(type default)
 		)
 		(uuid "629f6546-b7d9-4f4d-95ca-fd7b333295c8")
+	)
+	(wire
+		(pts
+			(xy 293.37 144.78) (xy 303.53 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c489e23-c0f0-41e3-b4f0-4a6c5c42fc3b")
 	)
 	(wire
 		(pts
@@ -2744,6 +2820,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 152.4) (xy 303.53 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8622cb23-925c-4fca-96df-4afdf01a00a1")
+	)
+	(wire
+		(pts
 			(xy 267.97 39.37) (xy 271.78 39.37)
 		)
 		(stroke
@@ -2761,6 +2847,16 @@
 			(type default)
 		)
 		(uuid "87150a72-ef19-4bdf-9f79-2f7ec7a51fc7")
+	)
+	(bus
+		(pts
+			(xy 308.61 142.24) (xy 306.07 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c9b608-7fae-4a96-80e7-730ced6e8a6c")
 	)
 	(wire
 		(pts
@@ -2911,6 +3007,16 @@
 			(type default)
 		)
 		(uuid "a2ff9e6f-7c1b-4253-98fe-e6864e844a95")
+	)
+	(bus
+		(pts
+			(xy 306.07 142.24) (xy 306.07 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a43b2e30-9283-4f5b-a745-cbf193016349")
 	)
 	(wire
 		(pts
@@ -3191,6 +3297,16 @@
 			(type default)
 		)
 		(uuid "f792edd0-94f4-48ed-8a4b-0c81a0ce869d")
+	)
+	(bus
+		(pts
+			(xy 306.07 144.78) (xy 306.07 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3463f3-bf50-4eb9-ac50-8aaf651232d1")
 	)
 	(image
 		(at 64.77 123.19)
@@ -6662,6 +6778,16 @@
 		)
 		(uuid "8dfcd2af-70c0-4725-8bcf-a276972663d5")
 	)
+	(label "UART_RPI.RTS"
+		(at 293.37 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fdb0ed7-72e6-460a-8938-8fd6a19a519d")
+	)
 	(label "I2C_RPI.SDA"
 		(at 293.37 92.71 0)
 		(effects
@@ -6671,6 +6797,26 @@
 			(justify left bottom)
 		)
 		(uuid "91895645-c6c0-418f-a3e7-9ea944d39c0f")
+	)
+	(label "UART_RPI.RX"
+		(at 293.37 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92887fd2-b77b-41d3-8a4a-952191b9395e")
+	)
+	(label "UART_RPI.TX"
+		(at 293.37 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a42ad965-7285-4a87-bf92-10a13025b73d")
 	)
 	(label "SPI_RPI.MISO"
 		(at 118.11 124.46 0)
@@ -6701,6 +6847,16 @@
 			(justify left bottom)
 		)
 		(uuid "c71df2f6-74aa-48b5-8284-baed5f39ddde")
+	)
+	(label "UART_RPI.CTS"
+		(at 293.37 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4b6874a-cf50-4459-a0cb-76f22e80cd59")
 	)
 	(label "I2C_RPI.SDA"
 		(at 123.19 101.6 0)
@@ -6743,6 +6899,17 @@
 			(justify left)
 		)
 		(uuid "37036b4a-76f0-494e-bddb-822defc507fd")
+	)
+	(hierarchical_label "UART_RPI.UART_RPI."
+		(shape bidirectional)
+		(at 308.61 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ed1254c-f69d-4ad6-a14c-013dacf6fef5")
 	)
 	(hierarchical_label "I2C_QWIIC{I2C}"
 		(shape bidirectional)
