@@ -303,6 +303,16 @@
 	(bus_alias "USB"
 		(members "D+" "D-" "ID" "VBUS")
 	)
+	(bus
+		(pts
+			(xy 99.06 157.48) (xy 154.94 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44878f1d-7ea8-4bad-b963-0e30df205fe6")
+	)
 	(image
 		(at -38.1 110.49)
 		(uuid "123f0a37-6cbe-476b-919c-4268f79f56b8")
