@@ -1,1 +1,3 @@
 include: antmicro-pcb-release-ci-template@main:.pcb-repo-ci.yml
+variables: 
+  HRAFN_ISSUE_ID: 94406
