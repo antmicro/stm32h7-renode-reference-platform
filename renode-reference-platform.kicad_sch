@@ -5419,8 +5419,8 @@
 		)
 	)
 	(sheet
-		(at 64.77 217.17)
-		(size 34.29 24.13)
+		(at 46.99 217.17)
+		(size 52.07 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5435,7 +5435,7 @@
 		)
 		(uuid "8150c4f5-86f0-4781-bc9c-6f93770faa9d")
 		(property "Sheetname" "PMOD"
-			(at 64.77 216.4584 0)
+			(at 46.99 216.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,12 +5444,72 @@
 			)
 		)
 		(property "Sheetfile" "pmod.kicad_sch"
-			(at 64.77 241.8846 0)
+			(at 46.99 241.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "EN_PMOD" input
+			(at 99.06 219.71 0)
+			(uuid "b6ae4f64-4742-4360-87d5-b41659a0e876")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_PMOD2{I2C}" bidirectional
+			(at 99.06 234.95 0)
+			(uuid "911cccd1-35dd-48f7-9a3f-82866e4d4698")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_PMOD1{SPI}" bidirectional
+			(at 99.06 224.79 0)
+			(uuid "909ec650-65d8-447b-b500-a27c413c6d99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_PMOD2{UART}" bidirectional
+			(at 99.06 232.41 0)
+			(uuid "058f2387-8968-49ed-b220-afa48f789df2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{IO5_PMOD1, IO6_PMOD1, IO7_PMOD1, IO8_PMOD1}" input
+			(at 99.06 227.33 0)
+			(uuid "365056be-c280-4800-8f7b-6eef4b863586")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{IO5_PMOD2, IO6_PMOD2}" input
+			(at 99.06 237.49 0)
+			(uuid "d95dced0-2a4e-483a-a992-91bc031ffee3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
