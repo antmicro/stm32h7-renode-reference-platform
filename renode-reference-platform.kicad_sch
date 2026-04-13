@@ -5821,8 +5821,48 @@
 			)
 		)
 		(pin "USB{USB}" bidirectional
-			(at 99.06 132.08 0)
+			(at 99.06 123.19 0)
 			(uuid "13731e18-50de-45b3-81a1-0654397528bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_USB{I2C}" bidirectional
+			(at 99.06 125.73 0)
+			(uuid "15c15156-0c37-44ab-8235-22fe35043f80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_GPIO_OUT1" input
+			(at 99.06 132.08 0)
+			(uuid "436d49d1-e9ca-4ea6-bf84-12ada2e37620")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_GPIO_OUT2" input
+			(at 99.06 134.62 0)
+			(uuid "26598932-ff02-4090-b4a8-fe2b23d391ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_GPIO_~{INT}" input
+			(at 99.06 129.54 0)
+			(uuid "a4662f69-1d12-45dc-bad8-9d844c9479d9")
 			(effects
 				(font
 					(size 1.27 1.27)
