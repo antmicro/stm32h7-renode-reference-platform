@@ -2621,520 +2621,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroTVSDiodes:PRTR5V0U2X"
-			(pin_names
-				(offset 0.002)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 28.575 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "PRTR5V0U2X"
-				(at 28.575 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:SOT-143-4"
-				(at 28.575 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://eu.mouser.com/datasheet/2/916/PRTR5V0U2X-2938759.pdf"
-				(at 28.575 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "TVS diode array, 8 kV, SOT-143B, 5.5 V, 1.5 pF"
-				(at 28.575 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "PRTR5V0U2X"
-				(at 28.575 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Nexperia"
-				(at 28.575 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 28.575 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 28.575 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SMT, DIODE, SEMICONDUCTOR, TVS, ESD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PRTR5V0U2X_0_1"
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 9.652 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PRTR5V0U2X_1_1"
-				(rectangle
-					(start 2.54 2.54)
-					(end 15.24 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -6.35) (xy 7.62 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 3.81 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -1.27) (xy 5.08 -3.81) (xy 7.62 -2.54) (xy 5.08 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -8.89) (xy 5.08 -11.43) (xy 7.62 -10.16) (xy 5.08 -8.89)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -10.16) (xy 3.81 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -1.27) (xy 7.62 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 7.62 -7.62) (xy 10.16 -6.35) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -8.89) (xy 7.62 -11.43)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -2.54) (xy 8.89 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -10.16) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -10.16) (xy 8.89 -12.7) (xy 2.54 -12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -1.27) (xy 10.16 -3.81) (xy 12.7 -2.54) (xy 10.16 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 6.35 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 10.16 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -6.35) (xy 15.24 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -8.89) (xy 10.16 -11.43) (xy 12.7 -10.16) (xy 10.16 -8.89)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -10.16) (xy 6.35 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -1.27) (xy 12.7 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -2.54) (xy 13.97 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -8.89) (xy 12.7 -11.43)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 13.97 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 -2.54) (xy 13.97 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at 0 0 0)
-					(length 2.54)
-					(name "IO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -6.35 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -12.7 0)
-					(length 2.54)
-					(name "IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -6.35 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "antmicroTVSDiodes:TPD2E009_SOT-9X3"
 			(pin_names
 				(hide yes)
@@ -4862,16 +4348,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 168.91) (xy 130.81 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "026be47e-d608-423d-a407-373db5fadf4e")
-	)
-	(wire
-		(pts
 			(xy 111.76 80.01) (xy 127 80.01)
 		)
 		(stroke
@@ -4919,6 +4395,16 @@
 			(type default)
 		)
 		(uuid "062f1686-21d7-4b1b-823a-858e41528530")
+	)
+	(wire
+		(pts
+			(xy 133.35 166.37) (xy 133.35 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "067ff911-a348-4ffe-a0ab-c6301c55846c")
 	)
 	(wire
 		(pts
@@ -5172,16 +4658,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 181.61) (xy 130.81 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d293f7d-b0c8-46c4-80c0-83c916d2cc33")
-	)
-	(wire
-		(pts
 			(xy 265.43 168.91) (xy 267.97 168.91)
 		)
 		(stroke
@@ -5189,16 +4665,6 @@
 			(type default)
 		)
 		(uuid "3e859b26-523d-42bb-8772-c0d286566912")
-	)
-	(wire
-		(pts
-			(xy 130.81 175.26) (xy 118.11 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e999cb5-ab4f-498b-ad1a-246270827679")
 	)
 	(wire
 		(pts
@@ -5309,16 +4775,6 @@
 			(type default)
 		)
 		(uuid "50c42cd0-dbd2-450c-b89d-e8d171262e44")
-	)
-	(wire
-		(pts
-			(xy 118.11 175.26) (xy 118.11 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52c2e65a-98fc-4b3a-a46f-f8ecc53b1fa1")
 	)
 	(wire
 		(pts
@@ -5632,6 +5088,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 163.83) (xy 134.62 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e57982e-45b8-4ea7-b51d-6113b0d5a448")
+	)
+	(wire
+		(pts
 			(xy 128.27 124.46) (xy 132.08 124.46)
 		)
 		(stroke
@@ -5639,16 +5105,6 @@
 			(type default)
 		)
 		(uuid "90dbc3d3-96cc-4438-b685-b2ba2cfa37da")
-	)
-	(wire
-		(pts
-			(xy 148.59 175.26) (xy 158.75 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "947a37e7-30a8-413c-87db-6d433663e4a2")
 	)
 	(wire
 		(pts
@@ -5822,6 +5278,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 166.37) (xy 133.35 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b620a311-86fd-40fa-b6c2-b8973a397e62")
+	)
+	(wire
+		(pts
 			(xy 132.08 119.38) (xy 137.16 119.38)
 		)
 		(stroke
@@ -5869,6 +5335,16 @@
 			(type default)
 		)
 		(uuid "c05ccd2b-3b75-460b-9420-ebc54ab4be5e")
+	)
+	(wire
+		(pts
+			(xy 125.73 161.29) (xy 134.62 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4bb0077-4d15-46bc-9aa7-5bba900d19fc")
 	)
 	(wire
 		(pts
@@ -6171,16 +5647,6 @@
 		(uuid "febcced0-ec28-4a8f-97ef-2903f6a8451b")
 	)
 	(label "USB.D+"
-		(at 123.19 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0013961f-420c-491b-aecd-bdcdd92fdaea")
-	)
-	(label "USB.D+"
 		(at 148.59 119.38 0)
 		(effects
 			(font
@@ -6189,6 +5655,16 @@
 			(justify left bottom)
 		)
 		(uuid "03d56913-e8c5-4dc4-bf1f-f8179a260bf4")
+	)
+	(label "USB.D-"
+		(at 125.73 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07f411fc-122f-4ebe-8c3c-81cc13211bf6")
 	)
 	(label "CC2"
 		(at 144.78 114.3 0)
@@ -6270,15 +5746,15 @@
 		)
 		(uuid "4a1f71d8-0417-4ba8-9923-b32798dcc3d7")
 	)
-	(label "USB_VBUS"
-		(at 158.75 175.26 180)
+	(label "USB.D+"
+		(at 125.73 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "5ba1fa7b-c3bc-465f-b4e6-e7d84f2fcaae")
+		(uuid "6a8cbfff-d0a3-41b6-92af-51d59962c188")
 	)
 	(label "CC2"
 		(at 162.56 163.83 0)
@@ -6369,16 +5845,6 @@
 			(justify right bottom)
 		)
 		(uuid "deacc1a1-8f97-4207-a4b1-0b064199ab01")
-	)
-	(label "USB.D-"
-		(at 123.19 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e9efbc3c-6734-426c-91d8-3a46e5e2def5")
 	)
 	(label "PORT{slash}~{DEBUG}"
 		(at 213.36 129.54 180)
@@ -6835,101 +6301,6 @@
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/ec770658-59a1-4a3f-81ed-5fcccc21c2e8"
 					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:GND")
-		(at 118.11 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1014a347-0a1f-4bc3-918c-eb4c1774687c")
-		(property "Reference" "#PWR087"
-			(at 127 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 127 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 127 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "790d9797-d44c-408c-ac4a-5516cefabc46")
-		)
-		(instances
-			(project "renode-reference-platform"
-				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/ec770658-59a1-4a3f-81ed-5fcccc21c2e8"
-					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -11805,6 +11176,130 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTVSDiodes:TPD2E009_SOT-9X3")
+		(at 134.62 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b42ec4e4-77f6-4dd5-913b-3891e12c907a")
+		(property "Reference" "D8"
+			(at 144.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD2E009_SOT-9X3"
+			(at 149.86 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SOT-723"
+			(at 149.86 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd2e009.pdf?ts=1597910439511&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 149.86 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS diode array, 8 kV, SOT-723, 5.5 V, 0.9 pF"
+			(at 149.86 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPD2E009DRTR"
+			(at 144.78 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 149.86 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 149.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 149.86 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ea4063c9-7400-4c08-a830-6ccb94c62428")
+		)
+		(pin "1"
+			(uuid "375417fe-d685-4514-a693-9bb50f348aa1")
+		)
+		(pin "2"
+			(uuid "0776e259-fef0-4ec5-9efa-5e6dc980c984")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/ec770658-59a1-4a3f-81ed-5fcccc21c2e8"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 168.91 87.63 0)
 		(mirror y)
@@ -13605,131 +13100,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTVSDiodes:PRTR5V0U2X")
-		(at 130.81 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eed9ecc8-1d34-4d53-88a8-44da5fe3fdf2")
-		(property "Reference" "D8"
-			(at 139.7 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "PRTR5V0U2X"
-			(at 159.385 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SOT-143-4"
-			(at 159.385 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/916/PRTR5V0U2X-2938759.pdf"
-			(at 159.385 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "TVS diode array, 8 kV, SOT-143B, 5.5 V, 1.5 pF"
-			(at 159.385 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PRTR5V0U2X"
-			(at 139.7 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 159.385 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 159.385 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 159.385 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b0c4054e-b25d-42b8-97fd-b5568cd7fb0c")
-		)
-		(pin "1"
-			(uuid "cc113fb0-c6f5-4fb5-97ff-2e374ffdfaf4")
-		)
-		(pin "3"
-			(uuid "6ec53374-73be-4849-ad6c-68229700f4e2")
-		)
-		(pin "4"
-			(uuid "b31b18ab-742f-479c-993e-9442c38b2343")
-		)
-		(instances
-			(project "renode-reference-platform"
-				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/ec770658-59a1-4a3f-81ed-5fcccc21c2e8"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 135.89 93.98 0)
 		(mirror y)
@@ -13820,6 +13190,101 @@
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/ec770658-59a1-4a3f-81ed-5fcccc21c2e8"
 					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 133.35 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6c2650e-6838-4e3c-aebf-7162e8054350")
+		(property "Reference" "#PWR087"
+			(at 142.24 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 142.24 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 142.24 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5acdff94-fcbc-4e29-8c07-8aeac49bb235")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/ec770658-59a1-4a3f-81ed-5fcccc21c2e8"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
