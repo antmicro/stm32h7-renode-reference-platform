@@ -313,6 +313,16 @@
 		)
 		(uuid "44878f1d-7ea8-4bad-b963-0e30df205fe6")
 	)
+	(bus
+		(pts
+			(xy 198.12 157.48) (xy 251.46 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae8f3a70-b880-4984-b14d-c640f4b35d11")
+	)
 	(image
 		(at -38.1 110.49)
 		(uuid "123f0a37-6cbe-476b-919c-4268f79f56b8")

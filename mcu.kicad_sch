@@ -17674,7 +17674,7 @@
 		)
 		(uuid "1ef07d6d-2e30-42a0-99aa-eb05318fbe76")
 	)
-	(label "QSPI.MISO_IO0"
+	(label "QSPI.MISO_IO1"
 		(at 350.52 191.77 0)
 		(effects
 			(font
@@ -17974,8 +17974,8 @@
 		)
 		(uuid "4e62ecd8-0553-4bf1-bacf-cf1bf51fc366")
 	)
-	(label "QSPI.MISO_IO0"
-		(at 123.19 194.31 180)
+	(label "QSPI.MISO_IO1"
+		(at 123.19 196.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18434,8 +18434,8 @@
 		)
 		(uuid "9e88129b-264e-4ff3-a1f1-98d7d1d9087e")
 	)
-	(label "QSPI.MOSI_IO1"
-		(at 123.19 196.85 180)
+	(label "QSPI.MOSI_IO0"
+		(at 123.19 194.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18984,7 +18984,7 @@
 		)
 		(uuid "fdf22cd2-2ed0-43b8-a3ed-10c79b435878")
 	)
-	(label "QSPI.MOSI_IO1"
+	(label "QSPI.MOSI_IO0"
 		(at 350.52 194.31 0)
 		(effects
 			(font
