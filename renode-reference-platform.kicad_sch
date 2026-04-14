@@ -295,7 +295,7 @@
 		)
 	)
 	(bus_alias "SPI"
-		(members "MISO_IO0" "MOSI_IO1" "SCK" "~{CS0}" "~{CS1}" "IO2" "IO3")
+		(members "MISO_IO1" "MOSI_IO0" "SCK" "~{CS0}" "~{CS1}" "IO2" "IO3")
 	)
 	(bus_alias "UART"
 		(members "TX" "RX" "CTS" "RTS")
