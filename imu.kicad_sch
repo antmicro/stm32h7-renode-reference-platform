@@ -2627,6 +2627,16 @@
 		)
 		(uuid "e165492a-f01e-4078-927c-ebc781dae664")
 	)
+	(text "Addr 0x48\n\n"
+		(exclude_from_sim no)
+		(at 219.71 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ff89ce52-c84d-4e87-9e8d-b954374f2a62")
+	)
 	(junction
 		(at 171.45 76.2)
 		(diameter 0)
@@ -2775,15 +2785,6 @@
 		)
 		(uuid "6e4aa87a-3316-43c3-998f-68c5eac6f068")
 	)
-	(bus_entry
-		(at 100.33 83.82)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f43edf88-e47c-4e65-9e42-7aa4b5b931c9")
-	)
 	(wire
 		(pts
 			(xy 233.68 86.36) (xy 240.03 86.36)
@@ -2836,7 +2837,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 86.36) (xy 259.08 86.36)
+			(xy 245.11 86.36) (xy 250.19 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3266,6 +3267,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 248.92) (xy 209.55 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b6ab8f1-9ed5-4fbf-9866-6b609ada337c")
+	)
+	(wire
+		(pts
 			(xy 210.82 156.21) (xy 209.55 156.21)
 		)
 		(stroke
@@ -3546,6 +3557,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 248.92) (xy 229.87 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d29c129e-bad2-475f-87c0-970866b4993a")
+	)
+	(wire
+		(pts
 			(xy 203.2 196.85) (xy 203.2 198.12)
 		)
 		(stroke
@@ -3563,16 +3584,6 @@
 			(type default)
 		)
 		(uuid "d4fcd8e2-6237-49cf-be43-ec6c344e13ac")
-	)
-	(bus
-		(pts
-			(xy 100.33 81.28) (xy 100.33 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6928a8f-f5fb-47f2-8792-ab81adf3966b")
 	)
 	(wire
 		(pts
@@ -3643,16 +3654,6 @@
 			(type default)
 		)
 		(uuid "e67c3468-309e-49fb-a95a-3be3b72a47a9")
-	)
-	(wire
-		(pts
-			(xy 102.87 86.36) (xy 115.57 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e91f3bfd-a8b8-4bf1-b7ea-a4b39bef3015")
 	)
 	(wire
 		(pts
@@ -3733,6 +3734,16 @@
 			(type default)
 		)
 		(uuid "f97c7854-bf85-41da-8e61-50cc77e0d226")
+	)
+	(wire
+		(pts
+			(xy 210.82 248.92) (xy 209.55 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3c15e1-37bb-4c26-b7ab-56f2bf859554")
 	)
 	(wire
 		(pts
@@ -3834,16 +3845,6 @@
 		)
 		(uuid "8e56b49a-3895-40f2-bd21-0a561b6b4610")
 	)
-	(label "I2C_IMU.~{INT}"
-		(at 115.57 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b4051ba9-1e17-4407-81ce-3e724c76bf99")
-	)
 	(label "I2C_IMU.SDA"
 		(at 115.57 81.28 180)
 		(effects
@@ -3853,16 +3854,6 @@
 			(justify right bottom)
 		)
 		(uuid "b4a957fe-6cc8-440b-9064-5a379bcfec3a")
-	)
-	(label "I2C_IMU.~{INT}"
-		(at 259.08 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc67111a-ef30-40cc-b04b-c11f0d15b4cd")
 	)
 	(hierarchical_label "ACC_GYRO_INT1"
 		(shape input)
@@ -3896,6 +3887,17 @@
 			(justify left)
 		)
 		(uuid "a82b92d1-e848-4137-a9af-1e5e9f4b6553")
+	)
+	(hierarchical_label "MAG_~{INT}"
+		(shape input)
+		(at 250.19 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9d246b7-4156-44ca-847a-199911aa40c9")
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
@@ -7120,7 +7122,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 229.87 248.92 0)
+		(at 229.87 250.19 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7130,7 +7132,7 @@
 		(fields_autoplaced yes)
 		(uuid "99076501-671e-45a9-9e00-436a03a0ce17")
 		(property "Reference" "#PWR0125"
-			(at 220.98 251.46 0)
+			(at 220.98 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7141,7 +7143,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 254 0)
+			(at 229.87 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7150,7 +7152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 256.54 0)
+			(at 220.98 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7161,7 +7163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 261.62 0)
+			(at 220.98 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7172,7 +7174,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 264.16 0)
+			(at 220.98 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7182,7 +7184,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 220.98 256.54 0)
+			(at 220.98 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7193,7 +7195,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 220.98 259.08 0)
+			(at 220.98 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,6 +8652,103 @@
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/143ac980-6d59-4a8b-9ea3-64cd140d4a49"
 					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 209.55 250.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa000494-846c-4954-88dc-4e5ed7c65db6")
+		(property "Reference" "#PWR0166"
+			(at 200.66 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 200.66 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 200.66 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8db37b75-db89-4920-86bd-2c614f3a772b")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/143ac980-6d59-4a8b-9ea3-64cd140d4a49"
+					(reference "#PWR0166")
 					(unit 1)
 				)
 			)

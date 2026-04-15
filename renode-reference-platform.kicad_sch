@@ -305,6 +305,16 @@
 	)
 	(bus
 		(pts
+			(xy 198.12 190.5) (xy 251.46 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02dc1baa-2c5d-4149-ab23-d6dded44ace6")
+	)
+	(bus
+		(pts
 			(xy 119.38 91.44) (xy 119.38 80.01)
 		)
 		(stroke
@@ -312,6 +322,16 @@
 			(type default)
 		)
 		(uuid "14336f80-3894-45eb-afe1-a36c4c99516f")
+	)
+	(bus
+		(pts
+			(xy 198.12 123.19) (xy 251.46 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2259d134-fc39-4318-a9a2-36330f1915a8")
 	)
 	(bus
 		(pts
@@ -5305,8 +5325,18 @@
 			)
 		)
 		(pin "I2C_IMU{I2C}" bidirectional
-			(at 251.46 130.81 180)
+			(at 251.46 123.19 180)
 			(uuid "818a6544-3113-4435-9ca0-f41522cda70e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MAG_~{INT}" input
+			(at 251.46 130.81 180)
+			(uuid "78842249-1a94-41f1-8229-a8275f87d544")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,9 +5438,9 @@
 				(justify left top)
 			)
 		)
-		(pin "ADC_Supply" output
-			(at 251.46 95.25 180)
-			(uuid "68e9e2ab-d617-41fe-b74e-8ebdc0e15116")
+		(pin "I2C{I2C}" bidirectional
+			(at 251.46 92.71 180)
+			(uuid "1e15a237-b6c6-498e-b052-e136e9068116")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,9 +5448,9 @@
 				(justify left)
 			)
 		)
-		(pin "I2C{I2C}" bidirectional
-			(at 251.46 92.71 180)
-			(uuid "1e15a237-b6c6-498e-b052-e136e9068116")
+		(pin "ADC_CURRENT_IN" output
+			(at 251.46 95.25 180)
+			(uuid "624e954b-b19e-44e4-a018-b8fdaa921762")
 			(effects
 				(font
 					(size 1.27 1.27)
