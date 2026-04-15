@@ -5234,9 +5234,29 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C_SYS{I2C}" bidirectional
-			(at 251.46 123.19 180)
-			(uuid "e2b80a87-90a7-4418-ac3d-ce6acc65e2e3")
+		(pin "ACC_GYRO_INT1" input
+			(at 251.46 125.73 180)
+			(uuid "08d70e15-eb99-49d3-bdc9-3ec3ca59409a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ACC_GYRO_INT2" input
+			(at 251.46 128.27 180)
+			(uuid "4c452556-95b6-4e6c-a500-0b912dfb00ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_IMU{I2C}" bidirectional
+			(at 251.46 130.81 180)
+			(uuid "818a6544-3113-4435-9ca0-f41522cda70e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5336,6 +5356,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ADC_Supply" output
+			(at 251.46 95.25 180)
+			(uuid "68e9e2ab-d617-41fe-b74e-8ebdc0e15116")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C{I2C}" bidirectional
+			(at 251.46 92.71 180)
+			(uuid "1e15a237-b6c6-498e-b052-e136e9068116")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -5472,9 +5512,9 @@
 				(justify right)
 			)
 		)
-		(pin "I2C_PMOD2{I2C}" bidirectional
-			(at 99.06 234.95 0)
-			(uuid "911cccd1-35dd-48f7-9a3f-82866e4d4698")
+		(pin "PMOD1_IO[5..8]" bidirectional
+			(at 99.06 222.25 0)
+			(uuid "e5b50205-fc82-47fa-bc42-8e36a6aee843")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,9 +5522,9 @@
 				(justify right)
 			)
 		)
-		(pin "SPI_PMOD1{SPI}" bidirectional
+		(pin "PMOD1_SPI{SPI}" bidirectional
 			(at 99.06 224.79 0)
-			(uuid "909ec650-65d8-447b-b500-a27c413c6d99")
+			(uuid "42bbbb7f-3736-40e5-8dd7-51231669aba2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,9 +5532,19 @@
 				(justify right)
 			)
 		)
-		(pin "UART_PMOD2{UART}" bidirectional
+		(pin "PMOD2_I2C{I2C}" bidirectional
+			(at 99.06 229.87 0)
+			(uuid "685d27be-9819-436f-9a86-a77b2d44acf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PMOD2_IO[5..6]" bidirectional
 			(at 99.06 232.41 0)
-			(uuid "058f2387-8968-49ed-b220-afa48f789df2")
+			(uuid "1b6f5c56-c5b0-4a9d-9893-97b1a94e4909")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5502,19 +5552,9 @@
 				(justify right)
 			)
 		)
-		(pin "{IO5_PMOD1, IO6_PMOD1, IO7_PMOD1, IO8_PMOD1}" input
-			(at 99.06 227.33 0)
-			(uuid "365056be-c280-4800-8f7b-6eef4b863586")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{IO5_PMOD2, IO6_PMOD2}" input
-			(at 99.06 237.49 0)
-			(uuid "d95dced0-2a4e-483a-a992-91bc031ffee3")
+		(pin "PMOD2_UART{UART}" bidirectional
+			(at 99.06 234.95 0)
+			(uuid "e99d6416-5cd9-4049-bac0-c5f6e62ca7b6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,6 +5769,26 @@
 		(pin "UART{UART}" bidirectional
 			(at 99.06 96.52 0)
 			(uuid "39aacd38-fa5d-46c4-b77a-3253a30ce823")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C{I2C}" bidirectional
+			(at 99.06 91.44 0)
+			(uuid "37850638-f0f4-4188-a7a0-ad498b46b757")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{FTDI_RESET}" input
+			(at 99.06 88.9 0)
+			(uuid "14d0cff4-e6bb-4b9d-a18e-c1578761989f")
 			(effects
 				(font
 					(size 1.27 1.27)
