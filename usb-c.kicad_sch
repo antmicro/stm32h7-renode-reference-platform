@@ -4192,6 +4192,12 @@
 		(uuid "4bdfdb32-ca2b-42cd-99c0-6c8f15534a30")
 	)
 	(junction
+		(at 144.78 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ffe2aed-585d-40d1-808c-a7311a0f61c6")
+	)
+	(junction
 		(at 314.96 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4668,6 +4674,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 104.14) (xy 144.78 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4273deae-1320-4380-bef2-89a47b6a3bda")
+	)
+	(wire
+		(pts
 			(xy 284.48 168.91) (xy 314.96 168.91)
 		)
 		(stroke
@@ -5058,7 +5074,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 80.01) (xy 144.78 106.68)
+			(xy 144.78 80.01) (xy 144.78 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5185,6 +5201,16 @@
 			(type default)
 		)
 		(uuid "addb2467-4136-47f6-870e-bba61ccdb1ad")
+	)
+	(wire
+		(pts
+			(xy 144.78 104.14) (xy 144.78 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeee2de5-8e32-48be-bee6-148b2a010a15")
 	)
 	(wire
 		(pts
@@ -5706,16 +5732,6 @@
 		)
 		(uuid "31a6a441-d3bc-4209-81e5-a92a9c584217")
 	)
-	(label "USB_VBUS"
-		(at 132.08 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "380eff52-93f6-47b7-a03f-aac92847e26e")
-	)
 	(label "USB.ID"
 		(at 222.25 85.09 0)
 		(effects
@@ -5855,6 +5871,28 @@
 			(justify right bottom)
 		)
 		(uuid "fe68954d-2d93-4d71-b12f-d014109cbe84")
+	)
+	(global_label "USBC_DRP_VBUS"
+		(shape input)
+		(at 146.05 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "477655f1-3543-41c4-a392-6ecc548975ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.759 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "I2C_USB{I2C}"
 		(shape bidirectional)

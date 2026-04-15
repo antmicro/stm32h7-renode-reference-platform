@@ -305,6 +305,26 @@
 	)
 	(bus
 		(pts
+			(xy 119.38 91.44) (xy 119.38 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14336f80-3894-45eb-afe1-a36c4c99516f")
+	)
+	(bus
+		(pts
+			(xy 99.06 91.44) (xy 119.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9fc50f-631d-4d03-88e3-079ca157589e")
+	)
+	(bus
+		(pts
 			(xy 99.06 157.48) (xy 154.94 157.48)
 		)
 		(stroke
@@ -315,6 +335,26 @@
 	)
 	(bus
 		(pts
+			(xy 238.76 92.71) (xy 251.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8128e266-c47f-425b-bfd6-f0735fcfbb26")
+	)
+	(bus
+		(pts
+			(xy 119.38 80.01) (xy 238.76 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8859aeb9-65b4-4603-ac81-5f34ce40e047")
+	)
+	(bus
+		(pts
 			(xy 198.12 157.48) (xy 251.46 157.48)
 		)
 		(stroke
@@ -322,6 +362,16 @@
 			(type default)
 		)
 		(uuid "ae8f3a70-b880-4984-b14d-c640f4b35d11")
+	)
+	(bus
+		(pts
+			(xy 238.76 80.01) (xy 238.76 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee4e867-387c-4c6b-be4c-f61627b21d4b")
 	)
 	(image
 		(at -38.1 110.49)
@@ -5421,7 +5471,7 @@
 			)
 		)
 		(pin "I2C_QWIIC{I2C}" bidirectional
-			(at 99.06 189.23 0)
+			(at 99.06 187.96 0)
 			(uuid "703c65c5-79d2-4af5-acc6-ce70eb5470ca")
 			(effects
 				(font
@@ -5431,7 +5481,7 @@
 			)
 		)
 		(pin "I2C_RPI{I2C}" bidirectional
-			(at 99.06 193.04 0)
+			(at 99.06 196.85 0)
 			(uuid "aeb7d8f6-d682-4557-8081-44d40aa5ee3e")
 			(effects
 				(font
@@ -5441,7 +5491,7 @@
 			)
 		)
 		(pin "SPI_RPI{SPI}" bidirectional
-			(at 99.06 196.85 0)
+			(at 99.06 199.39 0)
 			(uuid "79a3dd08-181f-4e9a-b90e-bb9b1057ede1")
 			(effects
 				(font
@@ -5451,8 +5501,28 @@
 			)
 		)
 		(pin "UART_RPI.UART_RPI." bidirectional
-			(at 99.06 200.66 0)
+			(at 99.06 201.93 0)
 			(uuid "90e74f9b-8150-4d7e-96bb-4c19e5e4b7e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN_RPI_CONN" input
+			(at 99.06 194.31 0)
+			(uuid "82eb59fe-53a4-41ec-a7fb-eecb75f6fe1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO[0..27]" bidirectional
+			(at 99.06 204.47 0)
+			(uuid "9420694e-43f0-4063-ad93-24dd428280b1")
 			(effects
 				(font
 					(size 1.27 1.27)
