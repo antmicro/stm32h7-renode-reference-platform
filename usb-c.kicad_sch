@@ -5906,7 +5906,7 @@
 		(uuid "0a77c4f1-2367-4e2e-b871-093a937a81e0")
 	)
 	(hierarchical_label "USB_GPIO_~{INT}"
-		(shape input)
+		(shape output)
 		(at 269.24 127 0)
 		(effects
 			(font
@@ -5917,7 +5917,7 @@
 		(uuid "1c82f663-4267-42c9-9cf5-4e30acb846ac")
 	)
 	(hierarchical_label "USB_GPIO_OUT1"
-		(shape input)
+		(shape output)
 		(at 269.24 129.54 0)
 		(effects
 			(font
@@ -5928,7 +5928,7 @@
 		(uuid "904afeca-657b-482e-bb87-d6ae276e3b4d")
 	)
 	(hierarchical_label "USB_GPIO_OUT2"
-		(shape input)
+		(shape output)
 		(at 269.24 132.08 0)
 		(effects
 			(font

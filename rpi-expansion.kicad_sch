@@ -3948,15 +3948,6 @@
 		(uuid "4637a890-672e-4bc7-8c23-df407081a98c")
 	)
 	(bus_entry
-		(at 351.79 143.51)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "487c215d-e165-4cd8-b724-ae1a66f7f6fd")
-	)
-	(bus_entry
 		(at 351.79 158.75)
 		(size -2.54 2.54)
 		(stroke
@@ -4171,15 +4162,6 @@
 			(type default)
 		)
 		(uuid "f7f152b0-5894-4715-9034-5882f16b1cfc")
-	)
-	(bus_entry
-		(at 351.79 140.97)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc5eed90-1d9f-4fc3-be77-275f079bffba")
 	)
 	(wire
 		(pts
@@ -4611,16 +4593,6 @@
 		)
 		(uuid "3e421196-da1c-4394-a9f5-d01a62e1d5d8")
 	)
-	(bus
-		(pts
-			(xy 351.79 140.97) (xy 351.79 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e96d6f0-4f04-4f69-8017-6102cf877f79")
-	)
 	(wire
 		(pts
 			(xy 255.27 110.49) (xy 257.81 110.49)
@@ -4760,16 +4732,6 @@
 			(type default)
 		)
 		(uuid "4c681bee-d3bc-48db-b716-f96bfe810159")
-	)
-	(wire
-		(pts
-			(xy 335.28 143.51) (xy 349.25 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e96465d-d515-4956-8651-cc524d45b8b7")
 	)
 	(wire
 		(pts
@@ -5080,16 +5042,6 @@
 			(type default)
 		)
 		(uuid "84badfb8-aa69-41fa-9935-cc150993cbba")
-	)
-	(wire
-		(pts
-			(xy 335.28 146.05) (xy 349.25 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8622cb23-925c-4fca-96df-4afdf01a00a1")
 	)
 	(wire
 		(pts
@@ -5920,16 +5872,6 @@
 			(type default)
 		)
 		(uuid "fcc8f16e-ddd0-401f-9351-a1bd53b5ceb9")
-	)
-	(bus
-		(pts
-			(xy 351.79 138.43) (xy 351.79 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd3463f3-bf50-4eb9-ac50-8aaf651232d1")
 	)
 	(wire
 		(pts
@@ -9692,16 +9634,6 @@
 		)
 		(uuid "8dfcd2af-70c0-4725-8bcf-a276972663d5")
 	)
-	(label "UART_RPI.RTS"
-		(at 335.28 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8fdb0ed7-72e6-460a-8938-8fd6a19a519d")
-	)
 	(label "I2C_RPI.SDA"
 		(at 336.55 102.87 0)
 		(effects
@@ -9842,16 +9774,6 @@
 		)
 		(uuid "d3f27141-9384-4558-a615-ce2738778055")
 	)
-	(label "UART_RPI.CTS"
-		(at 335.28 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4b6874a-cf50-4459-a0cb-76f22e80cd59")
-	)
 	(label "I2C_RPI.SDA"
 		(at 133.35 128.27 0)
 		(effects
@@ -9966,7 +9888,7 @@
 		)
 		(uuid "37036b4a-76f0-494e-bddb-822defc507fd")
 	)
-	(hierarchical_label "UART_RPI.UART_RPI."
+	(hierarchical_label "UART_RPI{UART}"
 		(shape bidirectional)
 		(at 355.6 135.89 0)
 		(effects

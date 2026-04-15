@@ -303,6 +303,12 @@
 	(bus_alias "USB"
 		(members "D+" "D-" "ID" "VBUS")
 	)
+	(junction
+		(at 203.2 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09a6a01e-003d-4732-abbb-25e7362806ab")
+	)
 	(bus
 		(pts
 			(xy 198.12 190.5) (xy 251.46 190.5)
@@ -315,7 +321,37 @@
 	)
 	(bus
 		(pts
-			(xy 119.38 91.44) (xy 119.38 80.01)
+			(xy 99.06 120.65) (xy 148.59 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06161bfa-4ea5-447b-8d41-1d1235d6ed8b")
+	)
+	(bus
+		(pts
+			(xy 148.59 120.65) (xy 148.59 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "095daf1b-4974-445a-bdc5-9a4b5898d8f3")
+	)
+	(bus
+		(pts
+			(xy 99.06 196.85) (xy 154.94 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c88911-bab8-4648-98bf-1563d800b517")
+	)
+	(bus
+		(pts
+			(xy 119.38 91.44) (xy 119.38 67.31)
 		)
 		(stroke
 			(width 0)
@@ -325,13 +361,53 @@
 	)
 	(bus
 		(pts
-			(xy 198.12 123.19) (xy 251.46 123.19)
+			(xy 148.59 78.74) (xy 203.2 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14eb62af-7ade-471d-abb3-1e1dd69d39a5")
+	)
+	(bus
+		(pts
+			(xy 198.12 123.19) (xy 203.2 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2259d134-fc39-4318-a9a2-36330f1915a8")
+	)
+	(bus
+		(pts
+			(xy 99.06 201.93) (xy 154.94 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f0ed19-0be4-42d8-a89b-a338a9ed3ff6")
+	)
+	(bus
+		(pts
+			(xy 203.2 78.74) (xy 203.2 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de33452-101a-45d0-9eff-98754099ad49")
+	)
+	(bus
+		(pts
+			(xy 99.06 199.39) (xy 154.94 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7c4b09-06ad-4cd9-a4e5-f8b8d3626951")
 	)
 	(bus
 		(pts
@@ -353,6 +429,56 @@
 		)
 		(uuid "44878f1d-7ea8-4bad-b963-0e30df205fe6")
 	)
+	(wire
+		(pts
+			(xy 99.06 133.35) (xy 154.94 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e58c8e8-6a2e-45c7-9673-d4e329240bb2")
+	)
+	(bus
+		(pts
+			(xy 99.06 224.79) (xy 154.94 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c30110-fd81-4bbf-ba32-8b28e3716943")
+	)
+	(wire
+		(pts
+			(xy 99.06 194.31) (xy 154.94 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d555fba-e1f8-42f0-88b1-f0d0f2698e56")
+	)
+	(bus
+		(pts
+			(xy 203.2 123.19) (xy 251.46 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e690f7a-35d0-449f-8cf8-0e50bea8141a")
+	)
+	(bus
+		(pts
+			(xy 99.06 96.52) (xy 154.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73fe3bfe-9687-42b5-a13c-b6c82318bfb9")
+	)
 	(bus
 		(pts
 			(xy 238.76 92.71) (xy 251.46 92.71)
@@ -365,13 +491,33 @@
 	)
 	(bus
 		(pts
-			(xy 119.38 80.01) (xy 238.76 80.01)
+			(xy 119.38 67.31) (xy 238.76 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8859aeb9-65b4-4603-ac81-5f34ce40e047")
+	)
+	(bus
+		(pts
+			(xy 99.06 222.25) (xy 154.94 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab095931-bb04-4d1d-87cc-8bfeff33dac5")
+	)
+	(bus
+		(pts
+			(xy 99.06 189.23) (xy 154.94 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab80efcf-c591-4ae2-8124-0530c994ab93")
 	)
 	(bus
 		(pts
@@ -385,7 +531,97 @@
 	)
 	(bus
 		(pts
-			(xy 238.76 80.01) (xy 238.76 92.71)
+			(xy 99.06 123.19) (xy 154.94 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b02e1896-9207-45d4-ac37-356380d6c3ca")
+	)
+	(wire
+		(pts
+			(xy 99.06 130.81) (xy 154.94 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba71ac09-2bf4-4188-a179-f89823e67ea3")
+	)
+	(wire
+		(pts
+			(xy 99.06 219.71) (xy 154.94 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2fe99fd-733a-4bc0-b229-6e9ea73a1e39")
+	)
+	(bus
+		(pts
+			(xy 99.06 232.41) (xy 154.94 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11b6b43-102e-46e8-9626-240441f6a1b1")
+	)
+	(bus
+		(pts
+			(xy 99.06 93.98) (xy 154.94 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3192eb-521d-4248-8f91-64827992367d")
+	)
+	(bus
+		(pts
+			(xy 99.06 229.87) (xy 154.94 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b416c4-e6bd-45c3-884b-565575dd9024")
+	)
+	(bus
+		(pts
+			(xy 99.06 204.47) (xy 154.94 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86256f1-df86-4d13-9c05-0e93ecce4b7b")
+	)
+	(wire
+		(pts
+			(xy 99.06 135.89) (xy 154.94 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f20a4698-8763-4a02-96e9-590241c5f0b7")
+	)
+	(bus
+		(pts
+			(xy 99.06 234.95) (xy 154.94 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d20d64-7985-452f-ae6e-9ae29243b1e9")
+	)
+	(bus
+		(pts
+			(xy 238.76 67.31) (xy 238.76 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5501,7 +5737,7 @@
 			)
 		)
 		(pin "I2C_QWIIC{I2C}" bidirectional
-			(at 99.06 187.96 0)
+			(at 99.06 189.23 0)
 			(uuid "703c65c5-79d2-4af5-acc6-ce70eb5470ca")
 			(effects
 				(font
@@ -5530,16 +5766,6 @@
 				(justify right)
 			)
 		)
-		(pin "UART_RPI.UART_RPI." bidirectional
-			(at 99.06 201.93 0)
-			(uuid "90e74f9b-8150-4d7e-96bb-4c19e5e4b7e0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "EN_RPI_CONN" input
 			(at 99.06 194.31 0)
 			(uuid "82eb59fe-53a4-41ec-a7fb-eecb75f6fe1d")
@@ -5553,6 +5779,16 @@
 		(pin "GPIO[0..27]" bidirectional
 			(at 99.06 204.47 0)
 			(uuid "9420694e-43f0-4063-ad93-24dd428280b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_RPI{UART}" bidirectional
+			(at 99.06 201.93 0)
+			(uuid "7dcf1f63-4b47-4674-8e58-f6c0b2dc9d94")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5672,7 +5908,7 @@
 	)
 	(sheet
 		(at 154.94 85.09)
-		(size 43.18 123.19)
+		(size 43.18 152.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5696,7 +5932,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 154.94 208.8646 0)
+			(at 154.94 238.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5715,7 +5951,7 @@
 			)
 		)
 		(pin "I2C2{I2C}" bidirectional
-			(at 154.94 193.04 180)
+			(at 154.94 189.23 180)
 			(uuid "118138dc-8e68-431e-91e4-f3b438aa63d9")
 			(effects
 				(font
@@ -5725,7 +5961,7 @@
 			)
 		)
 		(pin "I2C4{I2C}" bidirectional
-			(at 154.94 189.23 180)
+			(at 154.94 229.87 180)
 			(uuid "1cf54092-3025-44a6-a0d3-8ae49e38ecf4")
 			(effects
 				(font
@@ -5775,7 +6011,7 @@
 			)
 		)
 		(pin "SPI_1{SPI}" bidirectional
-			(at 154.94 196.85 180)
+			(at 154.94 199.39 180)
 			(uuid "ed54111c-764c-4b17-ac08-4f0dfa090b2a")
 			(effects
 				(font
@@ -5795,7 +6031,7 @@
 			)
 		)
 		(pin "UART_3{UART}" bidirectional
-			(at 154.94 200.66 180)
+			(at 154.94 234.95 180)
 			(uuid "45d3ab5f-d06d-464f-9a89-7c3003337ab2")
 			(effects
 				(font
@@ -5805,8 +6041,118 @@
 			)
 		)
 		(pin "USB{USB}" bidirectional
-			(at 154.94 132.08 180)
+			(at 154.94 123.19 180)
 			(uuid "def6ece5-d6bf-478d-8597-379dc539da17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_GPIO_OUT1" input
+			(at 154.94 133.35 180)
+			(uuid "f8259248-92dc-4c98-b54e-1b3ba807acdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_GPIO_OUT2" input
+			(at 154.94 135.89 180)
+			(uuid "447d3c04-2582-4c7c-b51f-a8784712bc86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_GPIO_~{INT}" input
+			(at 154.94 130.81 180)
+			(uuid "f1da772a-70d0-4270-a243-a2caac1f9119")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO[0..27]" bidirectional
+			(at 154.94 204.47 180)
+			(uuid "237c3572-d12a-435c-9891-bdbde03473f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_RPI_CONN" output
+			(at 154.94 194.31 180)
+			(uuid "8ea980d5-ca82-4435-8d00-9702ec6c0bf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_2{SPI}" bidirectional
+			(at 154.94 224.79 180)
+			(uuid "1dae3291-057a-4512-a4e8-35bdb6683a02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C3{I2C}" bidirectional
+			(at 154.94 196.85 180)
+			(uuid "2570ea01-5166-4843-ba26-c9213a7386f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART1{UART}" bidirectional
+			(at 154.94 201.93 180)
+			(uuid "07eff889-7882-43bb-bc6d-101637010a1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PMOD1_IO[5..8]" bidirectional
+			(at 154.94 222.25 180)
+			(uuid "98e7b4b8-e4f7-4d31-b2f7-018b1e0d3fe5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PMOD2_IO[5..6]" bidirectional
+			(at 154.94 232.41 180)
+			(uuid "a0c55fbd-d52c-425c-ae20-d3a5b021d952")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_PMOD" output
+			(at 154.94 219.71 180)
+			(uuid "4fad986f-532a-4e45-9d80-d837929d55bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,7 +6347,7 @@
 			)
 		)
 		(pin "I2C_USB{I2C}" bidirectional
-			(at 99.06 125.73 0)
+			(at 99.06 120.65 0)
 			(uuid "15c15156-0c37-44ab-8235-22fe35043f80")
 			(effects
 				(font
@@ -6010,9 +6356,9 @@
 				(justify right)
 			)
 		)
-		(pin "USB_GPIO_OUT1" input
-			(at 99.06 132.08 0)
-			(uuid "436d49d1-e9ca-4ea6-bf84-12ada2e37620")
+		(pin "USB_GPIO_OUT1" output
+			(at 99.06 133.35 0)
+			(uuid "268bafbc-5e19-4d11-85dd-1a21c4487fd9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,9 +6366,9 @@
 				(justify right)
 			)
 		)
-		(pin "USB_GPIO_OUT2" input
-			(at 99.06 134.62 0)
-			(uuid "26598932-ff02-4090-b4a8-fe2b23d391ea")
+		(pin "USB_GPIO_OUT2" output
+			(at 99.06 135.89 0)
+			(uuid "00b493fb-c0b1-4a62-b0ed-d88336125347")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,9 +6376,9 @@
 				(justify right)
 			)
 		)
-		(pin "USB_GPIO_~{INT}" input
-			(at 99.06 129.54 0)
-			(uuid "a4662f69-1d12-45dc-bad8-9d844c9479d9")
+		(pin "USB_GPIO_~{INT}" output
+			(at 99.06 130.81 0)
+			(uuid "41346933-d33d-4d0e-a797-211bba6b49aa")
 			(effects
 				(font
 					(size 1.27 1.27)
