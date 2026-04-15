@@ -389,6 +389,16 @@
 		)
 		(uuid "25f0ed19-0be4-42d8-a89b-a338a9ed3ff6")
 	)
+	(wire
+		(pts
+			(xy 198.12 95.25) (xy 251.46 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d41d64c-8965-4b25-bffe-0f19d652f94e")
+	)
 	(bus
 		(pts
 			(xy 203.2 78.74) (xy 203.2 123.19)
@@ -451,6 +461,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 130.81) (xy 251.46 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ca492ef-120f-4865-a25a-a2aafd148c71")
+	)
+	(wire
+		(pts
 			(xy 99.06 194.31) (xy 154.94 194.31)
 		)
 		(stroke
@@ -458,6 +478,16 @@
 			(type default)
 		)
 		(uuid "5d555fba-e1f8-42f0-88b1-f0d0f2698e56")
+	)
+	(wire
+		(pts
+			(xy 198.12 133.35) (xy 251.46 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6515fa8e-c988-4d04-8933-067b8f275ac0")
 	)
 	(bus
 		(pts
@@ -558,6 +588,16 @@
 			(type default)
 		)
 		(uuid "c2fe99fd-733a-4bc0-b229-6e9ea73a1e39")
+	)
+	(wire
+		(pts
+			(xy 198.12 135.89) (xy 251.46 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb5d606-603c-4276-8662-3c7b1565e7fa")
 	)
 	(bus
 		(pts
@@ -5541,7 +5581,7 @@
 			)
 		)
 		(pin "ACC_GYRO_INT1" input
-			(at 251.46 125.73 180)
+			(at 251.46 130.81 180)
 			(uuid "08d70e15-eb99-49d3-bdc9-3ec3ca59409a")
 			(effects
 				(font
@@ -5551,7 +5591,7 @@
 			)
 		)
 		(pin "ACC_GYRO_INT2" input
-			(at 251.46 128.27 180)
+			(at 251.46 133.35 180)
 			(uuid "4c452556-95b6-4e6c-a500-0b912dfb00ea")
 			(effects
 				(font
@@ -5571,7 +5611,7 @@
 			)
 		)
 		(pin "MAG_~{INT}" input
-			(at 251.46 130.81 180)
+			(at 251.46 135.89 180)
 			(uuid "78842249-1a94-41f1-8229-a8275f87d544")
 			(effects
 				(font
@@ -6160,6 +6200,56 @@
 				(justify left)
 			)
 		)
+		(pin "~{FTDI_RESET}" output
+			(at 154.94 99.06 180)
+			(uuid "429e1a40-4856-455f-b25e-a8e171cfb010")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_CURRENT_IN" input
+			(at 198.12 95.25 0)
+			(uuid "16d2ca91-d668-4060-84bb-2fd14b807718")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ACC_GYRO_INT1" output
+			(at 198.12 130.81 0)
+			(uuid "db58ec82-50ae-4f79-b3a4-6f780dfa9c88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ACC_GYRO_INT2" output
+			(at 198.12 133.35 0)
+			(uuid "570368ba-bac1-45b8-b927-89e6ba2a4905")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MAG_~{INT}" output
+			(at 198.12 135.89 0)
+			(uuid "cab37eab-f370-4cdd-ad9e-2294df11d8ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab"
@@ -6233,7 +6323,7 @@
 			)
 		)
 		(pin "~{FTDI_RESET}" input
-			(at 99.06 88.9 0)
+			(at 99.06 99.06 0)
 			(uuid "14d0cff4-e6bb-4b9d-a18e-c1578761989f")
 			(effects
 				(font
