@@ -271,7 +271,7 @@
 		)
 	)
 	(bus_alias "CAN"
-		(members "DIN" "DOUT")
+		(members "RX" "TX")
 	)
 	(bus_alias "GPIO"
 		(members "USER_LED0" "USER_LED1" "USER_BTN0" "USER_BTN1" "04" "05" "08"
@@ -5840,6 +5840,68 @@
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 251.46 217.17)
+		(size 34.29 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6d40ac90-618b-4fed-a40d-8d6baabd0d71")
+		(property "Sheetname" "CAN"
+			(at 251.46 216.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 251.46 240.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN1{CAN}" bidirectional
+			(at 251.46 223.52 180)
+			(uuid "72798f5a-e59d-4c06-b473-2f91f22c2d70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN2{CAN}" bidirectional
+			(at 251.46 226.06 180)
+			(uuid "b5504a91-d0db-4db6-a4cd-7fae8622c5dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab"
+					(page "12")
 				)
 			)
 		)
