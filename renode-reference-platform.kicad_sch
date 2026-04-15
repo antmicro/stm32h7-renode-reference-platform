@@ -6312,6 +6312,26 @@
 				(justify right)
 			)
 		)
+		(pin "CAN1{CAN}" bidirectional
+			(at 198.12 223.52 0)
+			(uuid "170d4bbf-1aaa-40d7-83bc-38bf37b9da00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN2{CAN}" bidirectional
+			(at 198.12 226.06 0)
+			(uuid "2bf08ff1-12bc-4349-a56b-e230e19b992a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab"
