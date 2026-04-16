@@ -3651,6 +3651,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Pinout based on\nhttps://pinout.xyz/pinout/1_wire"
+		(exclude_from_sim no)
+		(at 152.908 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "14d7ea4c-5524-4873-bbfb-67b478d0d6b7")
+	)
 	(text "GPIO14"
 		(exclude_from_sim no)
 		(at 182.118 133.35 0)
