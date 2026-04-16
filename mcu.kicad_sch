@@ -6772,6 +6772,16 @@
 		)
 		(uuid "001ee1f0-dd58-4fae-884c-c57a586fbb9f")
 	)
+	(text "https://pinout.xyz/pinout/1_wire"
+		(exclude_from_sim no)
+		(at 528.828 174.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "08563aca-091a-4843-b5d5-4676203e615f")
+	)
 	(text "TODO Calculate oscilator capacitors\n"
 		(exclude_from_sim no)
 		(at 130.81 156.21 0)
@@ -6781,6 +6791,26 @@
 			)
 		)
 		(uuid "1a3bfd03-ab5a-4b0e-ae4a-098c9de3e16e")
+	)
+	(text "PWM capable"
+		(exclude_from_sim no)
+		(at 107.442 93.218 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "52044576-f67b-4d7d-b119-ebef20810712")
+	)
+	(text "33\n\n"
+		(exclude_from_sim no)
+		(at 508.508 83.566 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "724cdecd-cdd0-40cf-915a-b75238910071")
 	)
 	(text "JTAG/TRACE Connector"
 		(exclude_from_sim no)
@@ -6801,6 +6831,76 @@
 			)
 		)
 		(uuid "91653653-bd58-4df9-b349-be32e82a631d")
+	)
+	(text "PWM capable"
+		(exclude_from_sim no)
+		(at 107.442 110.998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "917a1544-9786-482e-80ae-02aefe09dc8a")
+	)
+	(text "PWM capable"
+		(exclude_from_sim no)
+		(at 52.832 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9fc72be2-1502-4e52-a190-1969d4d0f064")
+	)
+	(text "PWM capable"
+		(exclude_from_sim no)
+		(at 107.442 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a3ed5549-2e4b-4195-ab89-0ffc9851c24c")
+	)
+	(text "PWM capable"
+		(exclude_from_sim no)
+		(at 52.832 208.788 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b09782fe-a7be-46b1-a8ea-eee99caaeb30")
+	)
+	(text "PWM capable"
+		(exclude_from_sim no)
+		(at 52.832 198.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b2f8108c-93ea-45c3-972a-86a27e4d807e")
+	)
+	(text "PWM capable"
+		(exclude_from_sim no)
+		(at 131.572 108.458 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c151de03-8546-48b5-a061-8e5e05778a82")
+	)
+	(text "PWM capable"
+		(exclude_from_sim no)
+		(at 52.832 201.168 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d0e3f62d-7472-41c7-b182-5f9d172a5f72")
 	)
 	(junction
 		(at 284.48 45.72)
@@ -8548,7 +8648,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 93.98) (xy 87.63 93.98)
+			(xy 101.6 96.52) (xy 87.63 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9158,7 +9258,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 173.99) (xy 182.88 173.99)
+			(xy 100.33 101.6) (xy 87.63 101.6)
 		)
 		(stroke
 			(width 0)
@@ -9238,7 +9338,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 181.61) (xy 182.88 181.61)
+			(xy 100.33 93.98) (xy 87.63 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9588,6 +9688,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 209.55) (xy 71.12 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5994f6e5-737a-456b-9d1c-7e7bd6ddb504")
+	)
+	(wire
+		(pts
 			(xy 44.45 114.3) (xy 54.61 114.3)
 		)
 		(stroke
@@ -9675,6 +9785,16 @@
 			(type default)
 		)
 		(uuid "5c07fc1b-11b2-4493-831d-5fd388a00793")
+	)
+	(wire
+		(pts
+			(xy 59.69 201.93) (xy 71.12 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c3055e0-b9f7-4c1f-a97c-c25c1548e5e3")
 	)
 	(wire
 		(pts
@@ -10238,7 +10358,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 196.85) (xy 182.88 196.85)
+			(xy 170.18 191.77) (xy 182.88 191.77)
 		)
 		(stroke
 			(width 0)
@@ -10348,7 +10468,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 201.93) (xy 182.88 201.93)
+			(xy 170.18 196.85) (xy 182.88 196.85)
 		)
 		(stroke
 			(width 0)
@@ -10608,6 +10728,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 199.39) (xy 71.12 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ebe7d4f-6773-46e1-b759-c17fad67c740")
+	)
+	(wire
+		(pts
 			(xy 59.69 184.15) (xy 71.12 184.15)
 		)
 		(stroke
@@ -10835,6 +10965,16 @@
 			(type default)
 		)
 		(uuid "9bd36f0f-19b2-46af-945f-40da11447755")
+	)
+	(wire
+		(pts
+			(xy 71.12 194.31) (xy 59.69 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c0ce364-6e9b-4691-bcfb-d56f06ef45ea")
 	)
 	(wire
 		(pts
@@ -11148,7 +11288,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 184.15) (xy 170.18 184.15)
+			(xy 182.88 124.46) (xy 195.58 124.46)
 		)
 		(stroke
 			(width 0)
@@ -11318,7 +11458,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 210.82) (xy 167.64 210.82)
+			(xy 170.18 199.39) (xy 182.88 199.39)
 		)
 		(stroke
 			(width 0)
@@ -11588,7 +11728,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 176.53) (xy 182.88 176.53)
+			(xy 138.43 109.22) (xy 149.86 109.22)
 		)
 		(stroke
 			(width 0)
@@ -11658,7 +11798,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 189.23) (xy 170.18 189.23)
+			(xy 195.58 129.54) (xy 182.88 129.54)
 		)
 		(stroke
 			(width 0)
@@ -11998,7 +12138,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 199.39) (xy 182.88 199.39)
+			(xy 170.18 194.31) (xy 182.88 194.31)
 		)
 		(stroke
 			(width 0)
@@ -12128,7 +12268,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 186.69) (xy 170.18 186.69)
+			(xy 182.88 127) (xy 195.58 127)
 		)
 		(stroke
 			(width 0)
@@ -12208,7 +12348,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 179.07) (xy 182.88 179.07)
+			(xy 100.33 111.76) (xy 87.63 111.76)
 		)
 		(stroke
 			(width 0)
@@ -22198,7 +22338,7 @@
 		(uuid "193808ed-595a-4b92-995b-7d315ece8fd1")
 	)
 	(label "GPIO19"
-		(at 474.98 152.4 0)
+		(at 59.69 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22218,7 +22358,7 @@
 		(uuid "1ac0b34a-03f6-42bf-bf6b-99b6a4aa13a0")
 	)
 	(label "IOs.SW4"
-		(at 154.94 210.82 0)
+		(at 170.18 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22388,7 +22528,7 @@
 		(uuid "38201fb8-46ca-4452-8dc7-10cc921863e0")
 	)
 	(label "IOs.SW1"
-		(at 170.18 196.85 0)
+		(at 170.18 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22468,7 +22608,7 @@
 		(uuid "39c1c4f5-baae-411c-822a-c3f0ba0db5e3")
 	)
 	(label "IOs.LED1"
-		(at 170.18 176.53 0)
+		(at 138.43 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22538,7 +22678,7 @@
 		(uuid "3f9a5030-e530-42c5-a3db-0f8265a0344c")
 	)
 	(label "GPIO13"
-		(at 474.98 142.24 0)
+		(at 59.69 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22868,7 +23008,7 @@
 		(uuid "6a0f8e6e-a75a-4225-b7c2-35e6e659cc09")
 	)
 	(label "GPIO18"
-		(at 474.98 149.86 0)
+		(at 59.69 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22898,7 +23038,7 @@
 		(uuid "6e1439c3-ee91-4d65-8f26-0ec714d3e764")
 	)
 	(label "IOs.SW2"
-		(at 170.18 199.39 0)
+		(at 170.18 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22928,7 +23068,7 @@
 		(uuid "70f16a51-cd98-4c26-9c73-16ef11df21c3")
 	)
 	(label "SPI_1.~{CS1}"
-		(at 101.6 93.98 180)
+		(at 101.6 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23028,32 +23168,32 @@
 		(uuid "8388e615-2901-4d32-8d31-149c84abfb17")
 	)
 	(label "IOs.LED4_B"
-		(at 170.18 189.23 0)
+		(at 195.58 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "846ba3c6-8aa4-4cf6-8c58-6ee309c2cc57")
 	)
 	(label "IOs.LED0"
-		(at 170.18 173.99 0)
+		(at 100.33 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "85cc118a-c718-4481-ac92-555e572cdf64")
 	)
 	(label "IOs.LED4_R"
-		(at 170.18 184.15 0)
+		(at 195.58 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "86397fb7-a95e-4475-aff2-8c40d231ccda")
 	)
@@ -23118,7 +23258,7 @@
 		(uuid "8f640f47-4618-4187-92a8-11a7d9a0e488")
 	)
 	(label "GPIO12"
-		(at 474.98 139.7 0)
+		(at 59.69 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23138,7 +23278,7 @@
 		(uuid "902af760-c56a-4bbc-be2f-9de046eb8b27")
 	)
 	(label "IOs.SW3"
-		(at 170.18 201.93 0)
+		(at 170.18 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23478,12 +23618,12 @@
 		(uuid "b80887ba-58a6-4ea6-8257-a133e01846cd")
 	)
 	(label "IOs.LED2"
-		(at 170.18 179.07 0)
+		(at 100.33 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b8a7b1d8-5cc6-4eb4-9f8c-f50b4f29c7a9")
 	)
@@ -23608,12 +23748,12 @@
 		(uuid "c0ab7d8d-9b05-46fb-9f46-dac03d11c28a")
 	)
 	(label "IOs.LED4_G"
-		(at 170.18 186.69 0)
+		(at 195.58 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c0c61fd7-fd64-482a-b97c-f9ed4eac7db3")
 	)
@@ -23808,12 +23948,12 @@
 		(uuid "dd9af1af-5478-4ea7-90a7-31f0162372b7")
 	)
 	(label "IOs.LED3"
-		(at 170.18 181.61 0)
+		(at 100.33 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e021113f-c792-42ee-86a0-9190c86dfe62")
 	)
