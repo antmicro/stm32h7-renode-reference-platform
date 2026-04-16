@@ -3894,6 +3894,99 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicropower:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Gain= 50V/V\nR_Shunt= 0R1\nV_out@500mA= 2V5 "
 		(exclude_from_sim no)
@@ -3971,6 +4064,12 @@
 		(uuid "4259f675-e62f-41a1-897c-7a7108c79386")
 	)
 	(junction
+		(at 269.24 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66a01ee2-f4dc-4068-bc57-40343bfa6070")
+	)
+	(junction
 		(at 138.43 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3993,6 +4092,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ca7db69-fc85-4ef2-b71e-0812282b6b1a")
+	)
+	(junction
+		(at 166.37 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a45c3d4-bb38-40df-94f1-1e834ea851ab")
 	)
 	(junction
 		(at 198.12 88.9)
@@ -4075,6 +4180,16 @@
 			(type default)
 		)
 		(uuid "d78dab47-32d9-4629-bf3c-24feaff1b94a")
+	)
+	(wire
+		(pts
+			(xy 269.24 177.8) (xy 278.13 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00878544-1af4-4165-acb6-041fb8079172")
 	)
 	(wire
 		(pts
@@ -4318,7 +4433,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 177.8) (xy 266.7 177.8)
+			(xy 261.62 177.8) (xy 269.24 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4568,7 +4683,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 110.49) (xy 173.99 110.49)
+			(xy 156.21 110.49) (xy 166.37 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4675,6 +4790,16 @@
 			(type default)
 		)
 		(uuid "b298e801-a922-42bf-8495-ef585116aa7a")
+	)
+	(wire
+		(pts
+			(xy 278.13 177.8) (xy 278.13 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31424e4-5017-4bfb-bac7-b228826c610e")
 	)
 	(wire
 		(pts
@@ -4918,16 +5043,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 177.8) (xy 266.7 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3459192-2abc-498b-9d06-dac2b72b0b85")
-	)
-	(wire
-		(pts
 			(xy 193.04 110.49) (xy 208.28 110.49)
 		)
 		(stroke
@@ -4995,6 +5110,26 @@
 			(type default)
 		)
 		(uuid "f5cac7b4-1427-4550-9ae4-16822880c191")
+	)
+	(wire
+		(pts
+			(xy 269.24 176.53) (xy 269.24 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62b3a6a-6007-4354-b750-861692dbee12")
+	)
+	(wire
+		(pts
+			(xy 166.37 110.49) (xy 173.99 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa14cc0f-6b41-4439-90f9-84824d41c03e")
 	)
 	(wire
 		(pts
@@ -7766,7 +7901,8 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+3V3")
-		(at 266.7 176.53 0)
+		(at 278.13 176.53 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7775,7 +7911,7 @@
 		(fields_autoplaced yes)
 		(uuid "8059fcf5-a624-4837-9c4f-074fc89151fb")
 		(property "Reference" "#PWR0191"
-			(at 281.94 176.53 0)
+			(at 262.89 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7786,7 +7922,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 266.7 171.45 0)
+			(at 278.13 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7795,7 +7931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 281.94 184.15 0)
+			(at 262.89 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7806,7 +7942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 186.69 0)
+			(at 262.89 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7817,7 +7953,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 281.94 189.23 0)
+			(at 262.89 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7827,7 +7963,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 281.94 179.07 0)
+			(at 262.89 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7838,7 +7974,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 281.94 181.61 0)
+			(at 262.89 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9616,6 +9752,74 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 269.24 176.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b439133b-9b4c-4339-8448-7815abb9e292")
+		(property "Reference" "#FLG06"
+			(at 269.24 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 269.24 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7095194e-1236-4b9d-8879-c66cfbb728c5")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/3bbe31bb-f2b9-4019-b1b8-20b6749deb1b"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 245.11 185.42 0)
 		(unit 1)
@@ -9846,6 +10050,73 @@
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/3bbe31bb-f2b9-4019-b1b8-20b6749deb1b"
 					(reference "R146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 166.37 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5e812a2-8881-40ae-9035-0bc3f732589e")
+		(property "Reference" "#FLG04"
+			(at 166.37 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 166.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69199920-cb27-4921-b548-a3239eb129e9")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/3bbe31bb-f2b9-4019-b1b8-20b6749deb1b"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -11003,6 +11274,73 @@
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/3bbe31bb-f2b9-4019-b1b8-20b6749deb1b"
 					(reference "C84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 146.05 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5fea3cb-5ebb-46ba-b996-5d18a6c75d72")
+		(property "Reference" "#FLG05"
+			(at 146.05 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 146.05 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b56a511c-bc05-4fd8-8990-1c0a14042819")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/3bbe31bb-f2b9-4019-b1b8-20b6749deb1b"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
