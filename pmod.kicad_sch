@@ -2186,7 +2186,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Pinout according to JA and JB of Digilent Pmod HAT Adapter\nhttps://www.tme.eu/Document/4ddb6bfd6eb45221af4c6a7f9b760dd7/171205ag.pdf"
+	(text "Pinout based on Digilent Pmod HAT Adapter.\nPMOD1 as JA, PMOD2 as JC with additional I2C pins \nhttps://www.tme.eu/Document/4ddb6bfd6eb45221af4c6a7f9b760dd7/171205ag.pdf"
 		(exclude_from_sim no)
 		(at 238.76 162.306 0)
 		(effects
