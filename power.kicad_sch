@@ -4130,6 +4130,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Power measurement"
+		(exclude_from_sim no)
+		(at 182.118 52.578 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "0f74b8bd-1c70-4511-8a16-9ad4d0600c0d")
+	)
 	(text "Gain= 50V/V\nR_Shunt= 0R1\nV_out@500mA= 2V5 "
 		(exclude_from_sim no)
 		(at 183.388 138.43 0)
@@ -4151,6 +4164,19 @@
 			)
 		)
 		(uuid "a709f3cd-5c73-4043-bb75-2d4cdb33cc1f")
+	)
+	(text "DC-DC Converter"
+		(exclude_from_sim no)
+		(at 182.118 154.94 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "c3adb369-5731-49e2-bf13-8831c3a58980")
 	)
 	(text "Addr 0x40"
 		(exclude_from_sim no)

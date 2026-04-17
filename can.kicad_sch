@@ -2587,6 +2587,32 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "CAN2 Transceiver"
+		(exclude_from_sim no)
+		(at 134.874 88.138 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "a9f04a8d-b7d1-4018-a346-61e1543ad282")
+	)
+	(text "CAN1 Transceiver"
+		(exclude_from_sim no)
+		(at 136.144 26.416 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "aeea46f2-e72e-496c-9d3a-682e04514f63")
+	)
 	(junction
 		(at 160.02 124.46)
 		(diameter 0)
