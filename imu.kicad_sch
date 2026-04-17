@@ -4074,7 +4074,7 @@
 		(uuid "1466f90c-6645-4000-b25b-3ae22a748fde")
 	)
 	(hierarchical_label "ACC_GYRO_INT1"
-		(shape input)
+		(shape output)
 		(at 250.19 156.21 0)
 		(effects
 			(font
@@ -4096,7 +4096,7 @@
 		(uuid "4adf1643-8d51-4a90-83ba-20c2d789816a")
 	)
 	(hierarchical_label "ACC_GYRO_INT2"
-		(shape input)
+		(shape output)
 		(at 250.19 158.75 0)
 		(effects
 			(font
@@ -4107,7 +4107,7 @@
 		(uuid "a82b92d1-e848-4137-a9af-1e5e9f4b6553")
 	)
 	(hierarchical_label "MAG_~{INT}"
-		(shape input)
+		(shape output)
 		(at 250.19 86.36 0)
 		(effects
 			(font

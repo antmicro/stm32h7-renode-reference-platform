@@ -2728,26 +2728,6 @@
 				(justify left top)
 			)
 		)
-		(pin "ACC_GYRO_INT1" input
-			(at 251.46 130.81 180)
-			(uuid "08d70e15-eb99-49d3-bdc9-3ec3ca59409a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ACC_GYRO_INT2" input
-			(at 251.46 133.35 180)
-			(uuid "4c452556-95b6-4e6c-a500-0b912dfb00ea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "I2C_IMU{I2C}" bidirectional
 			(at 251.46 123.19 180)
 			(uuid "818a6544-3113-4435-9ca0-f41522cda70e")
@@ -2758,9 +2738,9 @@
 				(justify left)
 			)
 		)
-		(pin "MAG_~{INT}" input
-			(at 251.46 135.89 180)
-			(uuid "78842249-1a94-41f1-8229-a8275f87d544")
+		(pin "BAR_~{INT}" output
+			(at 251.46 138.43 180)
+			(uuid "8183319f-a598-4cff-90b7-664369b8872e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,9 +2748,29 @@
 				(justify left)
 			)
 		)
-		(pin "BAR_~{INT}" output
-			(at 251.46 138.43 180)
-			(uuid "8183319f-a598-4cff-90b7-664369b8872e")
+		(pin "ACC_GYRO_INT1" output
+			(at 251.46 130.81 180)
+			(uuid "5b7e629e-a178-4812-bb08-c51905b754b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ACC_GYRO_INT2" output
+			(at 251.46 133.35 180)
+			(uuid "7092e5a0-45e8-4d09-8f79-81fafb4b8b45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MAG_~{INT}" output
+			(at 251.46 135.89 180)
+			(uuid "42b61c03-1c84-4d67-a86b-da9ee193dc27")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3450,7 +3450,7 @@
 				(justify right)
 			)
 		)
-		(pin "ACC_GYRO_INT1" output
+		(pin "ACC_GYRO_INT1" input
 			(at 198.12 130.81 0)
 			(uuid "db58ec82-50ae-4f79-b3a4-6f780dfa9c88")
 			(effects
@@ -3460,7 +3460,7 @@
 				(justify right)
 			)
 		)
-		(pin "ACC_GYRO_INT2" output
+		(pin "ACC_GYRO_INT2" input
 			(at 198.12 133.35 0)
 			(uuid "570368ba-bac1-45b8-b927-89e6ba2a4905")
 			(effects
@@ -3470,7 +3470,7 @@
 				(justify right)
 			)
 		)
-		(pin "MAG_~{INT}" output
+		(pin "MAG_~{INT}" input
 			(at 198.12 135.89 0)
 			(uuid "cab37eab-f370-4cdd-ad9e-2294df11d8ac")
 			(effects
