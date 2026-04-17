@@ -2033,7 +2033,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroPowerMeasurement:INA228AQDGSRQ1 "
+		(symbol "antmicroPowerMeasurement:INA228AQDGSRQ1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2101,7 +2101,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "INA228AQDGSRQ1 "
+			(property "MPN" "INA228AQDGSRQ1"
 				(at 30.48 -5.08 0)
 				(effects
 					(font
@@ -2142,7 +2142,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "INA228AQDGSRQ1 _1_1"
+			(symbol "INA228AQDGSRQ1_1_1"
 				(rectangle
 					(start 2.54 2.54)
 					(end 15.24 -17.78)
@@ -4250,6 +4250,12 @@
 		(uuid "72cc313c-cbff-4f97-afd1-b0edb8a0d804")
 	)
 	(junction
+		(at 173.99 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79191fc7-0c19-4842-9d7b-e28880c006b6")
+	)
+	(junction
 		(at 245.11 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4302,12 +4308,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c16e7b19-690e-4ecc-b2a8-556d494149b0")
-	)
-	(junction
-		(at 173.99 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c40b5ac1-b739-46f4-b293-ed2e4b003980")
 	)
 	(junction
 		(at 215.9 125.73)
@@ -4767,6 +4767,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 96.52) (xy 173.99 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b036eb-9792-45a4-9785-27bdf6532fcb")
+	)
+	(wire
+		(pts
 			(xy 172.72 77.47) (xy 193.04 77.47)
 		)
 		(stroke
@@ -4933,17 +4943,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a287f7fd-4d59-465f-87e4-45cd4a22b2dc")
-	)
-	(wire
-		(pts
-			(xy 173.99 96.52) (xy 173.99 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa8d6c68-96f6-477f-a801-dd7d468a5c88")
+		(uuid "9efe1b34-475a-4534-bd19-b493789a9cde")
 	)
 	(wire
 		(pts
@@ -5605,150 +5605,6 @@
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/3bbe31bb-f2b9-4019-b1b8-20b6749deb1b"
 					(reference "U23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroPowerMeasurement:INA228AQDGSRQ1 ")
-		(at 173.99 96.52 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f0f38aa-0c49-480f-b52f-087e64100240")
-		(property "Reference" "U22"
-			(at 182.88 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "INA228AQDGSRQ1"
-			(at 204.47 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:VSSOP-10_3x3mm_P0.5mm"
-			(at 204.47 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/ina228-q1"
-			(at 204.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "85V, 20-bit, ultra-precise power/energy/charge monitor with IC interface"
-			(at 204.47 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 204.47 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "INA228AQDGSRQ1 "
-			(at 182.88 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 204.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 204.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d1cf034a-e3ee-466a-806e-6a80d0813809")
-		)
-		(pin "10"
-			(uuid "c1b0352c-14d3-4021-9d0b-306d1a6c93d6")
-		)
-		(pin "1"
-			(uuid "0c4879bc-ae24-48f5-ae50-c7d038dd7255")
-		)
-		(pin "7"
-			(uuid "1afdd6b4-ad2e-4905-8b52-d1080acc7695")
-		)
-		(pin "2"
-			(uuid "8c878206-9795-4a30-900f-dd035dfc8072")
-		)
-		(pin "9"
-			(uuid "dc731ebf-31fe-47b8-89be-c0698d57e262")
-		)
-		(pin "6"
-			(uuid "ed72fd72-5436-43f9-b47f-b716958ca2af")
-		)
-		(pin "8"
-			(uuid "e3729d93-b111-492a-a132-fb7d4a6e14e3")
-		)
-		(pin "4"
-			(uuid "38a90892-4a60-467c-aadc-310402042af1")
-		)
-		(pin "5"
-			(uuid "8582e3b4-b16e-4657-8d3e-ec400fcbf3f5")
-		)
-		(instances
-			(project "renode-reference-platform"
-				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/3bbe31bb-f2b9-4019-b1b8-20b6749deb1b"
-					(reference "U22")
 					(unit 1)
 				)
 			)
@@ -8678,6 +8534,150 @@
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/3bbe31bb-f2b9-4019-b1b8-20b6749deb1b"
 					(reference "C83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroPowerMeasurement:INA228AQDGSRQ1")
+		(at 173.99 96.52 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c29cad6-c710-43f0-94f2-c3d09796cdc3")
+		(property "Reference" "U24"
+			(at 182.88 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "INA228AQDGSRQ1"
+			(at 204.47 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:VSSOP-10_3x3mm_P0.5mm"
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ina228-q1"
+			(at 204.47 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "85V, 20-bit, ultra-precise power/energy/charge monitor with IC interface"
+			(at 204.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 204.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "INA228AQDGSRQ1"
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 204.47 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "f626fc70-1913-470c-ae29-0062f3bb5ef8")
+		)
+		(pin "7"
+			(uuid "518efa92-48ec-46ad-aae5-3a1736459a56")
+		)
+		(pin "9"
+			(uuid "eac8918d-8427-4697-8dc3-113173d13a36")
+		)
+		(pin "3"
+			(uuid "f4f0fc7b-e86c-47fe-9a3c-582dba7be889")
+		)
+		(pin "10"
+			(uuid "4b5e3ee0-12c2-4c9b-8095-9db4b1ed28bc")
+		)
+		(pin "5"
+			(uuid "708b1530-ba47-4574-b1db-6c973422af78")
+		)
+		(pin "4"
+			(uuid "5a913b58-7ffb-40af-abcc-e067bf02f333")
+		)
+		(pin "8"
+			(uuid "f90e323a-4dfa-4202-942d-f2cc46a091bc")
+		)
+		(pin "1"
+			(uuid "d7e46adf-4a4c-426b-a854-0c0885a9dbf4")
+		)
+		(pin "2"
+			(uuid "fcc19cdd-8141-4060-83f0-e6ec120d39a3")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/3bbe31bb-f2b9-4019-b1b8-20b6749deb1b"
+					(reference "U24")
 					(unit 1)
 				)
 			)

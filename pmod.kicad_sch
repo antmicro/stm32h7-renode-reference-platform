@@ -3293,7 +3293,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4e38f6e9-b054-4f02-ba29-b1fef57ab7e2")
+		(uuid "51312cc9-2a38-43cc-81f3-8c792c8bb7ed")
 	)
 	(wire
 		(pts
@@ -4036,12 +4036,12 @@
 		(uuid "1bf7c0d7-8e93-42be-9b39-47e8ab3bcafe")
 	)
 	(label "PMOD1_SPI.SCK"
-		(at 134.62 189.23 180)
+		(at 119.38 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "28f47af7-cf30-4c50-b89c-8b3a3cd6b822")
 	)
@@ -4296,12 +4296,12 @@
 		(uuid "e1fedac6-d385-48ef-b482-f565610bf700")
 	)
 	(label "PMOD1_SPI.~{CS0}"
-		(at 134.62 181.61 180)
+		(at 119.38 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e296164e-7756-466c-9434-1f48ed742313")
 	)
