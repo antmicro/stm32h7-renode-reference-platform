@@ -399,6 +399,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 138.43) (xy 251.46 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa2e1de-d7cb-4d66-a17d-c6281cac8578")
+	)
+	(wire
+		(pts
 			(xy 198.12 228.6) (xy 251.46 228.6)
 		)
 		(stroke
@@ -2758,6 +2768,16 @@
 				(justify left)
 			)
 		)
+		(pin "BAR_~{INT}" output
+			(at 251.46 138.43 180)
+			(uuid "8183319f-a598-4cff-90b7-664369b8872e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab"
@@ -3483,6 +3503,16 @@
 		(pin "CAN_SHDN" output
 			(at 198.12 228.6 0)
 			(uuid "ee5e8f80-9b9d-4099-9562-5bc9ff73a044")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAR_~{INT}" input
+			(at 198.12 138.43 0)
+			(uuid "0c3c40cd-3062-4de7-bb56-9eb48c30c042")
 			(effects
 				(font
 					(size 1.27 1.27)

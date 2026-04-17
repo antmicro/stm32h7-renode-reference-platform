@@ -9830,6 +9830,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 39.37) (xy 162.56 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41cb61db-f909-4071-8263-0364a2219a92")
+	)
+	(wire
+		(pts
 			(xy 293.37 104.14) (xy 293.37 105.41)
 		)
 		(stroke
@@ -12050,6 +12060,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 38.1) (xy 161.29 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b76a39b5-700e-4647-b598-7ff3cbe688da")
+	)
+	(wire
+		(pts
 			(xy 365.76 189.23) (xy 365.76 190.5)
 		)
 		(stroke
@@ -12227,6 +12247,16 @@
 			(type default)
 		)
 		(uuid "c010b1df-f3bf-440b-96ae-1a0a574cd6de")
+	)
+	(wire
+		(pts
+			(xy 161.29 38.1) (xy 161.29 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c049d392-1e47-45ae-8aba-39eeba5ac696")
 	)
 	(wire
 		(pts
@@ -21350,6 +21380,17 @@
 			(justify right)
 		)
 		(uuid "9a9be76d-b914-4662-a9e8-08d7252d338d")
+	)
+	(hierarchical_label "BAR_~{INT}"
+		(shape input)
+		(at 157.48 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a106d1d0-118a-4948-94c2-60bbd1ab7fc4")
 	)
 	(hierarchical_label "PMOD1_IO[5..8]"
 		(shape bidirectional)
