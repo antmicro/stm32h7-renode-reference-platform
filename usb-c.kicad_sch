@@ -8489,7 +8489,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f9d7400-dac8-4214-865b-a7cad8322efe")
 		(property "Reference" "R98"
