@@ -11,122 +11,6 @@
 		(company "Antmicro")
 	)
 	(lib_symbols
-		(symbol "antmicroMechanicalParts:MP_NPTH_Drill2.7mm"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "MP"
-				(at 15.24 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "MP_NPTH_Drill2.7mm"
-				(at 15.24 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:MP_NPTH_Drill2.7mm"
-				(at 15.24 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 16.84 -15.57 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mechanical part"
-				(at 15.24 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 15.24 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 15.24 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "MECHANICAL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MP_NPTH_Drill2.7mm_1_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "antmicroMechanicalParts:Spacer_Drill3.7mm_H5mm_9774050151R"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -441,19 +325,19 @@
 		(uuid "09a6a01e-003d-4732-abbb-25e7362806ab")
 	)
 	(junction
-		(at 353.06 229.87)
+		(at 389.89 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba1f7c67-8126-4de0-bade-5ba58b98e79c")
 	)
 	(junction
-		(at 353.06 236.22)
+		(at 389.89 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9d5c126-29f1-41e6-9807-671221597e73")
 	)
 	(junction
-		(at 353.06 242.57)
+		(at 389.89 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7be57fd-871b-4f39-b8d1-54cd1a8499d4")
@@ -508,6 +392,26 @@
 		)
 		(uuid "14eb62af-7ade-471d-abb3-1e1dd69d39a5")
 	)
+	(wire
+		(pts
+			(xy 167.64 186.69) (xy 220.98 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad59849-5faf-4412-b133-2bca8fb78677")
+	)
+	(wire
+		(pts
+			(xy 167.64 184.15) (xy 220.98 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21334652-5c86-437e-9c27-de66f1c30b82")
+	)
 	(bus
 		(pts
 			(xy 167.64 111.76) (xy 172.72 111.76)
@@ -540,7 +444,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 236.22) (xy 353.06 242.57)
+			(xy 389.89 236.22) (xy 389.89 242.57)
 		)
 		(stroke
 			(width 0)
@@ -580,7 +484,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 223.52) (xy 353.06 223.52)
+			(xy 388.62 223.52) (xy 389.89 223.52)
 		)
 		(stroke
 			(width 0)
@@ -590,7 +494,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 229.87) (xy 353.06 236.22)
+			(xy 389.89 229.87) (xy 389.89 236.22)
 		)
 		(stroke
 			(width 0)
@@ -610,7 +514,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 236.22) (xy 353.06 236.22)
+			(xy 388.62 236.22) (xy 389.89 236.22)
 		)
 		(stroke
 			(width 0)
@@ -660,7 +564,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 229.87) (xy 353.06 229.87)
+			(xy 388.62 229.87) (xy 389.89 229.87)
 		)
 		(stroke
 			(width 0)
@@ -710,7 +614,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 242.57) (xy 353.06 243.84)
+			(xy 389.89 242.57) (xy 389.89 243.84)
 		)
 		(stroke
 			(width 0)
@@ -770,7 +674,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 223.52) (xy 353.06 229.87)
+			(xy 389.89 223.52) (xy 389.89 229.87)
 		)
 		(stroke
 			(width 0)
@@ -820,7 +724,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 242.57) (xy 353.06 242.57)
+			(xy 388.62 242.57) (xy 389.89 242.57)
 		)
 		(stroke
 			(width 0)
@@ -840,7 +744,7 @@
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H5mm_9774050151R")
-		(at 351.79 223.52 0)
+		(at 388.62 223.52 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -849,7 +753,7 @@
 		(dnp no)
 		(uuid "13c74abe-3414-4057-b95b-a6c2209c6c85")
 		(property "Reference" "H1"
-			(at 342.9 222.25 0)
+			(at 379.73 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -859,7 +763,7 @@
 			)
 		)
 		(property "Value" "Spacer_Drill3.7mm_H5mm_9774050151R"
-			(at 342.9 224.79 0)
+			(at 379.73 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -869,7 +773,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H5mm_9774050151R"
-			(at 328.93 231.14 0)
+			(at 365.76 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -880,7 +784,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774050151.pdf"
-			(at 328.93 233.68 0)
+			(at 365.76 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,7 +795,7 @@
 			)
 		)
 		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 5 mm, M2.5 Thread, WA-SMSI Series"
-			(at 328.93 246.38 0)
+			(at 365.76 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -901,7 +805,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 328.93 236.22 0)
+			(at 365.76 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,7 +816,7 @@
 			)
 		)
 		(property "MPN" "9774050151R"
-			(at 328.93 238.76 0)
+			(at 365.76 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,7 +827,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 328.93 241.3 0)
+			(at 365.76 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -934,7 +838,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 328.93 243.84 0)
+			(at 365.76 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -958,7 +862,7 @@
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H5mm_9774050151R")
-		(at 351.79 236.22 0)
+		(at 388.62 236.22 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -967,7 +871,7 @@
 		(dnp no)
 		(uuid "22913423-b51c-4c03-849c-959de49e36b1")
 		(property "Reference" "H3"
-			(at 342.9 234.95 0)
+			(at 379.73 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -977,7 +881,7 @@
 			)
 		)
 		(property "Value" "Spacer_Drill3.7mm_H5mm_9774050151R"
-			(at 342.9 237.49 0)
+			(at 379.73 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -987,7 +891,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H5mm_9774050151R"
-			(at 328.93 243.84 0)
+			(at 365.76 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -998,7 +902,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774050151.pdf"
-			(at 328.93 246.38 0)
+			(at 365.76 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1009,7 +913,7 @@
 			)
 		)
 		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 5 mm, M2.5 Thread, WA-SMSI Series"
-			(at 328.93 259.08 0)
+			(at 365.76 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,7 +923,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 328.93 248.92 0)
+			(at 365.76 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1030,7 +934,7 @@
 			)
 		)
 		(property "MPN" "9774050151R"
-			(at 328.93 251.46 0)
+			(at 365.76 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1041,7 +945,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 328.93 254 0)
+			(at 365.76 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1052,7 +956,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 328.93 256.54 0)
+			(at 365.76 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1075,101 +979,8 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:MP_NPTH_Drill2.7mm")
-		(at 369.57 237.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28deb67c-542b-495c-a02d-e52f146d2095")
-		(property "Reference" "MP3"
-			(at 373.38 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MP_NPTH_Drill2.7mm"
-			(at 373.38 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:MP_NPTH_Drill2.7mm"
-			(at 384.81 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 386.41 253.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mechanical part"
-			(at 384.81 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 384.81 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 384.81 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "renode-reference-platform"
-				(path "/126ae87b-f292-4372-94ff-ae46971d67ab"
-					(reference "MP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
-		(at 353.06 243.84 0)
+		(at 389.89 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1178,7 +989,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ab32f74-d61b-4d47-ab4b-c3f43cca0c81")
 		(property "Reference" "#PWR060"
-			(at 361.95 246.38 0)
+			(at 398.78 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,7 +1000,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 353.06 248.92 0)
+			(at 389.89 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1198,7 +1009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 361.95 251.46 0)
+			(at 398.78 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1209,7 +1020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 361.95 256.54 0)
+			(at 398.78 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1220,7 +1031,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 361.95 259.08 0)
+			(at 398.78 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,7 +1041,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 361.95 251.46 0)
+			(at 398.78 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1241,7 +1052,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 361.95 254 0)
+			(at 398.78 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +1076,7 @@
 	)
 	(symbol
 		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H5mm_9774050151R")
-		(at 351.79 242.57 0)
+		(at 388.62 242.57 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1274,7 +1085,7 @@
 		(dnp no)
 		(uuid "8935e758-b39c-4b8d-8c9e-e4e5e41090e3")
 		(property "Reference" "H4"
-			(at 342.9 241.3 0)
+			(at 379.73 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1284,7 +1095,7 @@
 			)
 		)
 		(property "Value" "Spacer_Drill3.7mm_H5mm_9774050151R"
-			(at 342.9 243.84 0)
+			(at 379.73 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1294,7 +1105,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H5mm_9774050151R"
-			(at 328.93 250.19 0)
+			(at 365.76 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1305,7 +1116,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774050151.pdf"
-			(at 328.93 252.73 0)
+			(at 365.76 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,7 +1127,7 @@
 			)
 		)
 		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 5 mm, M2.5 Thread, WA-SMSI Series"
-			(at 328.93 265.43 0)
+			(at 365.76 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1326,7 +1137,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 328.93 255.27 0)
+			(at 365.76 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +1148,7 @@
 			)
 		)
 		(property "MPN" "9774050151R"
-			(at 328.93 257.81 0)
+			(at 365.76 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1348,7 +1159,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 328.93 260.35 0)
+			(at 365.76 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,7 +1170,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 328.93 262.89 0)
+			(at 365.76 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,101 +1193,8 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroMechanicalParts:MP_NPTH_Drill2.7mm")
-		(at 369.57 229.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97426c48-28ad-46e2-af7d-40147b7a01ba")
-		(property "Reference" "MP2"
-			(at 373.38 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MP_NPTH_Drill2.7mm"
-			(at 373.38 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:MP_NPTH_Drill2.7mm"
-			(at 384.81 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 386.41 245.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mechanical part"
-			(at 384.81 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 384.81 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 384.81 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "renode-reference-platform"
-				(path "/126ae87b-f292-4372-94ff-ae46971d67ab"
-					(reference "MP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H5mm_9774050151R")
-		(at 351.79 229.87 0)
+		(at 388.62 229.87 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1485,7 +1203,7 @@
 		(dnp no)
 		(uuid "a45f201d-83e2-47e4-bebf-b3e2bab37285")
 		(property "Reference" "H2"
-			(at 342.9 228.6 0)
+			(at 379.73 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +1213,7 @@
 			)
 		)
 		(property "Value" "Spacer_Drill3.7mm_H5mm_9774050151R"
-			(at 342.9 231.14 0)
+			(at 379.73 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +1223,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H5mm_9774050151R"
-			(at 328.93 237.49 0)
+			(at 365.76 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,7 +1234,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/9774050151.pdf"
-			(at 328.93 240.03 0)
+			(at 365.76 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1527,7 +1245,7 @@
 			)
 		)
 		(property "Description" "Spacer, SMT, Non Stop, Steel, Swage Round, 5.1 mm x 5 mm, M2.5 Thread, WA-SMSI Series"
-			(at 328.93 252.73 0)
+			(at 365.76 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,7 +1255,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 328.93 242.57 0)
+			(at 365.76 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1266,7 @@
 			)
 		)
 		(property "MPN" "9774050151R"
-			(at 328.93 245.11 0)
+			(at 365.76 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1559,7 +1277,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 328.93 247.65 0)
+			(at 365.76 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1288,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 328.93 250.19 0)
+			(at 365.76 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1587,192 +1305,6 @@
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroMechanicalParts:MP_NPTH_Drill2.7mm")
-		(at 369.57 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6a3b690-200d-4ab3-9e57-6e28641128c9")
-		(property "Reference" "MP1"
-			(at 373.38 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MP_NPTH_Drill2.7mm"
-			(at 373.38 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:MP_NPTH_Drill2.7mm"
-			(at 384.81 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 386.41 237.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mechanical part"
-			(at 384.81 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 384.81 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 384.81 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "renode-reference-platform"
-				(path "/126ae87b-f292-4372-94ff-ae46971d67ab"
-					(reference "MP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroMechanicalParts:MP_NPTH_Drill2.7mm")
-		(at 369.57 245.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f698ec2d-af1e-4650-aa3c-4327a38e98dc")
-		(property "Reference" "MP4"
-			(at 373.38 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MP_NPTH_Drill2.7mm"
-			(at 373.38 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:MP_NPTH_Drill2.7mm"
-			(at 384.81 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 386.41 260.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mechanical part"
-			(at 384.81 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 384.81 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 384.81 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "renode-reference-platform"
-				(path "/126ae87b-f292-4372-94ff-ae46971d67ab"
-					(reference "MP4")
 					(unit 1)
 				)
 			)
@@ -2355,6 +1887,26 @@
 		(pin "BAR_~{INT}" input
 			(at 167.64 127 0)
 			(uuid "0c3c40cd-3062-4de7-bb56-9eb48c30c042")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "POT1_Analog" input
+			(at 167.64 184.15 0)
+			(uuid "08dd95df-bff3-45f7-8ae3-82dc22828e65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "POT2_Analog" input
+			(at 167.64 186.69 0)
+			(uuid "520c4e76-d7f4-4ba5-9777-2d7a1a6eb24c")
 			(effects
 				(font
 					(size 1.27 1.27)

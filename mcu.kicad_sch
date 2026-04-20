@@ -7238,7 +7238,7 @@
 	)
 	(text "PWM capable"
 		(exclude_from_sim no)
-		(at 215.392 41.148 0)
+		(at 215.138 41.656 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8206,6 +8206,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 39.37) (xy 208.28 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "072b272c-ff4d-4831-b230-b8cb7884ece0")
+	)
+	(wire
+		(pts
 			(xy 55.88 25.4) (xy 55.88 27.94)
 		)
 		(stroke
@@ -8493,6 +8503,16 @@
 			(type default)
 		)
 		(uuid "1962f64e-8bd4-4120-bf8e-9e5591a9416a")
+	)
+	(wire
+		(pts
+			(xy 195.58 214.63) (xy 203.2 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e33269-c757-4c09-b0c9-4c47a07853ae")
 	)
 	(wire
 		(pts
@@ -19073,7 +19093,7 @@
 	)
 	(hierarchical_label "ADC_CURRENT_IN"
 		(shape input)
-		(at 203.2 212.09 0)
+		(at 208.28 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19093,6 +19113,17 @@
 			(justify left)
 		)
 		(uuid "4a223df5-1ca8-4e90-bc83-49cc6442433e")
+	)
+	(hierarchical_label "POT2_Analog"
+		(shape input)
+		(at 203.2 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4eff0442-9906-4d08-a940-d6dbc5cf2792")
 	)
 	(hierarchical_label "USB_GPIO_OUT2"
 		(shape input)
@@ -19170,6 +19201,17 @@
 			(justify right)
 		)
 		(uuid "a106d1d0-118a-4948-94c2-60bbd1ab7fc4")
+	)
+	(hierarchical_label "POT1_Analog"
+		(shape input)
+		(at 203.2 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a74f48a4-a1ff-48a0-860f-3b4c5391545c")
 	)
 	(hierarchical_label "MAG_~{INT}"
 		(shape input)
