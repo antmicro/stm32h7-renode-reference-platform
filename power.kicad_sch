@@ -4220,12 +4220,6 @@
 		(uuid "30aa49c7-9767-4a09-b418-1bbf3fdeac91")
 	)
 	(junction
-		(at 156.21 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3869638f-9467-42c9-838c-df9c8a691c35")
-	)
-	(junction
 		(at 205.74 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4457,16 +4451,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 118.11) (xy 156.21 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "183d06fc-79e7-4982-862b-8fc169502184")
-	)
-	(wire
-		(pts
 			(xy 172.72 83.82) (xy 173.99 83.82)
 		)
 		(stroke
@@ -4674,16 +4658,6 @@
 			(type default)
 		)
 		(uuid "4fc77a6c-c48d-4bfb-b218-298400158605")
-	)
-	(wire
-		(pts
-			(xy 142.24 118.11) (xy 146.05 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5491fd4d-9887-4b51-8a36-485d58735f9b")
 	)
 	(wire
 		(pts
@@ -5034,16 +5008,6 @@
 			(type default)
 		)
 		(uuid "c0e7bd45-7882-47fe-a841-fee7381ee5fc")
-	)
-	(wire
-		(pts
-			(xy 156.21 118.11) (xy 156.21 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c126d927-fa6b-42c3-86cd-3d7e00f870be")
 	)
 	(wire
 		(pts
@@ -5403,28 +5367,6 @@
 		(uuid "230139f8-65d2-4ea4-8ff8-dbb00471e5c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.0515 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RPI_CONN_5V0"
-		(shape input)
-		(at 142.24 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "9ab5a819-fe74-4d29-bc81-0bf5b87975ce")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.4057 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11376,156 +11318,6 @@
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/3bbe31bb-f2b9-4019-b1b8-20b6749deb1b"
 					(reference "#PWR0175")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 151.13 118.11 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "ebe59f16-d8d1-4bf7-b3d1-2881a34c3b95")
-		(property "Reference" "R3"
-			(at 144.272 117.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "R_0R_0402"
-			(at 130.81 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 130.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 130.81 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 130.81 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
-			(at 130.81 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 130.81 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 130.81 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 130.81 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "0R"
-			(at 152.908 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Tolerance" "~"
-			(at 130.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Current" "1A"
-			(at 130.81 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "50fde5b5-1dc3-41c1-91db-80cb2bf861d5")
-		)
-		(pin "1"
-			(uuid "014f4c87-2f1f-46c6-8552-73c70cae258d")
-		)
-		(instances
-			(project "renode-reference-platform"
-				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/3bbe31bb-f2b9-4019-b1b8-20b6749deb1b"
-					(reference "R3")
 					(unit 1)
 				)
 			)

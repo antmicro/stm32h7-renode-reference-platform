@@ -1699,12 +1699,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroOpticalSensorsAmbientLightIRUVSensors:OPT4001DTSR"
+		(symbol "antmicroOpticalSensorsAmbientLightIRUVSensors:VEML7700"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 33.02 -2.54 0)
+				(at 21.082 1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1713,19 +1713,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "OPT4001DTSR"
-				(at 33.02 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:SOT-583"
-				(at 33.02 -10.16 0)
+			(property "Value" "VEML7700"
+				(at 21.082 -4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1735,8 +1724,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/OPT4001"
-				(at 33.02 -12.7 0)
+			(property "Footprint" "antmicro-footprints:VEML7700"
+				(at 21.082 -6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1746,18 +1735,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "High-speed high-precision digital ambient light sensor (ALS)"
-				(at 33.02 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Texas Instruments"
-				(at 33.02 -15.24 0)
+			(property "Datasheet" "http://www.vishay.com/docs/84286/veml7700.pdf"
+				(at 21.082 -9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1767,8 +1746,30 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "OPT4001DTSR"
-				(at 33.02 -5.08 0)
+			(property "Description" "High Accuracy Ambient Light Sensor with I2C Interface"
+				(at 21.082 -11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 21.082 -14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "VEML7700"
+				(at 21.082 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1778,7 +1779,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 33.02 -17.78 0)
+				(at 21.082 -16.764 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1789,7 +1790,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 33.02 -20.32 0)
+				(at 21.082 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1808,10 +1809,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "OPT4001DTSR_1_1"
+			(symbol "VEML7700_1_1"
 				(rectangle
 					(start 2.54 2.54)
-					(end 15.24 -12.7)
+					(end 15.24 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1820,10 +1821,10 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
-					(name "VDD"
+					(name "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1838,10 +1839,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 -5.08 0)
+				(pin power_in line
+					(at 0 -2.54 0)
 					(length 2.54)
-					(name "ADDR"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1857,28 +1858,9 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -10.16 0)
+					(at 0 -5.08 0)
 					(length 2.54)
 					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 2.54 -7.62 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1893,45 +1875,8 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 15.24 -10.16 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 0 180)
-					(length 2.54)
-					(name "INT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -5.08 180)
+				(pin passive line
+					(at 0 -7.62 0)
 					(length 2.54)
 					(name "SDA"
 						(effects
@@ -1940,25 +1885,7 @@
 							)
 						)
 					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 -7.62 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3012,16 +2939,6 @@
 		)
 		(uuid "14266038-334f-4155-896f-2624617b1bbe")
 	)
-	(text "TODO: Replace with VEML7700-TR\n"
-		(exclude_from_sim no)
-		(at 334.518 194.818 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "18851ea8-4fff-44da-afec-90c5e6a7e681")
-	)
 	(text "Temperature sensor"
 		(exclude_from_sim no)
 		(at 225.806 165.608 0)
@@ -3153,7 +3070,7 @@
 		(uuid "a3989894-ca93-4637-b81a-7136ee00c1cc")
 	)
 	(junction
-		(at 302.26 177.8)
+		(at 312.42 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7052681-fe15-49e4-a693-539e74c7753f")
@@ -3249,16 +3166,8 @@
 		(uuid "ff8d6d41-44de-4c07-8700-af96f6b3296e")
 	)
 	(no_connect
-		(at 325.12 182.88)
-		(uuid "217b8cf7-53a6-417c-bf3b-fb92b1515a11")
-	)
-	(no_connect
 		(at 233.68 182.88)
 		(uuid "a3c9e6a4-6542-4940-8c58-5e2d300c7016")
-	)
-	(no_connect
-		(at 342.9 177.8)
-		(uuid "bc1f9af3-f621-43df-bb82-113ebd57a836")
 	)
 	(bus_entry
 		(at 49.53 90.17)
@@ -3300,7 +3209,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 187.96) (xy 323.85 187.96)
+			(xy 317.5 180.34) (xy 337.82 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3480,7 +3389,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 179.07) (xy 302.26 177.8)
+			(xy 312.42 179.07) (xy 312.42 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3520,7 +3429,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 182.88) (xy 359.41 182.88)
+			(xy 337.82 182.88) (xy 321.31 182.88)
 		)
 		(stroke
 			(width 0)
@@ -3570,7 +3479,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 185.42) (xy 359.41 185.42)
+			(xy 337.82 175.26) (xy 321.31 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3620,7 +3529,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 184.15) (xy 302.26 185.42)
+			(xy 312.42 184.15) (xy 312.42 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3680,7 +3589,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 177.8) (xy 325.12 177.8)
+			(xy 312.42 177.8) (xy 337.82 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3720,7 +3629,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 177.8) (xy 302.26 176.53)
+			(xy 312.42 177.8) (xy 312.42 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4220,7 +4129,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 187.96) (xy 323.85 189.23)
+			(xy 317.5 180.34) (xy 317.5 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4359,22 +4268,22 @@
 		(uuid "0bcb22af-29e1-458f-8bc1-da7f46f4eb42")
 	)
 	(label "I2C_SENSOR.SDA"
-		(at 359.41 182.88 180)
+		(at 321.31 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "1bf32453-581d-4dcb-9850-4fbf2bc426e0")
 	)
 	(label "I2C_SENSOR.SCL"
-		(at 359.41 185.42 180)
+		(at 321.31 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "39d54b20-10d4-404a-b80e-5d0f5b9e1ec8")
 	)
@@ -5206,7 +5115,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 323.85 189.23 0)
+		(at 317.5 181.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5216,7 +5125,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c18e905-ea96-4d99-a90d-38bf62546c09")
 		(property "Reference" "#PWR010"
-			(at 314.96 191.77 0)
+			(at 308.61 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +5136,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 323.85 194.31 0)
+			(at 317.5 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5236,7 +5145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 314.96 196.85 0)
+			(at 308.61 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5247,7 +5156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 314.96 201.93 0)
+			(at 308.61 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,7 +5167,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 314.96 204.47 0)
+			(at 308.61 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,7 +5177,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 314.96 196.85 0)
+			(at 308.61 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5279,7 +5188,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 314.96 199.39 0)
+			(at 308.61 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,7 +7164,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 302.26 185.42 0)
+		(at 312.42 185.42 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7265,7 +7174,7 @@
 		(fields_autoplaced yes)
 		(uuid "67c29327-08fa-4788-b191-c447d342466c")
 		(property "Reference" "#PWR09"
-			(at 293.37 187.96 0)
+			(at 303.53 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7276,7 +7185,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 302.26 190.5 0)
+			(at 312.42 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7285,7 +7194,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 293.37 193.04 0)
+			(at 303.53 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7296,7 +7205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 293.37 198.12 0)
+			(at 303.53 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7307,7 +7216,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 293.37 200.66 0)
+			(at 303.53 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +7226,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 293.37 193.04 0)
+			(at 303.53 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7328,7 +7237,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 293.37 195.58 0)
+			(at 303.53 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,145 +8389,8 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroOpticalSensorsAmbientLightIRUVSensors:OPT4001DTSR")
-		(at 325.12 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b289ff87-b44e-442c-80ca-7551cb99f656")
-		(property "Reference" "U8"
-			(at 334.01 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "OPT4001DTSR"
-			(at 358.14 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SOT-583"
-			(at 358.14 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/OPT4001"
-			(at 358.14 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "High-speed high-precision digital ambient light sensor (ALS)"
-			(at 358.14 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 358.14 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "OPT4001DTSR"
-			(at 334.01 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 358.14 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 358.14 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f420182-3bc6-4684-a199-cfb19964c59c")
-		)
-		(pin "5"
-			(uuid "cbd4b68b-cb4b-4371-bad6-c441141a7fbe")
-		)
-		(pin "2"
-			(uuid "fd05a9f0-abdb-4044-bb3d-c4dd096ad79a")
-		)
-		(pin "4"
-			(uuid "0fc839ba-05ee-40cb-8364-00f0fb61ee54")
-		)
-		(pin "3"
-			(uuid "f285efbb-398c-459c-8614-2150a24965d9")
-		)
-		(pin "7"
-			(uuid "d6b584e2-0b97-4032-9853-40034009fdec")
-		)
-		(pin "6"
-			(uuid "d76f0163-fddc-42cf-9a2f-a44db152782e")
-		)
-		(pin "8"
-			(uuid "1ecbf109-7dcd-431e-8db1-99b1babe60cf")
-		)
-		(instances
-			(project "renode-reference-platform"
-				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/143ac980-6d59-4a8b-9ea3-64cd140d4a49"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
-		(at 302.26 184.15 270)
+		(at 312.42 184.15 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8628,7 +8400,7 @@
 		(fields_autoplaced yes)
 		(uuid "b79d608d-ddc4-4897-8d8d-619acbf40b58")
 		(property "Reference" "C37"
-			(at 299.72 180.3336 90)
+			(at 309.88 180.3336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8638,7 +8410,7 @@
 			)
 		)
 		(property "Value" "C_100n_0402"
-			(at 292.1 163.83 0)
+			(at 302.26 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8649,7 +8421,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 289.56 163.83 0)
+			(at 299.72 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8660,7 +8432,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
-			(at 287.02 163.83 0)
+			(at 297.18 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8671,7 +8443,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-			(at 269.24 163.83 0)
+			(at 279.4 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8681,7 +8453,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 284.48 163.83 0)
+			(at 294.64 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8692,7 +8464,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 281.94 163.83 0)
+			(at 292.1 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8703,7 +8475,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 279.4 163.83 0)
+			(at 289.56 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8714,7 +8486,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 276.86 163.83 0)
+			(at 287.02 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8725,7 +8497,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 299.72 182.8736 90)
+			(at 309.88 182.8736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8735,7 +8507,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 274.32 163.83 0)
+			(at 284.48 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8745,7 +8517,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 271.78 163.83 0)
+			(at 281.94 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8922,7 +8694,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+3V3")
-		(at 302.26 176.53 0)
+		(at 312.42 176.53 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8932,7 +8704,7 @@
 		(fields_autoplaced yes)
 		(uuid "c51d35f4-7f35-4bf1-b70b-e67e78d501eb")
 		(property "Reference" "#PWR08"
-			(at 287.02 176.53 0)
+			(at 297.18 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8943,7 +8715,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 302.26 171.45 0)
+			(at 312.42 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8952,7 +8724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 287.02 184.15 0)
+			(at 297.18 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8963,7 +8735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 287.02 186.69 0)
+			(at 297.18 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8974,7 +8746,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 189.23 0)
+			(at 297.18 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8984,7 +8756,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 287.02 179.07 0)
+			(at 297.18 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8995,7 +8767,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 287.02 181.61 0)
+			(at 297.18 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9164,6 +8936,134 @@
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/143ac980-6d59-4a8b-9ea3-64cd140d4a49"
 					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroOpticalSensorsAmbientLightIRUVSensors:VEML7700")
+		(at 337.82 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c99c1843-c420-4abc-a8be-ab9868113b64")
+		(property "Reference" "U11"
+			(at 354.33 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VEML7700"
+			(at 358.902 179.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:VEML7700"
+			(at 358.902 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/84286/veml7700.pdf"
+			(at 358.902 184.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Accuracy Ambient Light Sensor with I2C Interface"
+			(at 358.902 186.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 358.902 189.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "VEML7700"
+			(at 354.33 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 358.902 192.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 358.902 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2139a7eb-1d82-428f-9dcb-15f7d24fe353")
+		)
+		(pin "1"
+			(uuid "c5d67677-3635-407e-9e12-c762b7f58df9")
+		)
+		(pin "2"
+			(uuid "43733069-bdc0-44fc-aebf-4f3a770f039f")
+		)
+		(pin "3"
+			(uuid "5cb4de46-fd89-4850-bd2a-a39c180e95b5")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/143ac980-6d59-4a8b-9ea3-64cd140d4a49"
+					(reference "U11")
 					(unit 1)
 				)
 			)
