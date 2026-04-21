@@ -2470,7 +2470,7 @@
 	)
 	(text "QSPI Flash - Bank1"
 		(exclude_from_sim no)
-		(at 213.36 102.616 0)
+		(at 213.868 92.71 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -2522,63 +2522,69 @@
 		(color 0 0 0 0)
 		(uuid "eb911808-ea00-44c2-9f2f-b7219d30fb48")
 	)
+	(junction
+		(at 151.13 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "effd24b2-9881-4295-8c5a-f12e696549bb")
+	)
 	(no_connect
 		(at 229.87 184.15)
 		(uuid "4db5e83d-b59a-4c54-8c9f-1c96a00cf027")
 	)
 	(bus_entry
-		(at 66.04 140.97)
+		(at 151.13 140.97)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0062f13d-30b3-48ee-8f8c-fe25c49df835")
+		(uuid "08583fb8-c867-4a3a-acc0-7a44dfb3d549")
 	)
 	(bus_entry
-		(at 66.04 143.51)
-		(size 2.54 2.54)
+		(at 288.29 140.97)
+		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ec0b51d-115a-4726-9e6c-477754b5576f")
+		(uuid "0bf7c00a-d968-4807-8c60-6eece7b1c61e")
 	)
 	(bus_entry
-		(at 66.04 146.05)
-		(size 2.54 2.54)
+		(at 288.29 143.51)
+		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35b0faf5-f64f-41bd-8385-5d2030943a01")
+		(uuid "50377896-92ec-44f4-a414-6320ff6f509c")
 	)
 	(bus_entry
-		(at 66.04 138.43)
-		(size 2.54 2.54)
+		(at 288.29 135.89)
+		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "906b1145-5eb6-40e6-ad6e-0c7d10765432")
+		(uuid "86a69458-1b46-4d9a-b526-525a43925ed6")
 	)
 	(bus_entry
-		(at 66.04 135.89)
-		(size 2.54 2.54)
+		(at 288.29 138.43)
+		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e62c3c40-a2de-465d-90f7-0e00e3ccfae3")
+		(uuid "b3469769-ad81-4592-9a23-57a2e99c47b0")
 	)
 	(bus_entry
-		(at 66.04 148.59)
+		(at 151.13 138.43)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fed12956-c6e2-4b02-acc4-a6a964056cf9")
+		(uuid "fd89b813-0d98-4db8-82eb-578f4de2abb2")
 	)
 	(wire
 		(pts
@@ -2622,16 +2628,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 148.59) (xy 68.58 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b086841-6b55-41b6-b008-ca1feda553cd")
-	)
-	(wire
-		(pts
 			(xy 262.89 121.92) (xy 262.89 123.19)
 		)
 		(stroke
@@ -2639,6 +2635,26 @@
 			(type default)
 		)
 		(uuid "1e8839df-0505-45cb-9b8b-b85292975974")
+	)
+	(bus
+		(pts
+			(xy 288.29 138.43) (xy 288.29 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec5836b-8321-4de9-87f6-555a1ad385f2")
+	)
+	(bus
+		(pts
+			(xy 148.59 100.33) (xy 149.86 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23109ae6-be74-4de3-b7bb-e88d59f0eab4")
 	)
 	(wire
 		(pts
@@ -2660,16 +2676,6 @@
 		)
 		(uuid "2dcab493-7819-4ab2-9556-d0f9ba438c12")
 	)
-	(bus
-		(pts
-			(xy 66.04 135.89) (xy 66.04 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e2cd0b0-2975-4247-bf0e-aab20c5e171b")
-	)
 	(wire
 		(pts
 			(xy 262.89 143.51) (xy 285.75 143.51)
@@ -2679,6 +2685,16 @@
 			(type default)
 		)
 		(uuid "35a72415-4002-4820-b8cc-97ae3763be57")
+	)
+	(bus
+		(pts
+			(xy 149.86 100.33) (xy 151.13 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37bae436-0d44-4541-bb45-3e4b53cb2c5c")
 	)
 	(wire
 		(pts
@@ -2692,7 +2708,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 143.51) (xy 181.61 143.51)
+			(xy 175.26 143.51) (xy 181.61 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2710,15 +2726,15 @@
 		)
 		(uuid "45f51278-8420-4591-855f-fe9a15c59de5")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 87.63 138.43) (xy 68.58 138.43)
+			(xy 153.67 110.49) (xy 151.13 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49be68c0-cac5-4cf5-b350-741677706bf8")
+		(uuid "4e063174-41bf-4f38-b50f-b56edef998b5")
 	)
 	(wire
 		(pts
@@ -2732,23 +2748,13 @@
 	)
 	(bus
 		(pts
-			(xy 66.04 138.43) (xy 66.04 140.97)
+			(xy 151.13 101.6) (xy 151.13 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54e6a9f7-02b1-4a63-a236-f13eca926a0b")
-	)
-	(wire
-		(pts
-			(xy 87.63 143.51) (xy 68.58 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58099f98-148e-499e-97e2-1f2253d75b1a")
+		(uuid "518b607e-efab-4227-bdc5-54b8030e20e8")
 	)
 	(wire
 		(pts
@@ -2792,23 +2798,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 143.51) (xy 167.64 143.51)
+			(xy 153.67 143.51) (xy 170.18 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5e1da11b-5ae9-4f3c-8613-c620217f0c55")
-	)
-	(wire
-		(pts
-			(xy 87.63 151.13) (xy 68.58 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6176d5c6-e568-45ee-bb4e-e491f89c9eac")
 	)
 	(wire
 		(pts
@@ -2930,6 +2926,16 @@
 		)
 		(uuid "91d964fe-f399-4c07-8049-c76adbe2e27c")
 	)
+	(bus
+		(pts
+			(xy 151.13 107.95) (xy 151.13 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "934483aa-3a34-48ca-aa07-366b58678201")
+	)
 	(wire
 		(pts
 			(xy 228.6 138.43) (xy 251.46 138.43)
@@ -2939,6 +2945,16 @@
 			(type default)
 		)
 		(uuid "94059194-e8a8-463f-a15f-b7dc6c2a4a17")
+	)
+	(bus
+		(pts
+			(xy 288.29 113.03) (xy 285.75 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "941a9da3-51bd-483b-a715-8db2e9290a25")
 	)
 	(wire
 		(pts
@@ -2950,6 +2966,26 @@
 		)
 		(uuid "9cae4d8b-660c-4b3d-92eb-306b5d4d054a")
 	)
+	(bus
+		(pts
+			(xy 151.13 138.43) (xy 151.13 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2be820-b732-487c-a9c4-8988a34dd8a7")
+	)
+	(bus
+		(pts
+			(xy 285.75 110.49) (xy 153.67 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1f6167-c0bf-4ec3-ac6f-5f814e9587e8")
+	)
 	(wire
 		(pts
 			(xy 256.54 138.43) (xy 285.75 138.43)
@@ -2959,16 +2995,6 @@
 			(type default)
 		)
 		(uuid "a5faba9e-a352-4d9b-86ec-32ad518e5b2c")
-	)
-	(bus
-		(pts
-			(xy 66.04 140.97) (xy 66.04 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9e80a73-fd7b-4f87-b1b2-a40903e2393d")
 	)
 	(wire
 		(pts
@@ -2989,6 +3015,16 @@
 			(type default)
 		)
 		(uuid "bdb759bf-f0b6-43ec-a039-9777b79eb942")
+	)
+	(bus
+		(pts
+			(xy 288.29 135.89) (xy 288.29 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf8a0c98-ba5f-4e22-bea4-049bfaf745c6")
 	)
 	(wire
 		(pts
@@ -3022,16 +3058,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 140.97) (xy 68.58 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3b106b0-efe6-4d59-a10d-6b2473a1a2d4")
-	)
-	(wire
-		(pts
 			(xy 181.61 143.51) (xy 203.2 143.51)
 		)
 		(stroke
@@ -3042,13 +3068,23 @@
 	)
 	(bus
 		(pts
-			(xy 66.04 146.05) (xy 66.04 148.59)
+			(xy 288.29 140.97) (xy 288.29 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d8bfa4ad-448e-4883-a790-a691f8c00db5")
+		(uuid "d8bea74a-6bd7-4e99-816d-ee89ebc8cf11")
+	)
+	(bus
+		(pts
+			(xy 288.29 113.03) (xy 288.29 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9fda7fc-84e6-44a4-a56d-a2afe34ac61f")
 	)
 	(wire
 		(pts
@@ -3059,16 +3095,6 @@
 			(type default)
 		)
 		(uuid "db337ba2-d2f7-4b43-a999-6c7336bf96de")
-	)
-	(wire
-		(pts
-			(xy 87.63 146.05) (xy 68.58 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e458552f-a2b2-4d6a-89a3-828ffc4668a8")
 	)
 	(wire
 		(pts
@@ -3092,7 +3118,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 140.97) (xy 167.64 140.97)
+			(xy 153.67 140.97) (xy 170.18 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3112,23 +3138,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 140.97) (xy 203.2 140.97)
+			(xy 175.26 140.97) (xy 203.2 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ef7e2f3f-0bd5-4358-8566-7c0674845909")
-	)
-	(bus
-		(pts
-			(xy 63.5 135.89) (xy 66.04 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f286a1f7-efcc-4a56-b397-e48b993b7662")
 	)
 	(wire
 		(pts
@@ -3149,16 +3165,6 @@
 			(type default)
 		)
 		(uuid "fcc4402a-b30d-49f0-94f4-1ac5a5ca10bb")
-	)
-	(bus
-		(pts
-			(xy 66.04 143.51) (xy 66.04 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe71ea65-ee5b-4461-bce2-09c6797f7880")
 	)
 	(label "SPI_Flash.MOSI_IO0"
 		(at 285.75 138.43 180)
@@ -3189,16 +3195,6 @@
 			(justify right bottom)
 		)
 		(uuid "2c72bc49-5e02-4591-bd5b-51a89bc4d5f5")
-	)
-	(label "SPI_Flash.SCK"
-		(at 87.63 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "30215da3-4ac3-4d8b-a821-ab7fe2c12961")
 	)
 	(label "FLASH_MOSI_IO0"
 		(at 245.11 138.43 180)
@@ -3250,16 +3246,6 @@
 		)
 		(uuid "676844e4-658e-4bc7-a48e-17e4dc8dcb56")
 	)
-	(label "SPI_Flash.~{CS0}"
-		(at 87.63 146.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "684c0164-c0eb-474d-aada-d4ac580af701")
-	)
 	(label "FLASH_PWR"
 		(at 185.42 184.15 0)
 		(effects
@@ -3271,7 +3257,7 @@
 		(uuid "6f5e74ff-e660-4354-b63b-08143b18af3f")
 	)
 	(label "SPI_Flash.~{CS0}"
-		(at 149.86 143.51 0)
+		(at 153.67 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3300,16 +3286,6 @@
 		)
 		(uuid "78939fd5-bb27-49c8-bc20-8eacf80ba405")
 	)
-	(label "SPI_Flash.MOSI_IO0"
-		(at 87.63 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "85a980a8-2c22-49c8-ace6-9240c615fd44")
-	)
 	(label "SPI_Flash.IO2"
 		(at 285.75 143.51 180)
 		(effects
@@ -3329,16 +3305,6 @@
 			(justify left bottom)
 		)
 		(uuid "9de0330d-ac14-43f6-b740-c307d1eca248")
-	)
-	(label "SPI_Flash.IO3"
-		(at 87.63 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9e3948e9-001e-4143-83a4-689d9b0c886b")
 	)
 	(label "FLASH_CLK"
 		(at 201.93 140.97 180)
@@ -3370,28 +3336,8 @@
 		)
 		(uuid "ec9c621c-b773-4d9c-90b8-14e351cdc10a")
 	)
-	(label "SPI_Flash.IO2"
-		(at 87.63 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f2df236b-3c78-402b-9254-257620d7cece")
-	)
-	(label "SPI_Flash.MISO_IO1"
-		(at 87.63 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f4ec2287-8440-4a2f-b13a-d9125a9f7fb9")
-	)
 	(label "SPI_Flash.SCK"
-		(at 149.86 140.97 0)
+		(at 153.67 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3402,14 +3348,14 @@
 	)
 	(hierarchical_label "SPI_Flash{SPI}"
 		(shape bidirectional)
-		(at 63.5 135.89 180)
+		(at 148.59 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "826547ed-5a90-452e-a557-18d92e385fcb")
+		(uuid "db322cb6-591b-4c51-b3e7-399f5475d334")
 	)
 	(symbol
 		(lib_id "antmicropower:+3V3")
@@ -5314,7 +5260,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 172.72 143.51 0)
+		(at 175.26 143.51 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5323,7 +5269,7 @@
 		(dnp no)
 		(uuid "d41ee981-b4c2-48b8-9fbc-5f0b95cc8ecd")
 		(property "Reference" "R301"
-			(at 175.26 142.24 0)
+			(at 177.8 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5332,7 +5278,7 @@
 			)
 		)
 		(property "Value" "R_0R_0402"
-			(at 152.4 156.21 0)
+			(at 154.94 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,7 +5289,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 152.4 158.75 0)
+			(at 154.94 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,7 +5300,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 152.4 161.29 0)
+			(at 154.94 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +5311,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 152.4 176.53 0)
+			(at 154.94 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5375,7 +5321,7 @@
 			)
 		)
 		(property "MPN" "ERJ2GE0R00X"
-			(at 152.4 163.83 0)
+			(at 154.94 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,7 +5332,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 152.4 166.37 0)
+			(at 154.94 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5397,7 +5343,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 152.4 168.91 0)
+			(at 154.94 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +5354,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 152.4 171.45 0)
+			(at 154.94 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,7 +5365,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 166.37 142.24 0)
+			(at 168.91 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,7 +5374,7 @@
 			)
 		)
 		(property "Tolerance" "~"
-			(at 152.4 153.67 0)
+			(at 154.94 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5438,7 +5384,7 @@
 			)
 		)
 		(property "Current" "1A"
-			(at 152.4 173.99 0)
+			(at 154.94 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5840,7 +5786,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 172.72 140.97 0)
+		(at 175.26 140.97 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5849,7 +5795,7 @@
 		(dnp no)
 		(uuid "f8e9e446-f886-4419-a863-cd8b8268fad8")
 		(property "Reference" "R314"
-			(at 175.26 139.7 0)
+			(at 177.8 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5858,7 +5804,7 @@
 			)
 		)
 		(property "Value" "R_0R_0402"
-			(at 152.4 153.67 0)
+			(at 154.94 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5869,7 +5815,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 152.4 156.21 0)
+			(at 154.94 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5880,7 +5826,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 152.4 158.75 0)
+			(at 154.94 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5891,7 +5837,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 152.4 173.99 0)
+			(at 154.94 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5901,7 +5847,7 @@
 			)
 		)
 		(property "MPN" "ERJ2GE0R00X"
-			(at 152.4 161.29 0)
+			(at 154.94 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5912,7 +5858,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 152.4 163.83 0)
+			(at 154.94 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,7 +5869,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 152.4 166.37 0)
+			(at 154.94 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5934,7 +5880,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 152.4 168.91 0)
+			(at 154.94 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5945,7 +5891,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 166.37 139.7 0)
+			(at 168.91 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5954,7 +5900,7 @@
 			)
 		)
 		(property "Tolerance" "~"
-			(at 152.4 151.13 0)
+			(at 154.94 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5964,7 +5910,7 @@
 			)
 		)
 		(property "Current" "1A"
-			(at 152.4 171.45 0)
+			(at 154.94 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
