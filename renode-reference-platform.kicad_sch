@@ -394,16 +394,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 185.42) (xy 281.94 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ad59849-5faf-4412-b133-2bca8fb78677")
-	)
-	(wire
-		(pts
 			(xy 228.6 182.88) (xy 281.94 182.88)
 		)
 		(stroke
@@ -1456,16 +1446,6 @@
 				(justify left)
 			)
 		)
-		(pin "POT2_Analog" output
-			(at 281.94 185.42 180)
-			(uuid "79ef0a0d-e2b4-414b-a69e-fee9c0ceae80")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab"
@@ -1897,16 +1877,6 @@
 		(pin "POT1_Analog" input
 			(at 228.6 182.88 0)
 			(uuid "08dd95df-bff3-45f7-8ae3-82dc22828e65")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "POT2_Analog" input
-			(at 228.6 185.42 0)
-			(uuid "520c4e76-d7f4-4ba5-9777-2d7a1a6eb24c")
 			(effects
 				(font
 					(size 1.27 1.27)
