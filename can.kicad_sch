@@ -5,7 +5,7 @@
 	(uuid "557f3eb5-6d65-4908-b600-9e4041b89ab5")
 	(paper "A3")
 	(title_block
-		(title "renode-reference-platform")
+		(title "STM32H7 Renode Reference Platform")
 		(date "07.04.2026")
 		(rev "1.0.0")
 		(company "Antmicro")
