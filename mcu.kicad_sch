@@ -10293,7 +10293,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroPushbuttonSwitches:SW_B3U-1000P_SMD"
+		(symbol "antmicroPushbuttonSwitches:SW_SKRPABE010"
 			(pin_names
 				(hide yes)
 			)
@@ -10301,7 +10301,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 25.4 -2.54 0)
+				(at 21.59 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10310,30 +10310,18 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "SW_B3U-1000P_SMD"
-				(at 25.4 -5.08 0)
+			(property "Value" "SW_SKRPABE010"
+				(at 21.59 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:SW_B3U-1000P_SMD"
-				(at 25.4 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf"
-				(at 25.4 -10.16 0)
+			(property "Footprint" "antmicro-footprints:SW_PTS810SJM250SMTRLFS_SMD"
+				(at 21.59 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10343,8 +10331,19 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Tactile Switch, B3U, Top Actuated, Surface Mount, Round Button, 153 gf, 50mA at 12VDC"
-				(at 25.4 -22.86 0)
+			(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/SKRPABE010/"
+				(at 21.59 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tactile Switch, PTS810, Top Actuated, Surface Mount, Oval Button, 160 gf, 50mA at 16VDC"
+				(at 21.59 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10353,18 +10352,19 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "B3U-1000P"
-				(at 25.4 -12.7 0)
+			(property "MPN" "SKRPABE010"
+				(at 21.59 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
 					(justify left bottom)
+					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Omron"
-				(at 25.4 -15.24 0)
+			(property "Manufacturer" "Alps Alpine"
+				(at 21.59 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10375,7 +10375,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 25.4 -17.78 0)
+				(at 21.59 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10386,7 +10386,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 25.4 -20.32 0)
+				(at 21.59 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10396,7 +10396,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "VERTICAL, SMT, SWITCH, MECHANICAL, TACTILE"
+			(property "ki_keywords" "VERTICAL, SMT, TACTILE, SWITCH"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10405,10 +10405,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_B3U-1000P_SMD_1_1"
+			(symbol "SW_SKRPABE010_1_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 3.302 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 3.302 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -10432,6 +10444,29 @@
 				)
 				(circle
 					(center 3.556 0)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -0.3048) (xy 3.556 -2.1844)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.556 -2.54)
 					(radius 0.254)
 					(stroke
 						(width 0.254)
@@ -10478,7 +10513,42 @@
 				)
 				(polyline
 					(pts
+						(xy 6.604 -0.254) (xy 6.604 -2.1844)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.604 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 7.62 0) (xy 6.858 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 6.858 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -10507,7 +10577,7 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 0 180)
+					(at 0 -2.54 0)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -10517,6 +10587,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12555,7 +12661,7 @@
 		(uuid "67c081e3-5387-40ec-abb4-6be4039c04d5")
 	)
 	(junction
-		(at 373.38 167.64)
+		(at 373.38 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6be5f805-4e76-4711-b94f-6ac9f4f5d146")
@@ -14311,7 +14417,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 167.64) (xy 373.38 168.91)
+			(xy 373.38 170.18) (xy 373.38 171.45)
 		)
 		(stroke
 			(width 0)
@@ -14601,7 +14707,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 167.64) (xy 373.38 167.64)
+			(xy 370.84 170.18) (xy 373.38 170.18)
 		)
 		(stroke
 			(width 0)
@@ -15121,7 +15227,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 162.56) (xy 375.92 161.29)
+			(xy 375.92 165.1) (xy 375.92 161.29)
 		)
 		(stroke
 			(width 0)
@@ -16461,7 +16567,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 167.64) (xy 375.92 167.64)
+			(xy 373.38 170.18) (xy 375.92 170.18)
 		)
 		(stroke
 			(width 0)
@@ -16801,7 +16907,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 161.29) (xy 370.84 162.56)
+			(xy 370.84 161.29) (xy 370.84 165.1)
 		)
 		(stroke
 			(width 0)
@@ -27630,7 +27736,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
-		(at 370.84 167.64 270)
+		(at 370.84 170.18 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27639,7 +27745,7 @@
 		(dnp no)
 		(uuid "2dab934f-8923-42e4-ae58-5da9a3fdaab1")
 		(property "Reference" "C25"
-			(at 368.3 163.8236 90)
+			(at 368.3 166.3636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27649,7 +27755,7 @@
 			)
 		)
 		(property "Value" "C_100n_0402"
-			(at 360.68 147.32 0)
+			(at 360.68 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27660,7 +27766,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 358.14 147.32 0)
+			(at 358.14 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27671,7 +27777,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
-			(at 355.6 147.32 0)
+			(at 355.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27682,7 +27788,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-			(at 337.82 147.32 0)
+			(at 337.82 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27692,7 +27798,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 353.06 147.32 0)
+			(at 353.06 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27703,7 +27809,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 350.52 147.32 0)
+			(at 350.52 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27714,7 +27820,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 347.98 147.32 0)
+			(at 347.98 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27725,7 +27831,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 345.44 147.32 0)
+			(at 345.44 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27736,7 +27842,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 368.3 166.3636 90)
+			(at 368.3 168.9036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27746,7 +27852,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 342.9 147.32 0)
+			(at 342.9 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27756,7 +27862,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 340.36 147.32 0)
+			(at 340.36 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36400,7 +36506,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroPushbuttonSwitches:SW_B3U-1000P_SMD")
+		(lib_id "antmicroPushbuttonSwitches:SW_SKRPABE010")
 		(at 378.46 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -36408,7 +36514,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "800ac398-5c7c-4deb-afed-8bf0cfd13e5b")
+		(uuid "7ee8bd69-1469-46f6-bfe8-bfaece44d081")
 		(property "Reference" "SW5"
 			(at 383.54 153.67 0)
 			(effects
@@ -36418,50 +36524,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_B3U-1000P_SMD"
-			(at 403.86 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SW_B3U-1000P_SMD"
-			(at 403.86 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf"
-			(at 403.86 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tactile Switch, B3U, Top Actuated, Surface Mount, Round Button, 153 gf, 50mA at 12VDC"
-			(at 403.86 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "B3U-1000P"
+		(property "Value" "SW_SKRPABE010"
 			(at 383.54 156.21 0)
 			(effects
 				(font
@@ -36470,8 +36533,51 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Omron"
-			(at 403.86 176.53 0)
+		(property "Footprint" "antmicro-footprints:SW_PTS810SJM250SMTRLFS_SMD"
+			(at 400.05 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/SKRPABE010/"
+			(at 400.05 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switch, PTS810, Top Actuated, Surface Mount, Oval Button, 160 gf, 50mA at 16VDC"
+			(at 400.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SKRPABE010"
+			(at 400.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alps Alpine"
+			(at 400.05 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36482,7 +36588,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 403.86 179.07 0)
+			(at 400.05 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36493,7 +36599,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 403.86 181.61 0)
+			(at 400.05 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36503,11 +36609,17 @@
 				(hide yes)
 			)
 		)
+		(pin "4"
+			(uuid "278ab504-57ec-4a7b-bb20-4e46c1e23319")
+		)
+		(pin "3"
+			(uuid "e8d7eb81-0e49-4812-8eed-fd54213ed725")
+		)
 		(pin "1"
-			(uuid "9324fa1c-a91d-4265-a378-d15a85859b3c")
+			(uuid "36dff7d5-0704-446c-b13c-46d156258a99")
 		)
 		(pin "2"
-			(uuid "1ddfa44a-2871-4f7a-9254-643d9a86bc21")
+			(uuid "5cd62fa4-fa04-47c2-beb7-2500b78f4118")
 		)
 		(instances
 			(project "renode-reference-platform"
@@ -40023,7 +40135,7 @@
 	)
 	(symbol
 		(lib_id "antmicroTVSDiodes:PESD5Z3.3")
-		(at 375.92 162.56 270)
+		(at 375.92 165.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40032,7 +40144,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba223fe1-2759-4a77-a14e-228621004e8d")
 		(property "Reference" "D6"
-			(at 378.46 163.83 90)
+			(at 378.46 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40042,7 +40154,7 @@
 			)
 		)
 		(property "Value" "PESD5Z3.3"
-			(at 363.22 177.8 0)
+			(at 363.22 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40053,7 +40165,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:SOD-523"
-			(at 370.84 177.8 0)
+			(at 370.84 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40064,7 +40176,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5Z3_3.pdf"
-			(at 368.3 177.8 0)
+			(at 368.3 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40075,7 +40187,7 @@
 			)
 		)
 		(property "Description" "Unidirectional TVS, 30 kV,  SOD-523, 3.3 V, 172 pF"
-			(at 355.6 177.8 0)
+			(at 355.6 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40085,7 +40197,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia"
-			(at 365.76 177.8 0)
+			(at 365.76 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40096,7 +40208,7 @@
 			)
 		)
 		(property "MPN" "PESD5Z3.3,115"
-			(at 378.46 166.37 90)
+			(at 378.46 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40106,7 +40218,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 360.68 177.8 0)
+			(at 360.68 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40117,7 +40229,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 358.14 177.8 0)
+			(at 358.14 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46086,7 +46198,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 373.38 168.91 0)
+		(at 373.38 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46094,7 +46206,7 @@
 		(dnp no)
 		(uuid "fccee6ab-718b-45f9-a13b-9d85e63e953b")
 		(property "Reference" "#PWR043"
-			(at 382.27 171.45 0)
+			(at 382.27 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46105,7 +46217,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 373.38 173.228 0)
+			(at 369.57 173.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46114,7 +46226,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 382.27 176.53 0)
+			(at 382.27 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46125,7 +46237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 382.27 181.61 0)
+			(at 382.27 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46136,7 +46248,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 382.27 184.15 0)
+			(at 382.27 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46146,7 +46258,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 382.27 176.53 0)
+			(at 382.27 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46157,7 +46269,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 382.27 179.07 0)
+			(at 382.27 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
