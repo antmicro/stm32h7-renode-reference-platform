@@ -3005,6 +3005,16 @@
 		)
 		(uuid "e165492a-f01e-4078-927c-ebc781dae664")
 	)
+	(text "Addr 0x10"
+		(exclude_from_sim no)
+		(at 356.87 220.218 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7f44260-c294-4c1c-9dd7-d3c7b62db133")
+	)
 	(text "Light intensity sensor"
 		(exclude_from_sim no)
 		(at 343.916 173.736 0)
