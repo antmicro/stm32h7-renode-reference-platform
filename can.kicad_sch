@@ -2594,12 +2594,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroTerminalBlocksConnectors:Wire2Board_1x3_P2.5mm_1770966"
+		(symbol "antmicroWire2BoardConnectors:Wago_2059_1x3_2059-303/998-403"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 11.43 -2.54 0)
+				(at 20.32 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2608,19 +2608,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Wire2Board_1x3_P2.5mm_1770966"
-				(at 11.43 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:TerminalBlock_Wire2Board_1x3_P2.5mm_1770966"
-				(at 11.43 -10.16 0)
+			(property "Value" "Wago_2059_1x3_2059-303/998-403"
+				(at 20.32 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2630,8 +2619,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://product-download.phoenixcontact.com/7569292?response-content-disposition=inline;%20filename%3D%221770966_00_en_00.pdf%22&Expires=1775148543&Signature=cdcOMFLVeswHnLFaPZ~4jiTMxDinLrkr6b4eedK9QWPjNhvXGV7~wO4UgM2OiEACsDNhhjs4MvTW6vdlhD7le1if-LrRe5ernJ2Gxbpbl5tgWat5XwOE6ME55cF2gkRsPtyX6bkP4Zl6nmm123xSKb88fmJagkW3YlUKZ1SXOP9Sd4wRY4HIZABupb7FkykatP2d6R32C9f3v23t2uTkfGDjAumCLgKRmwPQHXij39OfSHUDffI0xgq11fatmGlgQzM1DIbsWvjpPs2RIRcFyviunT8rWbUlhCHw70vwyYSgnfUJwlrfIh2l8o09p81cuNMchm1jRKG6RqC9pVGftA__&Key-Pair-Id=K1I2N54A7B0GD"
-				(at 11.43 -12.7 0)
+			(property "Footprint" "antmicro-footprints:Wago_2059_1x3_2059-303-998-403"
+				(at 20.32 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2641,18 +2630,30 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Terminal block PTSM 0,5/ 3-2,5-V THR R44"
-				(at 11.43 -22.86 0)
+			(property "Datasheet" "https://wago.priintcloud.com/datasheets/2059-303_998-403/en/"
+				(at 20.32 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
 					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "MPN" "1770966"
-				(at 11.43 -5.08 0)
+			(property "Description" "SMD PCB terminal block; 0.5 mm²; Pin spacing 3 mm; 3-pole; PUSH WIRE®; in tape- and-reel packaging; white"
+				(at 20.32 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "2059-303/998-403"
+				(at 20.32 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2661,8 +2662,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "Phoenix Contact"
-				(at 11.43 -15.24 0)
+			(property "Manufacturer" "Wago"
+				(at 20.32 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2673,7 +2674,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 11.43 -17.78 0)
+				(at 20.32 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2684,7 +2685,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 11.43 -20.32 0)
+				(at 20.32 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2694,7 +2695,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "CONNECTOR"
+			(property "ki_keywords" "SMD, WIRE-BOARD, CONNECTOR, FEMALE, Terminal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2703,10 +2704,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Wire2Board_1x3_P2.5mm_1770966_1_1"
+			(symbol "Wago_2059_1x3_2059-303/998-403_1_1"
 				(rectangle
 					(start 2.54 2.54)
-					(end 7.62 -7.62)
+					(end 5.08 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2715,10 +2716,9 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 4.445 0) (xy 5.715 0)
-					)
+				(rectangle
+					(start 2.54 0.127)
+					(end 3.81 -0.127)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2727,10 +2727,9 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 4.445 -2.54) (xy 5.715 -2.54)
-					)
+				(rectangle
+					(start 2.54 -2.413)
+					(end 3.81 -2.667)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2739,79 +2738,9 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 4.445 -5.08) (xy 5.715 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 5.08 0)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -0.635) (xy 5.08 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -1.905) (xy 5.08 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 5.08 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 5.08 -5.08)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.715) (xy 5.08 -4.445)
-					)
+				(rectangle
+					(start 2.54 -4.953)
+					(end 3.81 -5.207)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2839,6 +2768,25 @@
 					)
 				)
 				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 2.54)
 					(name "~"
@@ -2848,7 +2796,26 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2866,7 +2833,26 @@
 							)
 						)
 					)
-					(number "3"
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8638,130 +8624,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTerminalBlocksConnectors:Wire2Board_1x3_P2.5mm_1770966")
-		(at 298.45 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cedbf46-626b-449d-b58d-01d5992fe407")
-		(property "Reference" "J6"
-			(at 307.34 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Wire2Board_1x3_P2.5mm_1770966"
-			(at 309.88 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:TerminalBlock_Wire2Board_1x3_P2.5mm_1770966"
-			(at 309.88 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product-download.phoenixcontact.com/7569292?response-content-disposition=inline;%20filename%3D%221770966_00_en_00.pdf%22&Expires=1775148543&Signature=cdcOMFLVeswHnLFaPZ~4jiTMxDinLrkr6b4eedK9QWPjNhvXGV7~wO4UgM2OiEACsDNhhjs4MvTW6vdlhD7le1if-LrRe5ernJ2Gxbpbl5tgWat5XwOE6ME55cF2gkRsPtyX6bkP4Zl6nmm123xSKb88fmJagkW3YlUKZ1SXOP9Sd4wRY4HIZABupb7FkykatP2d6R32C9f3v23t2uTkfGDjAumCLgKRmwPQHXij39OfSHUDffI0xgq11fatmGlgQzM1DIbsWvjpPs2RIRcFyviunT8rWbUlhCHw70vwyYSgnfUJwlrfIh2l8o09p81cuNMchm1jRKG6RqC9pVGftA__&Key-Pair-Id=K1I2N54A7B0GD"
-			(at 309.88 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Terminal block PTSM 0,5/ 3-2,5-V THR R44"
-			(at 309.88 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "1770966"
-			(at 307.34 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Phoenix Contact"
-			(at 309.88 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 309.88 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 309.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16c9fdee-a271-4fcc-8a61-c773c325a145")
-		)
-		(pin "3"
-			(uuid "6d827b68-c18e-41ed-b2ee-f3317a172cca")
-		)
-		(pin "2"
-			(uuid "a9d2f393-e0b3-4be5-8441-77971d6c7c29")
-		)
-		(instances
-			(project "renode-reference-platform"
-				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/6d40ac90-618b-4fed-a40d-8d6baabd0d71"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 133.35 90.17 90)
 		(unit 1)
@@ -9766,130 +9628,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroTerminalBlocksConnectors:Wire2Board_1x3_P2.5mm_1770966")
-		(at 298.45 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85a75789-5ee5-42cb-a325-fc5bf29da06a")
-		(property "Reference" "J5"
-			(at 307.34 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Wire2Board_1x3_P2.5mm_1770966"
-			(at 309.88 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:TerminalBlock_Wire2Board_1x3_P2.5mm_1770966"
-			(at 309.88 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://product-download.phoenixcontact.com/7569292?response-content-disposition=inline;%20filename%3D%221770966_00_en_00.pdf%22&Expires=1775148543&Signature=cdcOMFLVeswHnLFaPZ~4jiTMxDinLrkr6b4eedK9QWPjNhvXGV7~wO4UgM2OiEACsDNhhjs4MvTW6vdlhD7le1if-LrRe5ernJ2Gxbpbl5tgWat5XwOE6ME55cF2gkRsPtyX6bkP4Zl6nmm123xSKb88fmJagkW3YlUKZ1SXOP9Sd4wRY4HIZABupb7FkykatP2d6R32C9f3v23t2uTkfGDjAumCLgKRmwPQHXij39OfSHUDffI0xgq11fatmGlgQzM1DIbsWvjpPs2RIRcFyviunT8rWbUlhCHw70vwyYSgnfUJwlrfIh2l8o09p81cuNMchm1jRKG6RqC9pVGftA__&Key-Pair-Id=K1I2N54A7B0GD"
-			(at 309.88 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Terminal block PTSM 0,5/ 3-2,5-V THR R44"
-			(at 309.88 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "1770966"
-			(at 307.34 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Phoenix Contact"
-			(at 309.88 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 309.88 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 309.88 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec3a273a-5d10-49d0-a4ac-293696d549f9")
-		)
-		(pin "3"
-			(uuid "e1209263-adee-4bbb-abe8-1c34296d3e6e")
-		)
-		(pin "2"
-			(uuid "e4d1512c-ddfb-410b-b79b-0de2fa89ad4c")
-		)
-		(instances
-			(project "renode-reference-platform"
-				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/6d40ac90-618b-4fed-a40d-8d6baabd0d71"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroResistors0402:R_10k_0402")
 		(at 289.56 146.05 90)
 		(unit 1)
@@ -10746,6 +10484,140 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroWire2BoardConnectors:Wago_2059_1x3_2059-303/998-403")
+		(at 298.45 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b03520db-95ba-4bec-a6eb-f39d0461f16d")
+		(property "Reference" "J5"
+			(at 304.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Wago_2059_1x3_2059-303/998-403"
+			(at 318.77 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Wago_2059_1x3_2059-303-998-403"
+			(at 318.77 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2059-303_998-403/en/"
+			(at 318.77 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD PCB terminal block; 0.5 mm²; Pin spacing 3 mm; 3-pole; PUSH WIRE®; in tape- and-reel packaging; white"
+			(at 318.77 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2059-303/998-403"
+			(at 304.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Wago"
+			(at 318.77 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 318.77 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 318.77 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa053100-23fb-4f74-967c-43d09bf9d098")
+		)
+		(pin "5"
+			(uuid "e5d87318-59f2-420f-a32c-c6995cec7e16")
+		)
+		(pin "4"
+			(uuid "5a64e9e7-843a-4b48-976e-9e996a46e049")
+		)
+		(pin "3"
+			(uuid "69a88fe7-a46b-4711-940e-1b7ef5a2de8c")
+		)
+		(pin "2"
+			(uuid "60d1f550-54d5-43a4-b7f8-9e1271f96817")
+		)
+		(pin "6"
+			(uuid "1e18a88d-c0fb-4c97-b94d-5bcec11cf5eb")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/6d40ac90-618b-4fed-a40d-8d6baabd0d71"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 297.18 182.88 0)
 		(unit 1)
@@ -11319,6 +11191,140 @@
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/6d40ac90-618b-4fed-a40d-8d6baabd0d71"
 					(reference "#PWR0228")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroWire2BoardConnectors:Wago_2059_1x3_2059-303/998-403")
+		(at 298.45 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8755ad4-f6b5-40c9-8222-b102244bcec4")
+		(property "Reference" "J6"
+			(at 304.8 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Wago_2059_1x3_2059-303/998-403"
+			(at 318.77 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Wago_2059_1x3_2059-303-998-403"
+			(at 318.77 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2059-303_998-403/en/"
+			(at 318.77 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD PCB terminal block; 0.5 mm²; Pin spacing 3 mm; 3-pole; PUSH WIRE®; in tape- and-reel packaging; white"
+			(at 318.77 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2059-303/998-403"
+			(at 304.8 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Wago"
+			(at 318.77 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 318.77 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 318.77 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "025e6df9-c261-4048-8606-fe24e36a86f4")
+		)
+		(pin "5"
+			(uuid "e98e9c9d-28bb-45da-a5ff-43e75b5f936f")
+		)
+		(pin "4"
+			(uuid "5d38b9d3-01d0-4381-8163-309ead7714fd")
+		)
+		(pin "3"
+			(uuid "25238ad1-dd89-4b58-a279-dabb4b44410c")
+		)
+		(pin "2"
+			(uuid "fe2e9253-e67e-460d-952d-5e0470234639")
+		)
+		(pin "6"
+			(uuid "d654e3e8-ea7e-4292-b5cb-f82413e71ca7")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/6d40ac90-618b-4fed-a40d-8d6baabd0d71"
+					(reference "J6")
 					(unit 1)
 				)
 			)
