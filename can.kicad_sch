@@ -2594,7 +2594,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroWire2BoardConnectors:Wago_2059_1x3_2059-303/998-403"
+		(symbol "antmicroWire2BoardConnectors:WAGO_2059_1x3_2059-303/998-403"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2619,7 +2619,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:Wago_2059_1x3_2059-303-998-403"
+			(property "Footprint" "antmicro-footprints:WAGO_2059_1x3_2059-303-998-403"
 				(at 20.32 -10.16 0)
 				(effects
 					(font
@@ -2641,7 +2641,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD PCB terminal block; 0.5 mm²; Pin spacing 3 mm; 3-pole; PUSH WIRE®; in tape- and-reel packaging; white"
+			(property "Description" "SMD PCB terminal block; 0.5 mm²; Pin spacing 3 mm; 3-pole; PUSH WIRE; in tape- and-reel packaging; white"
 				(at 20.32 -25.4 0)
 				(effects
 					(font
@@ -2662,7 +2662,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "Wago"
+			(property "Manufacturer" "WAGO"
 				(at 20.32 -17.78 0)
 				(effects
 					(font
@@ -2695,7 +2695,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SMD, WIRE-BOARD, CONNECTOR, FEMALE, Terminal"
+			(property "ki_keywords" "SMD, WIRE-BOARD, CONNECTOR, FEMALE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2704,7 +2704,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Wago_2059_1x3_2059-303/998-403_1_1"
+			(symbol "WAGO_2059_1x3_2059-303/998-403_1_1"
 				(rectangle
 					(start 2.54 2.54)
 					(end 5.08 -7.62)
@@ -9023,6 +9023,274 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroWire2BoardConnectors:WAGO_2059_1x3_2059-303/998-403")
+		(at 298.45 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b4302f0-4840-4be9-9af9-d75e15818512")
+		(property "Reference" "J6"
+			(at 304.8 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Wago_2059_1x3_2059-303/998-403"
+			(at 318.77 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:WAGO_2059_1x3_2059-303-998-403"
+			(at 318.77 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2059-303_998-403/en/"
+			(at 318.77 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD PCB terminal block; 0.5 mm²; Pin spacing 3 mm; 3-pole; PUSH WIRE; in tape- and-reel packaging; white"
+			(at 318.77 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2059-303/998-403"
+			(at 304.8 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "WAGO"
+			(at 318.77 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 318.77 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 318.77 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "dc2d201a-edd6-4134-82a7-58781d607772")
+		)
+		(pin "2"
+			(uuid "06d913dd-7b9f-4015-8e81-e73dc90ea4a4")
+		)
+		(pin "3"
+			(uuid "90a29016-e6f6-4afa-857d-1fcc38e018c0")
+		)
+		(pin "1"
+			(uuid "216ebb71-c809-4a36-ac67-9044ba1e5321")
+		)
+		(pin "4"
+			(uuid "5e8cf49d-054d-4a04-bbf9-2ab81190c5da")
+		)
+		(pin "5"
+			(uuid "b7594287-e7d9-4453-afc8-c348a214c2ed")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/6d40ac90-618b-4fed-a40d-8d6baabd0d71"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroWire2BoardConnectors:WAGO_2059_1x3_2059-303/998-403")
+		(at 298.45 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71664fc5-c15b-4243-b462-5385db41c451")
+		(property "Reference" "J5"
+			(at 304.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Wago_2059_1x3_2059-303/998-403"
+			(at 318.77 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:WAGO_2059_1x3_2059-303-998-403"
+			(at 318.77 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2059-303_998-403/en/"
+			(at 318.77 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD PCB terminal block; 0.5 mm²; Pin spacing 3 mm; 3-pole; PUSH WIRE; in tape- and-reel packaging; white"
+			(at 318.77 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2059-303/998-403"
+			(at 304.8 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "WAGO"
+			(at 318.77 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 318.77 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 318.77 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "bdaffa89-1ac8-4901-b2d7-45464c60e819")
+		)
+		(pin "2"
+			(uuid "d8b55f76-2a53-4b39-9809-f16af3872301")
+		)
+		(pin "3"
+			(uuid "226409e4-29ff-4e94-9c41-52ff5d139a9b")
+		)
+		(pin "1"
+			(uuid "48d40f58-05a2-4363-bb63-fdffc721d722")
+		)
+		(pin "4"
+			(uuid "f13f2455-bf2a-4f09-b6de-e72203dcc88b")
+		)
+		(pin "5"
+			(uuid "7d7830f8-7854-4dfb-aa33-71f49e726ab4")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/6d40ac90-618b-4fed-a40d-8d6baabd0d71"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:+3V3")
 		(at 110.49 177.8 0)
 		(unit 1)
@@ -10484,140 +10752,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroWire2BoardConnectors:Wago_2059_1x3_2059-303/998-403")
-		(at 298.45 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b03520db-95ba-4bec-a6eb-f39d0461f16d")
-		(property "Reference" "J5"
-			(at 304.8 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Wago_2059_1x3_2059-303/998-403"
-			(at 318.77 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Wago_2059_1x3_2059-303-998-403"
-			(at 318.77 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2059-303_998-403/en/"
-			(at 318.77 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD PCB terminal block; 0.5 mm²; Pin spacing 3 mm; 3-pole; PUSH WIRE®; in tape- and-reel packaging; white"
-			(at 318.77 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "2059-303/998-403"
-			(at 304.8 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Wago"
-			(at 318.77 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 318.77 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 318.77 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aa053100-23fb-4f74-967c-43d09bf9d098")
-		)
-		(pin "5"
-			(uuid "e5d87318-59f2-420f-a32c-c6995cec7e16")
-		)
-		(pin "4"
-			(uuid "5a64e9e7-843a-4b48-976e-9e996a46e049")
-		)
-		(pin "3"
-			(uuid "69a88fe7-a46b-4711-940e-1b7ef5a2de8c")
-		)
-		(pin "2"
-			(uuid "60d1f550-54d5-43a4-b7f8-9e1271f96817")
-		)
-		(pin "6"
-			(uuid "1e18a88d-c0fb-4c97-b94d-5bcec11cf5eb")
-		)
-		(instances
-			(project "renode-reference-platform"
-				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/6d40ac90-618b-4fed-a40d-8d6baabd0d71"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
 		(at 297.18 182.88 0)
 		(unit 1)
@@ -11191,140 +11325,6 @@
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/6d40ac90-618b-4fed-a40d-8d6baabd0d71"
 					(reference "#PWR0228")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroWire2BoardConnectors:Wago_2059_1x3_2059-303/998-403")
-		(at 298.45 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8755ad4-f6b5-40c9-8222-b102244bcec4")
-		(property "Reference" "J6"
-			(at 304.8 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Wago_2059_1x3_2059-303/998-403"
-			(at 318.77 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Wago_2059_1x3_2059-303-998-403"
-			(at 318.77 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wago.priintcloud.com/datasheets/2059-303_998-403/en/"
-			(at 318.77 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD PCB terminal block; 0.5 mm²; Pin spacing 3 mm; 3-pole; PUSH WIRE®; in tape- and-reel packaging; white"
-			(at 318.77 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "2059-303/998-403"
-			(at 304.8 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Wago"
-			(at 318.77 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 318.77 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 318.77 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "025e6df9-c261-4048-8606-fe24e36a86f4")
-		)
-		(pin "5"
-			(uuid "e98e9c9d-28bb-45da-a5ff-43e75b5f936f")
-		)
-		(pin "4"
-			(uuid "5d38b9d3-01d0-4381-8163-309ead7714fd")
-		)
-		(pin "3"
-			(uuid "25238ad1-dd89-4b58-a279-dabb4b44410c")
-		)
-		(pin "2"
-			(uuid "fe2e9253-e67e-460d-952d-5e0470234639")
-		)
-		(pin "6"
-			(uuid "d654e3e8-ea7e-4292-b5cb-f82413e71ca7")
-		)
-		(instances
-			(project "renode-reference-platform"
-				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/6d40ac90-618b-4fed-a40d-8d6baabd0d71"
-					(reference "J6")
 					(unit 1)
 				)
 			)
