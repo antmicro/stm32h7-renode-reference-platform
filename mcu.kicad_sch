@@ -10415,16 +10415,6 @@
 		)
 		(uuid "7faec760-f519-48bf-8025-10a80837d4b9")
 	)
-	(text "PC6 is SWPMI capable"
-		(exclude_from_sim no)
-		(at 121.666 117.348 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "91653653-bd58-4df9-b349-be32e82a631d")
-	)
 	(text "PWM capable"
 		(exclude_from_sim no)
 		(at 126.238 122.428 0)
@@ -17247,7 +17237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14cc66cb-1ded-47cd-ac91-aa9053deeef6")
-		(property "Reference" "U8"
+		(property "Reference" "U1"
 			(at 161.925 31.75 0)
 			(effects
 				(font
@@ -18140,7 +18130,7 @@
 		(instances
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/a09bd19e-75b4-4cc2-9c76-c57ffa8ef2d8"
-					(reference "U8")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -21030,7 +21020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40b3c7e0-aaf2-4d97-9dbd-80584a1e583e")
-		(property "Reference" "U8"
+		(property "Reference" "U1"
 			(at 161.925 161.29 0)
 			(effects
 				(font
@@ -21923,7 +21913,7 @@
 		(instances
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/a09bd19e-75b4-4cc2-9c76-c57ffa8ef2d8"
-					(reference "U8")
+					(reference "U1")
 					(unit 4)
 				)
 			)
@@ -25712,7 +25702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a5c8f18-64d2-4b4f-88b9-5b56756308a3")
-		(property "Reference" "U8"
+		(property "Reference" "U1"
 			(at 374.65 226.06 0)
 			(effects
 				(font
@@ -26607,7 +26597,7 @@
 		(instances
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/a09bd19e-75b4-4cc2-9c76-c57ffa8ef2d8"
-					(reference "U8")
+					(reference "U1")
 					(unit 7)
 				)
 			)
@@ -26993,7 +26983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ebb0404-48f7-4737-9acd-02b91e635769")
-		(property "Reference" "U8"
+		(property "Reference" "U1"
 			(at 274.955 137.16 0)
 			(effects
 				(font
@@ -27886,7 +27876,7 @@
 		(instances
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/a09bd19e-75b4-4cc2-9c76-c57ffa8ef2d8"
-					(reference "U8")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -29038,7 +29028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78fe0bed-b070-4282-af88-ae01abbc0eca")
-		(property "Reference" "U8"
+		(property "Reference" "U1"
 			(at 160.655 222.25 0)
 			(effects
 				(font
@@ -29931,7 +29921,7 @@
 		(instances
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/a09bd19e-75b4-4cc2-9c76-c57ffa8ef2d8"
-					(reference "U8")
+					(reference "U1")
 					(unit 5)
 				)
 			)
@@ -34560,7 +34550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfd61a23-e7da-4172-88b4-cb4cb878f050")
-		(property "Reference" "U8"
+		(property "Reference" "U1"
 			(at 161.925 95.25 0)
 			(effects
 				(font
@@ -35453,7 +35443,7 @@
 		(instances
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/a09bd19e-75b4-4cc2-9c76-c57ffa8ef2d8"
-					(reference "U8")
+					(reference "U1")
 					(unit 3)
 				)
 			)
@@ -35708,7 +35698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c611614f-eebc-4a61-acbe-9eccae103e56")
-		(property "Reference" "U8"
+		(property "Reference" "U1"
 			(at 321.945 196.85 0)
 			(effects
 				(font
@@ -36601,7 +36591,7 @@
 		(instances
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/a09bd19e-75b4-4cc2-9c76-c57ffa8ef2d8"
-					(reference "U8")
+					(reference "U1")
 					(unit 6)
 				)
 			)
