@@ -1346,7 +1346,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "QWIIC\n"
+	(text "I2C connector"
 		(exclude_from_sim no)
 		(at 187.198 110.236 0)
 		(effects

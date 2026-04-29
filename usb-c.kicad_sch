@@ -4190,7 +4190,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 105.41) (xy 132.08 105.41)
+			(xy 121.92 105.41) (xy 140.97 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4287,16 +4287,6 @@
 			(type default)
 		)
 		(uuid "125242a3-dd36-477e-8f60-8023c7fb4b46")
-	)
-	(wire
-		(pts
-			(xy 137.16 105.41) (xy 140.97 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "149f35aa-4820-4136-8061-9f2ba57195e0")
 	)
 	(wire
 		(pts
@@ -4500,7 +4490,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 132.08) (xy 205.74 121.92)
+			(xy 207.01 132.08) (xy 207.01 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4850,6 +4840,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 132.08) (xy 205.74 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "822abe05-70f6-48fc-80fc-852843d0571b")
+	)
+	(wire
+		(pts
 			(xy 256.54 107.95) (xy 251.46 107.95)
 		)
 		(stroke
@@ -5050,7 +5050,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 121.92) (xy 210.82 121.92)
+			(xy 207.01 121.92) (xy 210.82 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5669,7 +5669,7 @@
 		(uuid "b6408d1d-c3e7-4f16-b6ec-4c9aae3f31c0")
 	)
 	(label "USB.VBUS"
-		(at 116.84 105.41 0)
+		(at 121.92 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7330,157 +7330,6 @@
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/ec770658-59a1-4a3f-81ed-5fcccc21c2e8"
 					(reference "R86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 132.08 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "236c90fb-f1ee-4314-b2fa-742c0b4cc3dc")
-		(property "Reference" "R79"
-			(at 134.62 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "R_0R_0402"
-			(at 152.4 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 152.4 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 152.4 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 152.4 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ2GE0R00X"
-			(at 152.4 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 152.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 152.4 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 152.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "0R"
-			(at 134.62 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Tolerance" "~"
-			(at 152.4 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Current" "1A"
-			(at 152.4 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bcba803-f49f-4c87-bdd9-f8c0ea9291ba")
-		)
-		(pin "2"
-			(uuid "a4e274b0-189b-44bc-a1c2-8944f5b639f8")
-		)
-		(instances
-			(project "renode-reference-platform"
-				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/ec770658-59a1-4a3f-81ed-5fcccc21c2e8"
-					(reference "R79")
 					(unit 1)
 				)
 			)
