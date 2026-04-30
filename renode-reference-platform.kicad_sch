@@ -465,6 +465,16 @@
 		)
 		(uuid "095daf1b-4974-445a-bdc5-9a4b5898d8f3")
 	)
+	(wire
+		(pts
+			(xy 317.5 180.34) (xy 323.85 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e501379-395b-48bc-bf5e-9088c8214eb5")
+	)
 	(bus
 		(pts
 			(xy 149.86 78.74) (xy 149.86 54.61)
@@ -507,6 +517,26 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 210.82) (xy 317.5 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "251abcb4-52a7-474e-b244-13fbfc26f221")
+	)
+	(wire
+		(pts
+			(xy 326.39 215.9) (xy 317.5 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332bc91a-c646-46f1-83cd-adf6897b2acb")
+	)
+	(wire
+		(pts
 			(xy 228.6 82.55) (xy 281.94 82.55)
 		)
 		(stroke
@@ -545,6 +575,16 @@
 		)
 		(uuid "3f9fc50f-631d-4d03-88e3-079ca157589e")
 	)
+	(wire
+		(pts
+			(xy 321.31 182.88) (xy 321.31 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa6fbd0-3ce9-4eda-889b-bc64ef87a7a4")
+	)
 	(bus
 		(pts
 			(xy 129.54 144.78) (xy 185.42 144.78)
@@ -564,6 +604,26 @@
 			(type default)
 		)
 		(uuid "4e58c8e8-6a2e-45c7-9673-d4e329240bb2")
+	)
+	(wire
+		(pts
+			(xy 323.85 213.36) (xy 317.5 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512a17a6-60da-40ff-9246-b8c177c8f333")
+	)
+	(wire
+		(pts
+			(xy 317.5 182.88) (xy 321.31 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e50a4e-9e3c-44b3-9b22-c850d948dc26")
 	)
 	(wire
 		(pts
@@ -777,6 +837,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 180.34) (xy 323.85 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb64744a-8694-430b-ad1d-3f2ccde74280")
+	)
+	(wire
+		(pts
 			(xy 228.6 123.19) (xy 281.94 123.19)
 		)
 		(stroke
@@ -784,6 +854,16 @@
 			(type default)
 		)
 		(uuid "cbb5d606-603c-4276-8662-3c7b1565e7fa")
+	)
+	(wire
+		(pts
+			(xy 326.39 177.8) (xy 326.39 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe704ae-493e-4d89-a681-a1acccdcbd43")
 	)
 	(bus
 		(pts
@@ -794,6 +874,16 @@
 			(type default)
 		)
 		(uuid "de3192eb-521d-4248-8f91-64827992367d")
+	)
+	(wire
+		(pts
+			(xy 228.6 187.96) (xy 281.94 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d3eb3f-49e4-4c8c-a5b5-5b9ecd8172cc")
 	)
 	(wire
 		(pts
@@ -814,6 +904,16 @@
 			(type default)
 		)
 		(uuid "f63cebac-bbe6-4c56-94b9-c2552ed9b333")
+	)
+	(wire
+		(pts
+			(xy 317.5 177.8) (xy 326.39 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77f2b2c-1aaf-4304-87c4-8ea89fd8f7a6")
 	)
 	(bus
 		(pts
@@ -2139,7 +2239,7 @@
 	)
 	(sheet
 		(at 281.94 105.41)
-		(size 34.29 24.13)
+		(size 35.56 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2231,7 +2331,7 @@
 	)
 	(sheet
 		(at 281.94 171.45)
-		(size 34.29 24.13)
+		(size 35.56 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2283,6 +2383,46 @@
 				(justify left)
 			)
 		)
+		(pin "BOOT0" output
+			(at 281.94 187.96 180)
+			(uuid "8854d47d-6d72-4874-8003-2948a5fc0de3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN1_TERMINATION" output
+			(at 317.5 177.8 0)
+			(uuid "7f5b6fba-edd3-452c-aad5-108712e26e29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN2_TERMINATION" output
+			(at 317.5 180.34 0)
+			(uuid "1269cf6c-ac3c-4690-8065-53a131edd8cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_LOOP" output
+			(at 317.5 182.88 0)
+			(uuid "42d12589-f656-41dc-8e5b-11fb55230dbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab"
@@ -2293,7 +2433,7 @@
 	)
 	(sheet
 		(at 281.94 72.39)
-		(size 34.29 24.13)
+		(size 35.56 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2407,7 +2547,7 @@
 	)
 	(sheet
 		(at 281.94 204.47)
-		(size 34.29 22.86)
+		(size 35.56 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2467,6 +2607,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "CAN1_TERMINATION" input
+			(at 317.5 215.9 0)
+			(uuid "bf42b412-a1b4-4704-b099-0c6d4a84d5e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN2_TERMINATION" input
+			(at 317.5 213.36 0)
+			(uuid "131b14bb-e5ec-4946-9fa0-8b91be92c9c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_LOOP" input
+			(at 317.5 210.82 0)
+			(uuid "0ac066ff-b561-4901-bece-55fb9e699b00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -2721,6 +2891,16 @@
 				(justify right)
 			)
 		)
+		(pin "BOOT0" input
+			(at 228.6 187.96 0)
+			(uuid "00f700a8-dbf3-4009-947f-c6b5b64cb338")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab"
@@ -2813,7 +2993,7 @@
 	)
 	(sheet
 		(at 281.94 138.43)
-		(size 34.29 24.13)
+		(size 35.56 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
