@@ -8240,6 +8240,12 @@
 		(uuid "22413a1b-02e2-4213-9f47-e15fc369b255")
 	)
 	(junction
+		(at 120.65 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bbbae07-7b9b-4cdb-ba58-19ed39fcfdd7")
+	)
+	(junction
 		(at 156.21 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9253,16 +9259,6 @@
 			(type default)
 		)
 		(uuid "13979b8d-f55b-4731-a8a7-55ac03bfb072")
-	)
-	(wire
-		(pts
-			(xy 110.49 119.38) (xy 127 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13d1df4b-23ba-4d3f-8028-d7481993deca")
 	)
 	(wire
 		(pts
@@ -10586,6 +10582,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 116.84) (xy 127 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c20f15c-1e7f-4541-bda2-3e7c7d9f9ed0")
+	)
+	(wire
+		(pts
 			(xy 350.52 134.62) (xy 354.33 134.62)
 		)
 		(stroke
@@ -11136,6 +11142,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 116.84) (xy 120.65 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "979306db-8bc3-4c62-b751-e326770a77cb")
+	)
+	(wire
+		(pts
 			(xy 133.35 167.64) (xy 133.35 185.42)
 		)
 		(stroke
@@ -11256,7 +11272,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 116.84) (xy 127 116.84)
+			(xy 110.49 116.84) (xy 120.65 116.84)
 		)
 		(stroke
 			(width 0)
@@ -11676,6 +11692,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 119.38) (xy 127 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf865884-fdbd-47d7-9530-6c9b831d0fa0")
+	)
+	(wire
+		(pts
 			(xy 105.41 64.77) (xy 105.41 71.12)
 		)
 		(stroke
@@ -12043,16 +12069,6 @@
 			(type default)
 		)
 		(uuid "d8d844ca-6af4-4e07-aaf1-622f6e2f7107")
-	)
-	(wire
-		(pts
-			(xy 110.49 116.84) (xy 110.49 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d911c1ee-9950-448e-b87c-e8dbd9441170")
 	)
 	(wire
 		(pts
@@ -12614,16 +12630,6 @@
 		)
 		(uuid "1b70a37f-3b08-4144-bf67-653278c916c6")
 	)
-	(label "DATA"
-		(at 163.83 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f5d3a05-05c9-4926-8819-8c7fde51179b")
-	)
 	(label "FTDI.TMS"
 		(at 299.72 77.47 0)
 		(effects
@@ -12744,16 +12750,6 @@
 		)
 		(uuid "4f38fed0-6efa-4a83-a2a7-74d2d182e163")
 	)
-	(label "~{CS}"
-		(at 163.83 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5048c178-6913-4938-ac7e-ca8ce9d40091")
-	)
 	(label "+3V3_FTDI"
 		(at 309.88 57.15 0)
 		(effects
@@ -12803,16 +12799,6 @@
 			(justify left bottom)
 		)
 		(uuid "68783da3-8fb6-47d3-bcc4-496a6e53580e")
-	)
-	(label "CLK"
-		(at 163.83 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e5d9bd8-5132-4351-a106-0ff2770104f3")
 	)
 	(label "CC2"
 		(at 50.8 130.81 0)
