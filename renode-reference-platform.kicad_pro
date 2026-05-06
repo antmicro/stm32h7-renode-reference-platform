@@ -191,7 +191,8 @@
         0.125,
         0.2,
         0.3,
-        0.5
+        0.5,
+        0.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -518,7 +519,7 @@
         "diff_pair_width": 0.15,
         "name": "100Ohm-diff_MDI",
         "pcb_color": "rgb(204, 102, 0)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.125
       },
@@ -527,14 +528,14 @@
         "diff_pair_width": 0.125,
         "name": "120Ohm-diff_CAN",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "clearance": 0.125,
         "name": "60Ohm-se_QSPI",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.125
       },
@@ -542,9 +543,18 @@
         "clearance": 0.125,
         "name": "60Ohm-se_RMII",
         "pcb_color": "rgb(194, 194, 0)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.125
+      },
+      {
+        "diff_pair_gap": 0.125,
+        "diff_pair_width": 0.15,
+        "name": "90Ohm-diff_USB",
+        "pcb_color": "rgb(132, 132, 0)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15
       }
     ],
     "meta": {
@@ -642,6 +652,12 @@
       "/MCU/QSPI{SPI}": [
         "60Ohm-se_QSPI"
       ],
+      "/MCU/USB.D+": [
+        "90Ohm-diff_USB"
+      ],
+      "/MCU/USB.D-": [
+        "90Ohm-diff_USB"
+      ],
       "/SPI Flash/FLASH_CLK": [
         "60Ohm-se_QSPI"
       ],
@@ -659,6 +675,18 @@
       ],
       "/SPI Flash/FLASH_~{CS}": [
         "60Ohm-se_QSPI"
+      ],
+      "/USB-C Debug/USB.D+": [
+        "90Ohm-diff_USB"
+      ],
+      "/USB-C Debug/USB.D-": [
+        "90Ohm-diff_USB"
+      ],
+      "/USB-C Debug/USB.DN": [
+        "90Ohm-diff_USB"
+      ],
+      "/USB-C Debug/USB.DP": [
+        "90Ohm-diff_USB"
       ],
       "Net-(U10-CRS_DV)": [
         "60Ohm-se_RMII"
