@@ -11,7 +11,7 @@
 		(company "Antmicro")
 	)
 	(lib_symbols
-		(symbol "antmicroBatteryHoldersClipsContacts:Battery_Holder_MS621FE-FL11E"
+		(symbol "antmicroBatteryHoldersClipsContacts:Battery_Holder_2994"
 			(pin_names
 				(offset 0)
 			)
@@ -28,7 +28,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Battery_Holder_MS621FE-FL11E"
+			(property "Value" "Battery_Holder_2994"
 				(at 17.78 -7.62 0)
 				(effects
 					(font
@@ -39,7 +39,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:MS621FE-FL11E"
+			(property "Footprint" "antmicro-footprints:Battery_Holder_2994"
 				(at 17.78 -10.16 0)
 				(effects
 					(font
@@ -50,7 +50,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.sii.co.jp/en/me/datasheets/ms-rechargeable/ms621fe/"
+			(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p8.pdf"
 				(at 17.78 -12.7 0)
 				(effects
 					(font
@@ -61,7 +61,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Rechargeable Battery, Coin Cell, Single Cell, 3 V, Lithium Manganese Dioxide, 5.5 mAh, Button Cell"
+			(property "Description" "BATTERY RETAINER COIN 4.8MM SMD"
 				(at 17.78 -22.86 0)
 				(effects
 					(font
@@ -71,7 +71,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Seiko Instruments"
+			(property "Manufacturer" "Keystone Electronics"
 				(at 17.78 -15.24 0)
 				(effects
 					(font
@@ -82,7 +82,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "MS621FE-FL11E"
+			(property "MPN" "2994"
 				(at 17.78 -5.08 0)
 				(effects
 					(font
@@ -123,7 +123,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Battery_Holder_MS621FE-FL11E_0_1"
+			(symbol "Battery_Holder_2994_0_1"
 				(rectangle
 					(start -1.27 -5.08)
 					(end 1.27 -4.826)
@@ -148,7 +148,7 @@
 					)
 				)
 			)
-			(symbol "Battery_Holder_MS621FE-FL11E_1_1"
+			(symbol "Battery_Holder_2994_1_1"
 				(polyline
 					(pts
 						(xy -2.54 -3.81) (xy 2.54 -3.81)
@@ -24992,127 +24992,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroBatteryHoldersClipsContacts:Battery_Holder_MS621FE-FL11E")
-		(at 378.46 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62e1c764-0a37-4390-9a04-4f11980e2a60")
-		(property "Reference" "BT1"
-			(at 382.27 167.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Battery_Holder_MS621FE-FL11E"
-			(at 396.24 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:MS621FE-FL11E"
-			(at 396.24 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.sii.co.jp/en/me/datasheets/ms-rechargeable/ms621fe/"
-			(at 396.24 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rechargeable Battery, Coin Cell, Single Cell, 3 V, Lithium Manganese Dioxide, 5.5 mAh, Button Cell"
-			(at 396.24 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Seiko Instruments"
-			(at 396.24 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MS621FE-FL11E"
-			(at 382.27 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 396.24 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 396.24 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "de15740a-d352-49aa-a408-118be047acf3")
-		)
-		(pin "1"
-			(uuid "58582e6f-09e6-4517-bdd8-ff0d40e24095")
-		)
-		(instances
-			(project "renode-reference-platform"
-				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/a09bd19e-75b4-4cc2-9c76-c57ffa8ef2d8"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroResistors0402:R_2k2_0402")
 		(at 199.39 166.37 90)
 		(unit 1)
@@ -26557,6 +26436,127 @@
 			(project "renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/a09bd19e-75b4-4cc2-9c76-c57ffa8ef2d8"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroBatteryHoldersClipsContacts:Battery_Holder_2994")
+		(at 378.46 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d2ed46d-c7c9-42a0-a84b-1d6b612b64f1")
+		(property "Reference" "BT1"
+			(at 382.27 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Holder_2994"
+			(at 396.24 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Battery_Holder_2994"
+			(at 396.24 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p8.pdf"
+			(at 396.24 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "BATTERY RETAINER COIN 4.8MM SMD"
+			(at 396.24 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 396.24 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2994"
+			(at 382.27 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 396.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 396.24 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b74f9d0-0dda-4238-8bdd-c690b489e057")
+		)
+		(pin "1"
+			(uuid "196a7112-7cfd-4c16-98dd-cae95b1e5091")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/a09bd19e-75b4-4cc2-9c76-c57ffa8ef2d8"
+					(reference "BT1")
 					(unit 1)
 				)
 			)
