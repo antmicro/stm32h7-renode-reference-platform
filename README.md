@@ -1,4 +1,4 @@
-# Renode reference platform
+# STM32H753 Renode reference platform
 
 Copyright (c) 2026 [Antmicro](https://www.antmicro.com)
 
@@ -6,7 +6,7 @@ Copyright (c) 2026 [Antmicro](https://www.antmicro.com)
 
 ## Overview
 
-This project contains open hardware design files for a STM32H753 Renode Reference Plaform. Board includes high performance 32-bit STM32H753 MCU and a group of sensors integrated into development kit form factor. Digital twin of the board is represented in Renode allowing user to experiment and leard how to integrate Renode for development process.
+This project contains open hardware design files for an STM32H753 Renode Reference Platform. The board includes a high-performance 32-bit STM32H753 MCU and a group of sensors integrated into a development kit form factor. A digital twin of the board is represented in Renode, allowing users to experiment and learn how to integrate Renode into the development process.
 
 
 ## Key features
@@ -17,7 +17,7 @@ This project contains open hardware design files for a STM32H753 Renode Referenc
 * Dedicated debug/flashing USB-C port
 * 100Mbit/s Ethernet
 * DRP USB-C 
-* 10 axis IMU
+* 10-axis IMU
 * Power consumption meter
 * Temperature sensor
 * Light intensity sensor
@@ -32,4 +32,3 @@ The main directory contains KiCad PCB project files, the LICENSE, and this READM
 ## Licensing
 
 This project is published under the [Apache-2.0](LICENSE) license.
-
