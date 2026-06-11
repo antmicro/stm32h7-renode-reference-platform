@@ -1,4 +1,4 @@
-# STM32H753 Renode reference platform
+# STM32H753 Renode Reference Platform
 
 Copyright (c) 2026 [Antmicro](https://www.antmicro.com)
 
@@ -6,8 +6,7 @@ Copyright (c) 2026 [Antmicro](https://www.antmicro.com)
 
 ## Overview
 
-This project contains open hardware design files for an STM32H753 Renode Reference Platform. The board includes a high-performance 32-bit STM32H753 MCU and a group of sensors integrated into a development kit form factor. A digital twin of the board is represented in Renode, allowing users to experiment and learn how to integrate Renode into the development process.
-
+This project contains open hardware design files for an STM32H753 Renode Reference Platform. The board includes a high-performance 32-bit STM32H753 MCU and a group of sensors integrated into a development kit form factor. A digital twin of the board is represented in the [Renode](https://github.com/renode/renode) simulation framework, allowing users to experiment and learn how to integrate Renode into the development process.
 
 ## Key features
 
