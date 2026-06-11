@@ -1,14 +1,29 @@
 # Renode reference platform
 
-Copyright (c) 2025-2026 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2026 [Antmicro](https://www.antmicro.com)
+
+![Board photo](img/STM32H7-RENODE-REFERENCE-PLATFORM--1.png)
 
 ## Overview
 
+This project contains open hardware design files for a STM32H753 Renode Reference Plaform. Board includes high performance 32-bit STM32H753 MCU and a group of sensors integrated into development kit form factor. Digital twin of the board is represented in Renode allowing user to experiment and leard how to integrate Renode for development process.
 
 
 ## Key features
 
-![Block Diagram](img/hardware_renode_platform_block_diagram.png)
+![Block Diagram](img/Block-Diagram.png)
+
+* Powered via USB-C
+* Dedicated debug/flashing USB-C port
+* 100Mbit/s Ethernet
+* DRP USB-C 
+* 10 axis IMU
+* Power consumption meter
+* Temperature sensor
+* Light intensity sensor
+* 2x CAN Bus terminal
+* 1Gb QSPI Flash external memory
+* QWIIC expansion connector
 
 ## Project structure
 
