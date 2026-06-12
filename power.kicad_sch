@@ -1561,7 +1561,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT"
+		(symbol "antmicroLEDIndicationDiscrete:LED_G_0603_LG_L29K-G2J1-24-Z"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1572,7 +1572,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 22.86 -2.54 0)
+				(at 20.32 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1581,8 +1581,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "LED_G_0603_LTST-C190GKT"
-				(at 22.86 -7.62 0)
+			(property "Value" "LED_G_0603_LG_L29K-G2J1-24-Z"
+				(at 20.32 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1593,7 +1593,7 @@
 				)
 			)
 			(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
-				(at 22.86 -10.16 0)
+				(at 20.32 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1603,8 +1603,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf"
-				(at 22.86 -12.7 0)
+			(property "Datasheet" "https://look.ams-osram.com/m/19ee86b3ae0ee95b/original/LG-L29K.pdf"
+				(at 20.32 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1614,8 +1614,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.1 V, 569 nm"
-				(at 22.86 -25.4 0)
+			(property "Description" "LED, Green, SMD, 0603, 20 mA, 1.7 V, 570 nm"
+				(at 20.32 -25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1624,8 +1624,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "LTST-C190GKT"
-				(at 22.86 -15.24 0)
+			(property "MPN" "LG L29K-G2J1-24-Z"
+				(at 20.32 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1635,8 +1635,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Lite-On"
-				(at 22.86 -17.78 0)
+			(property "Manufacturer" "OSRAM"
+				(at 20.32 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1647,7 +1647,7 @@
 				)
 			)
 			(property "Color" "Green"
-				(at 22.86 -5.08 0)
+				(at 20.32 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1656,7 +1656,7 @@
 				)
 			)
 			(property "Author" "Antmicro"
-				(at 22.86 -20.32 0)
+				(at 20.32 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1667,7 +1667,7 @@
 				)
 			)
 			(property "License" "Apache-2.0"
-				(at 22.86 -22.86 0)
+				(at 20.32 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1686,7 +1686,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_G_0603_LTST-C190GKT_0_1"
+			(symbol "LED_G_0603_LG_L29K-G2J1-24-Z_0_1"
 				(polyline
 					(pts
 						(xy 1.905 0) (xy 0.635 0)
@@ -1712,7 +1712,7 @@
 					)
 				)
 			)
-			(symbol "LED_G_0603_LTST-C190GKT_1_1"
+			(symbol "LED_G_0603_LG_L29K-G2J1-24-Z_1_1"
 				(polyline
 					(pts
 						(xy 1.143 2.286) (xy 1.143 1.778) (xy 1.143 2.286) (xy 1.651 2.286) (xy 1.143 2.286) (xy 2.159 1.27)
@@ -10770,7 +10770,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LTST-C190GKT")
+		(lib_id "antmicroLEDIndicationDiscrete:LED_G_0603_LG_L29K-G2J1-24-Z")
 		(at 154.94 234.95 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10788,8 +10788,8 @@
 				)
 			)
 		)
-		(property "Value" "LED_G_0603_LTST-C190GKT"
-			(at 132.08 227.33 0)
+		(property "Value" "LED_G_0603_LG_L29K-G2J1-24-Z"
+			(at 134.62 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10800,7 +10800,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:LED_0603_1608Metric_G"
-			(at 132.08 224.79 0)
+			(at 134.62 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10810,8 +10810,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf"
-			(at 132.08 222.25 0)
+		(property "Datasheet" "https://look.ams-osram.com/m/19ee86b3ae0ee95b/original/LG-L29K.pdf"
+			(at 134.62 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10821,8 +10821,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED, Green, SMD, 0603, 20 mA, 2.1 V, 569 nm"
-			(at 132.08 209.55 0)
+		(property "Description" "LED, Green, SMD, 0603, 20 mA, 1.7 V, 570 nm"
+			(at 134.62 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10831,8 +10831,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTST-C190GKT"
-			(at 132.08 219.71 0)
+		(property "MPN" "LG L29K-G2J1-24-Z"
+			(at 134.62 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10842,8 +10842,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Lite-On"
-			(at 132.08 217.17 0)
+		(property "Manufacturer" "OSRAM"
+			(at 134.62 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10862,7 +10862,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 132.08 214.63 0)
+			(at 134.62 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10873,7 +10873,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 132.08 212.09 0)
+			(at 134.62 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
