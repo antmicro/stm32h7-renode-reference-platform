@@ -12585,16 +12585,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 135.89) (xy 146.05 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a7dc881-aa82-409b-962e-601c214ac8c6")
-	)
-	(wire
-		(pts
 			(xy 369.57 101.6) (xy 375.92 101.6)
 		)
 		(stroke
@@ -14375,6 +14365,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 135.89) (xy 118.11 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1299501-a4e6-4235-862e-c0ba7cc63436")
+	)
+	(wire
+		(pts
 			(xy 384.81 101.6) (xy 384.81 102.87)
 		)
 		(stroke
@@ -15002,6 +15002,16 @@
 			(type default)
 		)
 		(uuid "caecf440-e803-4546-8c8a-6b19dcb63e84")
+	)
+	(wire
+		(pts
+			(xy 123.19 135.89) (xy 146.05 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb36bdaa-0bcc-495f-8ff2-27f2c2d6f0ca")
 	)
 	(wire
 		(pts
@@ -16223,6 +16233,16 @@
 		)
 		(uuid "73d072fe-6eca-4e48-811b-df37090260bd")
 	)
+	(label "~{FTDI_RESET_MCU}"
+		(at 128.27 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7471bf5d-7f1f-4666-96ca-6d9a26ad0635")
+	)
 	(label "RMII.TXD0"
 		(at 124.46 262.89 0)
 		(effects
@@ -16908,7 +16928,7 @@
 	)
 	(hierarchical_label "~{FTDI_RESET}"
 		(shape output)
-		(at 143.51 135.89 180)
+		(at 109.22 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23905,6 +23925,156 @@
 			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/a09bd19e-75b4-4cc2-9c76-c57ffa8ef2d8"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_0R_0402")
+		(at 118.11 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "58814171-61bb-4d79-8c1c-544cab50b85a")
+		(property "Reference" "R43"
+			(at 116.332 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_0402"
+			(at 138.43 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 138.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 138.43 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 138.43 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 138.43 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 138.43 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 138.43 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 138.43 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "0R"
+			(at 124.714 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "~"
+			(at 138.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Current" "1A"
+			(at 138.43 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2813d5b-f056-4427-9b5c-5b7307ff30c4")
+		)
+		(pin "1"
+			(uuid "f1c5e37a-10f1-471d-8747-1fc34a12c787")
+		)
+		(instances
+			(project "renode-reference-platform"
+				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/a09bd19e-75b4-4cc2-9c76-c57ffa8ef2d8"
+					(reference "R43")
 					(unit 1)
 				)
 			)
