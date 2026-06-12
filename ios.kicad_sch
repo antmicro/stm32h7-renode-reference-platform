@@ -2878,7 +2878,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroResistors0402:R_220R_0402"
+		(symbol "antmicroResistors0402:R_470R_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2898,7 +2898,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "R_220R_0402"
+			(property "Value" "R_470R_0402"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -2931,7 +2931,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Chip Resistor, 220 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 				(at 20.32 -30.48 0)
 				(effects
 					(font
@@ -2941,7 +2941,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CR0402-FX-2200GLF"
+			(property "MPN" "CR0402-FX-4700GLF"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -2985,7 +2985,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "220R"
+			(property "Val" "470R"
 				(at 20.32 -7.62 0)
 				(effects
 					(font
@@ -3014,7 +3014,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_220R_0402_0_1"
+			(symbol "R_470R_0402_0_1"
 				(rectangle
 					(start 0.635 0.889)
 					(end 4.445 -0.889)
@@ -3027,7 +3027,7 @@
 					)
 				)
 			)
-			(symbol "R_220R_0402_1_1"
+			(symbol "R_470R_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.635)
@@ -8220,7 +8220,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_220R_0402")
+		(lib_id "antmicroResistors0402:R_470R_0402")
 		(at 210.82 107.95 270)
 		(mirror x)
 		(unit 1)
@@ -8239,7 +8239,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_220R_0402"
+		(property "Value" "R_470R_0402"
 			(at 198.12 87.63 0)
 			(effects
 				(font
@@ -8272,7 +8272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 220 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 180.34 87.63 0)
 			(effects
 				(font
@@ -8282,7 +8282,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-2200GLF"
+		(property "MPN" "CR0402-FX-4700GLF"
 			(at 190.5 87.63 0)
 			(effects
 				(font
@@ -8326,14 +8326,14 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "220R"
-			(at 208.28 106.68 90)
+		(property "Val" "470R"
+			(at 203.2 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
+				(justify left bottom)
 			)
 		)
 		(property "Tolerance" "1%"
@@ -12553,7 +12553,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_220R_0402")
+		(lib_id "antmicroResistors0402:R_470R_0402")
 		(at 151.13 93.98 0)
 		(mirror y)
 		(unit 1)
@@ -12572,7 +12572,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_220R_0402"
+		(property "Value" "R_470R_0402"
 			(at 130.81 106.68 0)
 			(effects
 				(font
@@ -12605,7 +12605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 220 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 130.81 124.46 0)
 			(effects
 				(font
@@ -12615,7 +12615,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-2200GLF"
+		(property "MPN" "CR0402-FX-4700GLF"
 			(at 130.81 114.3 0)
 			(effects
 				(font
@@ -12659,14 +12659,14 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "220R"
-			(at 140.97 92.71 0)
+		(property "Val" "470R"
+			(at 146.05 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
+				(justify left bottom)
 			)
 		)
 		(property "Tolerance" "1%"
@@ -14573,7 +14573,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_220R_0402")
+		(lib_id "antmicroResistors0402:R_470R_0402")
 		(at 151.13 99.06 0)
 		(mirror y)
 		(unit 1)
@@ -14591,7 +14591,7 @@
 				)
 			)
 		)
-		(property "Value" "R_220R_0402"
+		(property "Value" "R_470R_0402"
 			(at 130.81 111.76 0)
 			(effects
 				(font
@@ -14624,7 +14624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 220 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 130.81 129.54 0)
 			(effects
 				(font
@@ -14634,7 +14634,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-2200GLF"
+		(property "MPN" "CR0402-FX-4700GLF"
 			(at 130.81 119.38 0)
 			(effects
 				(font
@@ -14678,13 +14678,14 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "220R"
-			(at 143.51 97.79 0)
+		(property "Val" "470R"
+			(at 146.05 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Tolerance" "1%"
@@ -15140,7 +15141,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_220R_0402")
+		(lib_id "antmicroResistors0402:R_470R_0402")
 		(at 146.05 96.52 0)
 		(mirror x)
 		(unit 1)
@@ -15158,7 +15159,7 @@
 				)
 			)
 		)
-		(property "Value" "R_220R_0402"
+		(property "Value" "R_470R_0402"
 			(at 166.37 83.82 0)
 			(effects
 				(font
@@ -15191,7 +15192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 220 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 166.37 66.04 0)
 			(effects
 				(font
@@ -15201,7 +15202,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0402-FX-2200GLF"
+		(property "MPN" "CR0402-FX-4700GLF"
 			(at 166.37 76.2 0)
 			(effects
 				(font
@@ -15245,13 +15246,14 @@
 				(hide yes)
 			)
 		)
-		(property "Val" "220R"
-			(at 143.51 95.25 0)
+		(property "Val" "470R"
+			(at 140.97 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Tolerance" "1%"
