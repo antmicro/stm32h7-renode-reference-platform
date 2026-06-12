@@ -7678,6 +7678,16 @@
 		(uuid "0604cff5-8562-448e-b392-ae6089c2591c")
 	)
 	(label "IOs.SW3"
+		(at 349.25 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0eb0afbd-bc58-44ed-a03f-cb147750d4ab")
+	)
+	(label "IOs.SW3"
 		(at 71.12 78.74 180)
 		(effects
 			(font
@@ -7687,15 +7697,15 @@
 		)
 		(uuid "1c6c9d8d-28a6-4390-9db9-00ab51291a98")
 	)
-	(label "IOs.SW3"
-		(at 349.25 208.28 0)
+	(label "IOs.SW4"
+		(at 349.25 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "1e2458f2-a426-4308-976c-8ce3c8a4a008")
+		(uuid "1e91e8f9-2872-451d-bdcc-1b3d27f26306")
 	)
 	(label "IOs.LED4_R"
 		(at 104.14 88.9 0)
@@ -7706,6 +7716,16 @@
 			(justify left bottom)
 		)
 		(uuid "4345b9aa-db09-4573-87b8-ae0b5c6740f0")
+	)
+	(label "IOs.SW1"
+		(at 349.25 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "476f37eb-e14d-4228-9b15-18ffd5829e20")
 	)
 	(label "IOs.LED1"
 		(at 71.12 52.07 180)
@@ -7827,16 +7847,6 @@
 		)
 		(uuid "ae91b3bd-ce88-451d-af78-a612424d0af4")
 	)
-	(label "IOs.SW1"
-		(at 349.25 203.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bac24300-1574-4e9e-96f8-b4c8696cd6e1")
-	)
 	(label "IOs.LED4_G"
 		(at 104.14 86.36 0)
 		(effects
@@ -7856,26 +7866,6 @@
 			(justify right bottom)
 		)
 		(uuid "c9e6a398-c0ac-4f10-b931-f64bc3ebe6c6")
-	)
-	(label "IOs.SW2"
-		(at 349.25 205.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9c8a753-7dc6-4680-ac27-217c7fa12cb8")
-	)
-	(label "IOs.SW4"
-		(at 349.25 210.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dc460e0c-077f-4581-b787-1decbcff8e56")
 	)
 	(label "IOs.LED0"
 		(at 104.14 93.98 0)
@@ -7916,6 +7906,16 @@
 			(justify right bottom)
 		)
 		(uuid "f80a62b6-a327-45be-9b68-750dff0b6d98")
+	)
+	(label "IOs.SW2"
+		(at 349.25 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb0412f2-1487-4f65-b8e2-ed6879932a72")
 	)
 	(hierarchical_label "CAN_LOOP"
 		(shape output)
