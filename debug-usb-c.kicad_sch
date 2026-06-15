@@ -3073,7 +3073,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroLogicTranslatorsLevelShifters:TXU0204BQAR"
+		(symbol "antmicroLogicTranslatorsLevelShifters:TXU0304BQAR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3087,7 +3087,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "TXU0204BQAR"
+			(property "Value" "TXU0304BQAR"
 				(at 31.75 -2.54 0)
 				(effects
 					(font
@@ -3109,7 +3109,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0204.pdf?ts=1773052155609&ref_url=https%253A%252F%252Fwww.mouser.pl%252F"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0304.pdf?ts=1637748643258&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXU0304"
 				(at 31.75 -7.62 0)
 				(effects
 					(font
@@ -3130,7 +3130,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "TXU0204BQAR"
+			(property "MPN" "TXU0304BQAR"
 				(at 31.75 -10.16 0)
 				(effects
 					(font
@@ -3182,7 +3182,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TXU0204BQAR_1_1"
+			(symbol "TXU0304BQAR_1_1"
 				(rectangle
 					(start 2.54 2.54)
 					(end 15.24 -17.78)
@@ -3197,18 +3197,6 @@
 				(polyline
 					(pts
 						(xy 6.35 -7.62) (xy 10.16 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -10.16) (xy 10.16 -10.16)
 					)
 					(stroke
 						(width 0.254)
@@ -3256,18 +3244,6 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -10.16) (xy 8.89 -10.795) (xy 8.89 -9.525) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 -12.7) (xy 8.89 -12.065) (xy 8.89 -13.335) (xy 7.62 -12.7)
 					)
 					(stroke
@@ -3280,7 +3256,31 @@
 				)
 				(polyline
 					(pts
+						(xy 8.89 -10.16) (xy 7.62 -10.795) (xy 7.62 -9.525) (xy 8.89 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
 						(xy 10.16 -5.08) (xy 6.35 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy 6.35 -10.16)
 					)
 					(stroke
 						(width 0.254)
@@ -3347,7 +3347,7 @@
 				(pin input line
 					(at 0 -10.16 0)
 					(length 2.54)
-					(name "A3Y"
+					(name "A3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3530,7 +3530,7 @@
 				(pin output line
 					(at 17.78 -10.16 180)
 					(length 2.54)
-					(name "B3"
+					(name "B3Y"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8222,28 +8222,24 @@
 		(uuid "29772bf6-7af7-49a0-b5d8-5675998d1ae1")
 	)
 	(no_connect
-		(at 336.55 153.67)
-		(uuid "2fa095ff-3199-4dd0-a7e6-0c158674b246")
+		(at 318.77 151.13)
+		(uuid "311f75d2-6fee-4893-933b-50f55b546b8a")
 	)
 	(no_connect
 		(at 318.77 111.76)
 		(uuid "355bf7af-0e78-4687-9876-f9194ec26d00")
 	)
 	(no_connect
+		(at 336.55 193.04)
+		(uuid "3ffd70fd-b408-42e0-9143-61f70fe16040")
+	)
+	(no_connect
 		(at 318.77 64.77)
 		(uuid "410381bf-807d-4fa0-8c95-4379ec00704b")
 	)
 	(no_connect
-		(at 318.77 153.67)
-		(uuid "4787cc31-c6d6-4358-a525-074914ecb640")
-	)
-	(no_connect
 		(at 209.55 180.34)
 		(uuid "52b7403a-de03-4f45-b850-371fb5446f2b")
-	)
-	(no_connect
-		(at 318.77 114.3)
-		(uuid "5c3f7454-e24e-4d8c-948b-e26251e99a23")
 	)
 	(no_connect
 		(at 209.55 130.81)
@@ -8260,6 +8256,10 @@
 	(no_connect
 		(at 209.55 200.66)
 		(uuid "7cc92530-1d8a-4f42-8048-5f2f612b0268")
+	)
+	(no_connect
+		(at 318.77 193.04)
+		(uuid "84ab365f-ef96-4bd3-8efa-6c8d1b109c8c")
 	)
 	(no_connect
 		(at 209.55 182.88)
@@ -8288,6 +8288,10 @@
 	(no_connect
 		(at 209.55 144.78)
 		(uuid "bc7e7468-5eae-4ed4-a67c-9e847f7783c3")
+	)
+	(no_connect
+		(at 336.55 151.13)
+		(uuid "c448e89f-3e8b-4bc2-ae6d-fe3db53d72b1")
 	)
 	(no_connect
 		(at 209.55 149.86)
@@ -8322,10 +8326,6 @@
 		(uuid "dd79a75b-e2a1-4026-8542-2ded4c5e797f")
 	)
 	(no_connect
-		(at 336.55 114.3)
-		(uuid "ee8aa960-28cd-40c5-8435-ab249e743963")
-	)
-	(no_connect
 		(at 209.55 203.2)
 		(uuid "f92db0ef-199a-4a71-89b4-1d419249417f")
 	)
@@ -8339,7 +8339,7 @@
 		(uuid "0695d641-1d57-4f97-8140-8207abf7b1da")
 	)
 	(bus_entry
-		(at 302.26 195.58)
+		(at 302.26 198.12)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -8447,7 +8447,7 @@
 		(uuid "53a4cd5d-351e-4b9f-a10f-c7080546a223")
 	)
 	(bus_entry
-		(at 356.87 190.5)
+		(at 356.87 193.04)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -8682,7 +8682,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 151.13) (xy 251.46 139.7)
+			(xy 251.46 153.67) (xy 251.46 139.7)
 		)
 		(stroke
 			(width 0)
@@ -9892,7 +9892,7 @@
 	)
 	(bus
 		(pts
-			(xy 302.26 195.58) (xy 302.26 193.04)
+			(xy 302.26 198.12) (xy 302.26 193.04)
 		)
 		(stroke
 			(width 0)
@@ -10050,16 +10050,6 @@
 		)
 		(uuid "55c7d63b-f41d-4b3e-a796-ab7fe939d7eb")
 	)
-	(bus
-		(pts
-			(xy 302.26 198.12) (xy 302.26 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56542f70-bb3e-4286-bd59-477f6e7948ad")
-	)
 	(wire
 		(pts
 			(xy 119.38 199.39) (xy 119.38 160.02)
@@ -10099,6 +10089,16 @@
 			(type default)
 		)
 		(uuid "57555839-af61-4bdc-9348-883287340f6c")
+	)
+	(wire
+		(pts
+			(xy 308.61 114.3) (xy 318.77 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5833b098-6875-4c08-bf14-b290c60ee7b7")
 	)
 	(wire
 		(pts
@@ -10219,16 +10219,6 @@
 			(type default)
 		)
 		(uuid "5e35f0ef-2432-45c5-a227-b135f869e1b4")
-	)
-	(wire
-		(pts
-			(xy 304.8 193.04) (xy 318.77 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fb99448-faa3-4ac3-b1db-3f1226ec78c6")
 	)
 	(wire
 		(pts
@@ -10732,7 +10722,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 151.13) (xy 363.22 148.59)
+			(xy 363.22 153.67) (xy 363.22 148.59)
 		)
 		(stroke
 			(width 0)
@@ -11312,7 +11302,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 151.13) (xy 363.22 151.13)
+			(xy 336.55 153.67) (xy 363.22 153.67)
 		)
 		(stroke
 			(width 0)
@@ -11459,6 +11449,16 @@
 			(type default)
 		)
 		(uuid "b4195ce7-ba57-44e8-8b96-abbba7ca649a")
+	)
+	(wire
+		(pts
+			(xy 344.17 195.58) (xy 354.33 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a26c88-4269-454d-9a05-80ed1e182063")
 	)
 	(wire
 		(pts
@@ -11629,16 +11629,6 @@
 			(type default)
 		)
 		(uuid "c11d6abc-2b06-440f-bc77-98f28a53cdab")
-	)
-	(wire
-		(pts
-			(xy 336.55 193.04) (xy 354.33 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c12c3d39-e08d-464c-bfea-bba870eef207")
 	)
 	(wire
 		(pts
@@ -12020,6 +12010,16 @@
 		)
 		(uuid "d926eced-f4f7-480a-b36a-19b33283b9d9")
 	)
+	(wire
+		(pts
+			(xy 304.8 195.58) (xy 313.69 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d931b3d9-33e4-46d0-b570-0c951c49f723")
+	)
 	(bus
 		(pts
 			(xy 295.91 82.55) (xy 295.91 85.09)
@@ -12149,6 +12149,16 @@
 			(type default)
 		)
 		(uuid "e5933a97-0f4a-46bf-940e-14c4add08450")
+	)
+	(wire
+		(pts
+			(xy 336.55 114.3) (xy 346.71 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f59fd9-3025-48fb-b57f-3c49a8122690")
 	)
 	(wire
 		(pts
@@ -12322,7 +12332,7 @@
 	)
 	(bus
 		(pts
-			(xy 356.87 187.96) (xy 356.87 190.5)
+			(xy 356.87 187.96) (xy 356.87 193.04)
 		)
 		(stroke
 			(width 0)
@@ -12472,7 +12482,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 151.13) (xy 318.77 151.13)
+			(xy 251.46 153.67) (xy 318.77 153.67)
 		)
 		(stroke
 			(width 0)
@@ -12599,6 +12609,16 @@
 			(justify left bottom)
 		)
 		(uuid "0baf85a6-ef71-46b2-bbfb-52808d22e7c0")
+	)
+	(label "FTDI.CTS"
+		(at 313.69 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "138a5ea0-8190-4380-9d05-f984c71c5faf")
 	)
 	(label "UART.RX"
 		(at 353.06 185.42 180)
@@ -12809,16 +12829,6 @@
 			(justify left bottom)
 		)
 		(uuid "46ff3984-3fd2-4b5e-85ea-80bffca016ce")
-	)
-	(label "FTDI.CTS"
-		(at 306.07 193.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "477066bb-ab09-463e-9cfb-5493d5958b98")
 	)
 	(label "FTDI.TDI"
 		(at 308.61 109.22 0)
@@ -13340,6 +13350,16 @@
 		)
 		(uuid "c34d7b82-0e84-49d7-8d97-510593459d5c")
 	)
+	(label "UART.RTS"
+		(at 346.71 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4568ac9-43e0-4633-9e75-f543f6e5d2d7")
+	)
 	(label "I2C.SCL"
 		(at 372.11 146.05 180)
 		(effects
@@ -13450,6 +13470,16 @@
 		)
 		(uuid "df4c1131-788a-4ec2-bdec-b769aeb81863")
 	)
+	(label "FTDI.CTS"
+		(at 308.61 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e09f09ee-f3a5-479a-877c-896444c45d69")
+	)
 	(label "SDA_OUT"
 		(at 285.75 148.59 0)
 		(effects
@@ -13469,16 +13499,6 @@
 			(justify right bottom)
 		)
 		(uuid "eafa0df8-8667-4192-96c3-cceff2c18cc6")
-	)
-	(label "UART.RTS"
-		(at 353.06 193.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ec2b7cfe-a7f8-4e79-a915-c41d339f40e7")
 	)
 	(label "FTDI.TDO"
 		(at 299.72 67.31 0)
@@ -13509,6 +13529,16 @@
 			(justify right bottom)
 		)
 		(uuid "f01b60c0-6289-46a6-8be4-ec546e420738")
+	)
+	(label "UART.RTS"
+		(at 344.17 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0391b2b-d22e-4f4d-ac4f-b66348db7d02")
 	)
 	(label "FTDI.~{RST}"
 		(at 308.61 106.68 0)
@@ -13541,7 +13571,7 @@
 		(uuid "feaf6f45-a402-42c1-ae6a-7b8e7fc10555")
 	)
 	(label "SDA_IN"
-		(at 285.75 151.13 0)
+		(at 285.75 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20144,7 +20174,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroLogicTranslatorsLevelShifters:TXU0204BQAR")
+		(lib_id "antmicroLogicTranslatorsLevelShifters:TXU0304BQAR")
 		(at 318.77 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20183,7 +20213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0204.pdf?ts=1773052155609&ref_url=https%253A%252F%252Fwww.mouser.pl%252F"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0304.pdf?ts=1637748643258&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXU0304"
 			(at 350.52 109.22 0)
 			(effects
 				(font
@@ -20204,8 +20234,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TXU0204BQAR"
-			(at 320.802 98.298 0)
+		(property "MPN" "TXU0304BQAR"
+			(at 320.802 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21107,7 +21137,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroLogicTranslatorsLevelShifters:TXU0204BQAR")
+		(lib_id "antmicroLogicTranslatorsLevelShifters:TXU0304BQAR")
 		(at 318.77 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21146,7 +21176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0204.pdf?ts=1773052155609&ref_url=https%253A%252F%252Fwww.mouser.pl%252F"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0304.pdf?ts=1637748643258&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXU0304"
 			(at 350.52 62.23 0)
 			(effects
 				(font
@@ -21167,8 +21197,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TXU0204BQAR"
-			(at 320.802 51.308 0)
+		(property "MPN" "TXU0304BQAR"
+			(at 321.31 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26709,7 +26739,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroLogicTranslatorsLevelShifters:TXU0204BQAR")
+		(lib_id "antmicroLogicTranslatorsLevelShifters:TXU0304BQAR")
 		(at 318.77 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26749,7 +26779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0204.pdf?ts=1773052155609&ref_url=https%253A%252F%252Fwww.mouser.pl%252F"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0304.pdf?ts=1637748643258&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXU0304"
 			(at 350.52 148.59 0)
 			(effects
 				(font
@@ -26770,7 +26800,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TXU0204BQAR"
+		(property "MPN" "TXU0304BQAR"
 			(at 327.66 135.89 0)
 			(effects
 				(font
@@ -29445,7 +29475,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroLogicTranslatorsLevelShifters:TXU0204BQAR")
+		(lib_id "antmicroLogicTranslatorsLevelShifters:TXU0304BQAR")
 		(at 318.77 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29485,7 +29515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0204.pdf?ts=1773052155609&ref_url=https%253A%252F%252Fwww.mouser.pl%252F"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0304.pdf?ts=1637748643258&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXU0304"
 			(at 350.52 187.96 0)
 			(effects
 				(font
@@ -29506,7 +29536,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TXU0204BQAR"
+		(property "MPN" "TXU0304BQAR"
 			(at 327.66 175.26 0)
 			(effects
 				(font
