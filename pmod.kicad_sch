@@ -5,7 +5,7 @@
 	(uuid "f291c692-b9a4-493c-8cb3-44fc0dac46cc")
 	(paper "A3")
 	(title_block
-		(title "renode-reference-platform")
+		(title "stm32h7-renode-reference-platform")
 		(date "07.04.2026")
 		(rev "1.0.0")
 		(company "Antmicro")
@@ -4563,7 +4563,7 @@
 			(uuid "793b7675-de5c-409f-a822-8403f342585c")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "R50")
 					(unit 1)
@@ -4708,7 +4708,7 @@
 			(uuid "2028ba07-1831-485d-ba64-17b8b238e844")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "D23")
 					(unit 1)
@@ -4853,7 +4853,7 @@
 			(uuid "9b1cba05-f278-47fe-bf58-a979da2aea0b")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "D26")
 					(unit 1)
@@ -4995,7 +4995,7 @@
 			(uuid "a5ec3535-7ad4-4028-a938-4fd46a7e5b4e")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "R47")
 					(unit 1)
@@ -5091,7 +5091,7 @@
 			(uuid "a9ddbe47-85d0-465e-b5e2-4590390e1961")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "#PWR066")
 					(unit 1)
@@ -5240,7 +5240,7 @@
 			(uuid "70b63ec2-f1c9-4abd-9c7a-41660238c508")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "J5")
 					(unit 1)
@@ -5336,7 +5336,7 @@
 			(uuid "efbd4b3f-f4bc-423f-841d-e7792245f2aa")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "#PWR064")
 					(unit 1)
@@ -5432,7 +5432,7 @@
 			(uuid "06724cc7-debf-4429-a50f-cdf451409b1f")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "#PWR065")
 					(unit 1)
@@ -5584,7 +5584,7 @@
 			(uuid "12281390-a365-4e78-bba6-304b0f0f834a")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "C36")
 					(unit 1)
@@ -5680,7 +5680,7 @@
 			(uuid "692682e2-f6bb-4a54-aa4b-7e9d5affc62e")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "#PWR0214")
 					(unit 1)
@@ -5829,7 +5829,7 @@
 			(uuid "5f02c438-ebac-4afd-9a33-e1ecf7124dca")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "J6")
 					(unit 1)
@@ -5981,7 +5981,7 @@
 			(uuid "817344fc-2742-4354-a7d5-60d316dd211c")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "C37")
 					(unit 1)
@@ -6126,7 +6126,7 @@
 			(uuid "b788ab24-3d9b-4a49-bb23-2fa35c2c1c61")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "D25")
 					(unit 1)
@@ -6222,7 +6222,7 @@
 			(uuid "c691a3b9-b169-4146-b20e-af15fe1a7e63")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "#PWR063")
 					(unit 1)
@@ -6367,7 +6367,7 @@
 			(uuid "68f72dac-8cb0-4b4d-b825-d49040622d5e")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "D24")
 					(unit 1)
@@ -6508,7 +6508,7 @@
 			(uuid "74c1dcdd-3622-4d46-9977-bdf9597642be")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "R48")
 					(unit 1)
@@ -6604,7 +6604,7 @@
 			(uuid "5a249773-f39d-41f9-a519-5ad4aa9d76c4")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "#PWR059")
 					(unit 1)
@@ -6700,7 +6700,7 @@
 			(uuid "18cfb443-4a3d-4783-8a8a-29f4c40a1155")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "#PWR061")
 					(unit 1)
@@ -6796,7 +6796,7 @@
 			(uuid "d7856674-3215-43e7-ba5b-aa4b96b287e5")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "#PWR060")
 					(unit 1)
@@ -6892,7 +6892,7 @@
 			(uuid "1b2fabb9-20dc-4cc3-97fe-d9490c855f77")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "#PWR062")
 					(unit 1)
@@ -6988,7 +6988,7 @@
 			(uuid "308a42f2-493f-4ded-a62c-d500b6ef47a9")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "#PWR0213")
 					(unit 1)
@@ -7084,7 +7084,7 @@
 			(uuid "a1227332-2f17-47be-8e88-5f07cfc479d5")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "#PWR0122")
 					(unit 1)
@@ -7215,7 +7215,7 @@
 			(uuid "cab02744-c351-46e5-90ac-6533a97ea6c0")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "U11")
 					(unit 1)
@@ -7356,7 +7356,7 @@
 			(uuid "35815f8c-c4bc-4160-b355-aeac77aa999d")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "R49")
 					(unit 1)
@@ -7452,7 +7452,7 @@
 			(uuid "a843d837-6e7d-4e7b-8a1b-f316a5d7b4a5")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "#PWR0212")
 					(unit 1)
@@ -7604,7 +7604,7 @@
 			(uuid "3addd886-1ec3-4e55-a414-cb647302832f")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/8150c4f5-86f0-4781-bc9c-6f93770faa9d"
 					(reference "C35")
 					(unit 1)
