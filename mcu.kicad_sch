@@ -7,7 +7,7 @@
 	(title_block
 		(title "STM32H7 Renode Reference Platform")
 		(date "2026-06-16")
-		(rev "1.0.1")
+		(rev "1.1.0")
 		(company "Antmicro")
 	)
 	(lib_symbols
@@ -26684,7 +26684,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6d2ed46d-c7c9-42a0-a84b-1d6b612b64f1")
 		(property "Reference" "BT1"
@@ -31095,7 +31095,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "846783ac-168a-4961-8623-e57af1325edc")
 		(property "Reference" "R175"
