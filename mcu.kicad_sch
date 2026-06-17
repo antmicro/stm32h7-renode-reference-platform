@@ -24138,7 +24138,7 @@
 			(uuid "f1c5e37a-10f1-471d-8747-1fc34a12c787")
 		)
 		(instances
-			(project "renode-reference-platform"
+			(project "stm32h7-renode-reference-platform"
 				(path "/126ae87b-f292-4372-94ff-ae46971d67ab/a09bd19e-75b4-4cc2-9c76-c57ffa8ef2d8"
 					(reference "R43")
 					(unit 1)
