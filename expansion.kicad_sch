@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "STM32H7 Renode Reference Platform")
-		(date "2026-06-16")
+		(date "2026-07-08")
 		(rev "1.1.0")
 		(company "Antmicro")
 	)
