@@ -1,5 +1,9 @@
 # Revision changelog
 
+## 1.1.1
+
+* Replace QSPI Flash with IS25LP01GJ-RMLE
+
 ## 1.1.0
 
 Revision 1.1.0 fixes known bugs of the initial 1.0.0 revision. Main changes includes:
