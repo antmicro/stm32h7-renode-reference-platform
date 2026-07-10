@@ -3,6 +3,7 @@
 ## 1.1.1
 
 * Replace QSPI Flash with IS25LP01GJ-RMLE
+* Add testpoints for JTAG
 
 ## 1.1.0
 
