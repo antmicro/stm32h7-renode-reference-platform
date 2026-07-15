@@ -1913,7 +1913,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:SW_PTS810SJM250SMTRLFS_SMD"
+			(property "Footprint" "antmicro-footprints:SW_SKRPABE010_SMD"
 				(at 21.59 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2003,7 +2003,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "VERTICAL, SMT, TACTILE, SWITCH"
+			(property "ki_keywords" "VERTICAL, SMT, TACTILE, SWITCH, RoHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -11188,7 +11188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:SW_PTS810SJM250SMTRLFS_SMD"
+		(property "Footprint" "antmicro-footprints:SW_SKRPABE010_SMD"
 			(at 368.3 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -12062,7 +12062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:SW_PTS810SJM250SMTRLFS_SMD"
+		(property "Footprint" "antmicro-footprints:SW_SKRPABE010_SMD"
 			(at 368.3 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -12319,7 +12319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:SW_PTS810SJM250SMTRLFS_SMD"
+		(property "Footprint" "antmicro-footprints:SW_SKRPABE010_SMD"
 			(at 368.3 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -13051,7 +13051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:SW_PTS810SJM250SMTRLFS_SMD"
+		(property "Footprint" "antmicro-footprints:SW_SKRPABE010_SMD"
 			(at 368.3 193.04 0)
 			(hide yes)
 			(show_name no)
