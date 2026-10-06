@@ -1,163 +1,48 @@
 # Getting started guide
 
-This manual will guide you through the initial setup of the open hardware STM32H7 Renode Reference Platform. It describes the basic steps required to operate the board, create working Zephyr code examples and run the digital twin in [Renode](https://renode.readthedocs.io/en/latest/). If you want to learn more about the STM32H7 Renode Reference Platform itself, go to the Board Overview section. That section also includes an I/O map that may come in handy when locating interface connectors mentioned in this guide.
+![STM32H7 Renode Reference Platform hardware](img/renode-reference-platform-top.png)
+
+This manual will guide you through the initial setup of the open hardware STM32H7 Renode Reference Platform.
+
+For the board layout and the location of the connectors and buttons mentioned here, see the [Board overview](board_overview.md) chapter. For background on the Zephyr target used below, see the [Zephyr documentation](https://docs.zephyrproject.org/latest/boards/antmicro/stm32h7_renode_reference_board/doc/index.html).
 
 ## Collect the hardware
 
-To get started with STM32H7 Renode Reference Platform you'll need the following hardware:
+* The STM32H7 Renode Reference Platform board
+* A host PC running Linux (the instructions in this guide were verified with a Debian-based system)
+* USB-C cable to connect PC with the STM32H7 Renode Reference Platform board
 
-1. **STM32H7 Renode Reference Platform hardware**
+## Connect the board
 
-![STM32H7 Renode Reference Platform hardware](img/renode-reference-platform-top.png)
-
-2. **Power supply**
-   
-   STM32H7 Renode Reference Platform requires USB-C 5V power supply for operation. Power can be delivered both by dedicated USB Charger or a PC USB port. By default the `USB-C DEBUG` ports is used to power the board but hardware modification described in [](board_overview.md#power) enables powering via user `USB-C` port.
-
-3. **Host PC**
-   
-   You will need a computer running Linux for flashing firmware to the STM32 MCU when following this guide. This was verified with Debian based system. You may need to introduce minor adjustments for other Linux distributions.
-
-4. **Cabling**
-    
-   At least one USB-C Cable is required to power and operate the board. With one cable you are able to both flash and debug the device via integrated UART to USB bridge.
-
-## Flash the board
-
-You can run basic [Zephyr examples](https://docs.zephyrproject.org/latest/samples/index.html).
-Dedicated OOT target has been prepared in [Demo app repository](https://github.com/antmicro/stm32h7-renode-reference-platform-zephyr)
-
-
-### Install openocd
-
-You need to have an [OpenOCD](https://github.com/openocd-org/openocd) installed to flash the board with the use of integrated USB to JTAG bridge. Currently released version `0.12.0` lacks the proper support for the `STM32H7` MCU series. We recommend installing the tool from sources.
-
-```
-#Requirements for specific configure parameters, install if needed
-sudo apt install texinfo libjim-dev
-
-git clone git://git.code.sf.net/p/openocd/code openocd
-cd openocd
-git checkout e6752ecb #verified on that commit, should work on Master branch
-./bootstrap
-./configure --enable-ftdi --enable-stlink
-make
-sudo make install
-
-```
-You can verify installation calling `openocd` command:
-```
-$ openocd
-Open On-Chip Debugger 0.12.0+dev-02541-ge6752ecbc (2026-06-05-15:08)
-Licensed under GNU GPL v2
-For bug reports, read
-	http://openocd.org/doc/doxygen/bugs.html
-embedded:startup.tcl:88: Error: Can't find openocd.cfg
-Traceback (most recent call last):
-  File "embedded:startup.tcl", line 88, in script
-    find openocd.cfg
-Info : Listening on port 6666 for tcl connections
-Info : Listening on port 4444 for telnet connections
-Error: Debug Adapter has to be specified, see "adapter driver" command
-
-```
-
-### OpenOCD configs
-Before you can flash the board, OpenOCD needs to know exactly what hardware it is targeting. This is handled by configuration (.cfg) files. The tool requires two important configs, interface pin routing and information about the target.
-
-Create the files in desired firmware directory with:
-```
-echo "#FT4232H
-adapter driver ftdi
-ftdi vid_pid 0x0403 0x6011
-
-#JTAG on channel A
-ftdi channel 0
-
-# Use JTAG, TCK, TDI, TDO and TMS default mapping will be used
-transport select jtag
-
-# Use 100kHz, can be increased if it is working stable
-adapter speed 100
-
-# Pin mapping:
-# ADBUS0 = TCK (OUTPUT / INIT LOW)
-# ADBUS1 = TDI (OUTPUT / INIT LOW)
-# ADBUS2 = TDO (INPUT)
-# ADBUS3 = TMS (OUTPUT / INIT HIGH)
-# ADBUS4 = NC
-# ADBUS5 = nRESET (OUTPUT / INIT HIGH)
-
-ftdi layout_init 0x28 0x2b
-
-# nSRST mapped to ADBUS5
-ftdi layout_signal nSRST -noe 0x20
-
-#Drive the nRST/NRST pin during reset
-reset_config srst_only srst_open_drain
-" >> ft4232h-jtag.cfg
-```
-and
-```
-echo "# SPDX-License-Identifier: GPL-2.0-or-later
-
-# script for stm32h7x family (dual flash bank)
-
-# STM32H7xxxI 2Mo have a dual bank flash.
-set DUAL_BANK 1
-
-source [find target/stm32h7x.cfg]
-" >> stm32h7x_dual_bank.cfg
-```
-
-
-### Power the device
-
-Plug a USB-C cable to `USB-C DEBUG` port and connect that to the Host PC.
+Plug the USB-C cable into the `USB-C DEBUG` port and connect the other end to your PC. The board powers up through this port. This single connection powers the board and provides flashing, debugging and the debug console at the same time.
 
 ![USB-C DEBUG](img/usb-debug.png)
 
-Verify that device is detected with `lsusb`:
+Confirm that the PC detects the board's FTDI bridge with `lsusb`. The output must contain:
 
 ```
-$lsusb
-(...)
 Bus 001 Device 008: ID 0403:6011 Future Technology Devices International, Ltd FT4232H Quad HS USB-UART/FIFO IC
-(...)
 ```
 
+## Set up the demo workspace and flash the board
 
-### Flash the firmware
+The demo application lives in the [stm32h7-renode-reference-platform-zephyr](https://github.com/antmicro/stm32h7-renode-reference-platform-zephyr) repository. 
+It allows you to experiment with basic functionalities of the board.
 
-At first, start with installing [Zephyr](https://docs.zephyrproject.org/latest/develop/getting_started/index.html), by following the `getting started` guide.
-
-Initialize a west environment:
-```
-west init -l .
-west update
-```
-
-Build the example, [blinky](https://docs.zephyrproject.org/latest/samples/basic/blinky/README.html) is used for this instruction:
+Clone the demo repository:
 
 ```
-west build -b stm32h7_renode_reference_board samples/basic/blinky -p always --board-root target-directory
+git clone https://github.com/antmicro/stm32h7-renode-reference-platform-zephyr
 ```
 
-```{note}
-Target directory consist OOT target mentioned in [Flash the board chapter](#flash-the-board) 
-```
+Then follow the `Quick start` instructions in [the demo's README](https://github.com/antmicro/stm32h7-renode-reference-platform-zephyr#quick-start) to set up the `West` build management tool together with Zephyr requirements, and to flash the board with the built `stm32h7_renode_reference_board` target.
 
-Flash the target board with use of OpenOCD
-```
-sudo openocd -f ./ft4232h-jtag.cfg -f ./stm32h7x_dual_bank.cfg -c "init; program ./build/zephyr/zephyr.elf verify reset exit"
+## Open the debug console
 
-```
+The Zephyr example provides a console log that allows the user to easily identify if the firmware is flashed correctly into the MCU. 
+The STM32H7 Renode Reference Platform provides console access on the serial port. We suggest using `picocom` for console monitoring while flashing the device.
 
-### Open debug console
-
-Most of the Zephyr examples provides console log that allows user to easily identify if the firmware is flashed correctly into the MCU. STM32H7 Renode Reference Platform provides console access on the serial port. We suggest using `picocom` for console monitoring while flashing the device.
-
-First we need to identify the proper com port. Check detected USB devices in dmesg:
+First, you need to identify the proper COM port. Check the detected USB devices in `dmesg`:
 
 ```
 $ sudo dmesg | grep FTDI
@@ -174,42 +59,44 @@ $ sudo dmesg | grep FTDI
 
 ```
 
-In presented case `ftdi_sio 1-4:1.2:` device is attached to `ttyUSB2`. To monitor the console use:
+In the case presented above, the `ftdi_sio 1-4:1.2:` device is attached to `ttyUSB2`. To monitor the console, use:
 
 ```
 sudo picocom -b 115200 /dev/ttyUSB2
 ```
 
-Example console log:
+After connecting to the console and resetting the device, you should see a log similar to the following:
+
 ```
 $ sudo picocom -b 115200 /dev/ttyUSB2
-picocom v3.1
 
-port is        : /dev/ttyUSB2
-flowcontrol 
-   : none
-baudrate is    : 115200
-parity is      : none
-databits are   : 8
-stopbits are   : 1
-escape is      : C-a
-local echo is  : no
-noinit is      : no
-noreset is     : no
-hangup is      : no
-nolock is      : no
-send_cmd is    : sz -vv
-receive_cmd is : rz -vv -E
-imap is        : 
-omap is        : 
-emap is        : crcrlf,delbs,
-logfile is     : none
-initstring     : none
-exit_after is  : not set
-exit is        : no
+[00:00:00.050,000] <inf> phy_mii: PHY (0) ID 7C131
+[00:00:00.122,000] <inf> LSM6DSO: Initialize device lsm6dso@6a
+[00:00:00.122,000] <inf> LSM6DSO: chip id 0x6c
+*** Booting STM32H7 Renode Platform Demo c605ea46e15f ***
+demo:~$
+```
 
-Type [C-a] [C-h] to see available commands
-Terminal ready
-*** Booting Zephyr OS build v4.3.0-129-ge7a7639d1f26 ***
+## Blink the LEDs
 
+Enter the following commands in the demo shell:
+
+```
+led blink pwmleds 0 500
+led blink pwmleds 1 500
+led blink pwmleds 2 500
+```
+
+The three green LEDs `D1`-`D3` blink with a 500 ms period.
+
+## Running the digital twin in Renode
+
+A digital twin of the board is available in the [Renode](https://renode.io) simulation framework. It models the `STM32H753` MCU together with the on-board peripherals.
+
+The twin is published as part of Zephyr: the [`stm32h7_renode_reference_board` target](https://github.com/zephyrproject-rtos/zephyr/tree/main/boards/antmicro/stm32h7_renode_reference_board) ships the Renode platform description (`stm32h7_renode_reference_board.repl`) and the Renode script (`stm32h7_renode_reference_board.resc`) in its `support` directory. The script creates the simulated board, loads the demo binary and opens a terminal on the simulated USART2 console.
+
+Because Renode is the default emulator of this Zephyr target, the demo built in [Flash the board](#flash-the-board) runs on the digital twin with one command, from the same directory:
+
+```
+west simulate
 ```
